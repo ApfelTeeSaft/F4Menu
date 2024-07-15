@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Engine">
-      <UniqueIdentifier>{cc9b0344-5811-4afa-a2a7-d1e04afe9624}</UniqueIdentifier>
-    </Filter>
     <Filter Include="ALTF4_F">
       <UniqueIdentifier>{385721cf-a333-407f-9c91-97f1f6782a03}</UniqueIdentifier>
     </Filter>
@@ -32,12 +29,6 @@
     </ClInclude>
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="patterns.h">
-      <Filter>Engine</Filter>
-    </ClInclude>
-    <ClInclude Include="hooks.h">
-      <Filter>Engine</Filter>
     </ClInclude>
     <ClInclude Include="SDK\PropertyFixup.hpp">
       <Filter>ALTF4_F\SDK</Filter>
@@ -1980,6 +1971,93 @@
     <ClInclude Include="SDK\SDK\Zero1_MapSelectButton_parameters.hpp">
       <Filter>ALTF4_F\SDK\Headers</Filter>
     </ClInclude>
+    <ClInclude Include="CoreUObject\Private\CoreUObjectPrivatePCH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\Serialization\ArchiveDescribeReference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\Serialization\ArchiveFindAllRefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\Serialization\AsyncLoading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\Serialization\AsyncLoadingPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\Serialization\AsyncLoadingThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\Serialization\AsyncPackage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\Serialization\LoadTimeTracePrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\Serialization\UnversionedPropertySerialization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\Serialization\UnversionedPropertySerializationTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\Serialization\Zenaphore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\UObject\AsyncWorkSequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\UObject\FindStronglyConnected.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\UObject\GarbageCollectionInternal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\UObject\GarbageCollectionVerification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\UObject\GCScopeLock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\UObject\LinkerManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\UObject\LinkerPlaceholderBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\UObject\LinkerPlaceholderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\UObject\LinkerPlaceholderExportObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\UObject\LinkerPlaceholderFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\UObject\PropertyHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\UObject\SavePackage\PackageHarvester.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\UObject\SavePackage\SaveContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\UObject\SavePackage\SavePackageUtilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\UObject\StructScriptLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\Private\UObject\UObjectArchetypeInternal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ALTF4_F\hooks.h">
+      <Filter>ALTF4_F</Filter>
+    </ClInclude>
+    <ClInclude Include="ALTF4_F\patterns.h">
+      <Filter>ALTF4_F</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -1987,12 +2065,6 @@
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="hooks.cpp">
-      <Filter>Engine</Filter>
-    </ClCompile>
-    <ClCompile Include="patterns.cpp">
-      <Filter>Engine</Filter>
     </ClCompile>
     <ClCompile Include="SDK\SDK\___7_functions.cpp">
       <Filter>ALTF4_F\SDK\Headers</Filter>
@@ -2726,10 +2798,19 @@
     <ClCompile Include="SDK\SDK\Zero1_MapSelectButton_functions.cpp">
       <Filter>ALTF4_F\SDK\Headers</Filter>
     </ClCompile>
+    <ClCompile Include="ALTF4_F\hooks.cpp">
+      <Filter>ALTF4_F</Filter>
+    </ClCompile>
+    <ClCompile Include="ALTF4_F\patterns.cpp">
+      <Filter>ALTF4_F</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="SDK\NameCollisions.inl">
       <Filter>ALTF4_F\SDK</Filter>
+    </None>
+    <None Include="CoreUObject\Private\UObject\LinkerPlaceholderBase.inl">
+      <Filter>Header Files</Filter>
     </None>
   </ItemGroup>
 </Project>

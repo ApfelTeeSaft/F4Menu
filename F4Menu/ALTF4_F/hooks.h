@@ -1,8 +1,12 @@
 #pragma once
 
-#include "../F4Menu/Engine/Source/Runtime/Core/Public/CoreMinimal.h"
-#include "../F4Menu/CoreUObject/Public/UObject/UObject.h"
-#include "../F4Menu/CoreUObject/Public/UObject/Class.h"
+#include "CoreMinimal.h"
+#include "UObject/UObject.h"
+#include "UObject/Class.h"
+#include "Engine/Engine.h"
+#include "Engine/World.h"
+#include "GameFramework/Actor.h"
+#include "GameFramework/PlayerController.h"
 
 bool InitializeHook();
 void RenderGUI();

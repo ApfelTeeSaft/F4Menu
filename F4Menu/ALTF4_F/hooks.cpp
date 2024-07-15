@@ -2,9 +2,10 @@
 #include "MinHook.h"
 #include "patterns.h"
 #include "imgui.h"
+#include "string"
 
 // Include the dumped SDK headers
-#include "SDK/SDK.hpp" // Update with actual SDK header
+#include "../SDK/SDK.hpp"
 
 // Function prototypes
 typedef void(__fastcall* tOriginalProcessEvent)(UObject* Object, UFunction* Function, void* Params);
@@ -48,6 +49,7 @@ bool InitializeHook() {
         &hkProcessEvent,
         reinterpret_cast<LPVOID*>(&oProcessEvent)) != MH_OK) {
         return false;
+        
     }
 
     // Enable the hook

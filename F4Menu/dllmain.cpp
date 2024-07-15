@@ -11,7 +11,7 @@
 #include "imgui_impl_dx11.h"
 
 // Include custom headers
-#include "hooks.h"
+#include "ALTF4_F/hooks.h"
 
 // DirectX11 variables
 ID3D11Device* g_pd3dDevice = nullptr;

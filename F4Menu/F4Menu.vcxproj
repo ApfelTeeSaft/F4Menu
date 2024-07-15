@@ -112,13 +112,13 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir)/external/imgui;$(ProjectDir)/external/minhook/include;$(ProjectDir)/CoreUObject;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)/external/imgui;$(ProjectDir)/external/minhook/include;$(ProjectDir)/Engine/Source/Runtime/Core/Public;$(ProjectDir)/Engine/Source/Runtime;$(ProjectDir)/Engine/Source/Runtime/CoreUObject/Public;$(ProjectDir)/Engine/Source/Runtime/Engine/Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalLibraryDirectories>$(ProjectDir)/external/minhook/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)/external/minhook/lib;$(ProjectDir)/Engine/Source/Engine/Binaries/Win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>libMinHook-x64-v141-md.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -751,7 +751,6 @@
     <ClInclude Include="Engine\Source\Developer\Profiler\Private\Widgets\StatDragDropOp.h" />
     <ClInclude Include="Engine\Source\Developer\Profiler\Public\IProfilerModule.h" />
     <ClInclude Include="Engine\Source\Developer\Profiler\Public\ProfilerCommon.h" />
-    <ClInclude Include="Engine\Source\Runtime\Core\Private\CorePrivatePCH.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="SDK\PropertyFixup.hpp" />

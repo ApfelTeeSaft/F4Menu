@@ -22,126 +22,6 @@
     <Filter Include="ALTF4_F\SDK\Headers">
       <UniqueIdentifier>{5803a6da-df24-479f-ada0-1131b1ff9fb7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Engine">
-      <UniqueIdentifier>{5e474a40-ffd0-458a-ac8b-b0635841947b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime">
-      <UniqueIdentifier>{113bb8a0-cac2-4dfe-b0b5-c2a037d7fc38}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core">
-      <UniqueIdentifier>{bdb92b5e-4fc3-4cac-b64f-4485c86e621b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\CoreUObject">
-      <UniqueIdentifier>{ceef81eb-b6fc-4042-b6c8-9952ebf25c2d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private">
-      <UniqueIdentifier>{d64e9f52-6748-480a-9e35-0bbd0e386c63}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Public">
-      <UniqueIdentifier>{fb85a3be-5b6f-48ca-87ac-729f1d3d1455}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Android">
-      <UniqueIdentifier>{e0da83f8-3056-437a-84be-0bf2a317f0a4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Apple">
-      <UniqueIdentifier>{0b931a34-b726-4ac9-874c-8413faecb4aa}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Async">
-      <UniqueIdentifier>{d80574a1-318b-4bf3-a819-cbc89b7f61e0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Compression">
-      <UniqueIdentifier>{f047b6b3-e5dd-4b30-b2e7-b58183c0f783}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Containers">
-      <UniqueIdentifier>{c3a4cd43-1428-484d-be2b-b18bc0af0ace}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Delegates">
-      <UniqueIdentifier>{eb807b36-f8ca-46ee-8a33-ea7bcc13cc36}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Features">
-      <UniqueIdentifier>{e977fe8e-182d-46a4-bc9b-53aa43b1bac5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\FileCache">
-      <UniqueIdentifier>{bcbcafab-0b13-4274-9bc3-a39bd0af2c09}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\FramePro">
-      <UniqueIdentifier>{d6a66838-35e4-4031-a6a9-a320b9286969}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\GenericPlatform">
-      <UniqueIdentifier>{c0584361-e77f-47db-9f8e-7448c4c2ceaf}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\HAL">
-      <UniqueIdentifier>{f4a4fd6b-d5c8-4a78-af35-2fcc8f83b5b3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Hash">
-      <UniqueIdentifier>{217a6372-8f9c-4ccf-bef1-306ddbba4d13}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\HoloLens">
-      <UniqueIdentifier>{dae32390-38e2-4e70-a3a3-0dd82040fbca}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Internationalization">
-      <UniqueIdentifier>{8aecbd57-12fe-41e0-be20-d8193365ee59}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\IO">
-      <UniqueIdentifier>{2f6c4cdb-39c7-4241-81d5-d3af8131eaed}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\IOS">
-      <UniqueIdentifier>{51527fdc-0a0f-4e1d-b833-810b9d0d46b2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Linux">
-      <UniqueIdentifier>{c7d8c1a5-aa06-46db-95c9-603033503a7a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Logging">
-      <UniqueIdentifier>{f433db0b-e038-40dc-b8fc-349961d7c6fa}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Lumin">
-      <UniqueIdentifier>{9c67f1d6-a0fe-4211-a6c6-328f1257ff79}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Mac">
-      <UniqueIdentifier>{a7611fbc-cd3f-4873-bfe2-3b45f13dc802}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Math">
-      <UniqueIdentifier>{6fa72c57-c288-495a-8597-d53d25f63924}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Memory">
-      <UniqueIdentifier>{14025c73-c97b-41d9-97e6-c5cafc8be6ad}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\MemPro">
-      <UniqueIdentifier>{2132702e-ace4-4d4f-9111-747f8f1bb735}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Misc">
-      <UniqueIdentifier>{53c4690a-24a1-4a97-974a-62f78db5c907}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Modules">
-      <UniqueIdentifier>{bbaaec7a-fa93-4a3e-b5f3-5c89885d9e3c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\ProfilingDebugging">
-      <UniqueIdentifier>{06d86762-5126-454f-be0b-b712661d7a35}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Serialization">
-      <UniqueIdentifier>{701946ea-d016-4e5b-a813-da362b35cda1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Stats">
-      <UniqueIdentifier>{4f64afb3-dfea-4300-b96f-405bde1955bf}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\String">
-      <UniqueIdentifier>{87818b2f-dbff-4b63-b19f-884a6d8e920c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Templates">
-      <UniqueIdentifier>{5ae6a2ed-dcd3-48a9-95ec-a5902b57bcff}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Tests">
-      <UniqueIdentifier>{7ab7a1dd-fbfa-42d4-9d04-61e943af3f49}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Unix">
-      <UniqueIdentifier>{bc7d50d7-86e2-4e41-95ea-0d8a106f7e19}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\UObject">
-      <UniqueIdentifier>{c0dc36d3-3b14-46e4-a5a0-553ea31900c3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\Runtime\Core\Private\Windows">
-      <UniqueIdentifier>{5ddb3050-89a8-48ee-a48f-9223ea1881b9}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -3908,9 +3788,6 @@
     </ClInclude>
     <ClInclude Include="Engine\Source\Developer\Profiler\Public\ProfilerCommon.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Engine\Source\Runtime\Core\Private\CorePrivatePCH.h">
-      <Filter>Engine\Runtime\Core\Private</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

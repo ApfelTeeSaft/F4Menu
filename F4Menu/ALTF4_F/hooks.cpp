@@ -4,6 +4,15 @@
 #include "imgui.h"
 #include "string"
 
+// Include UE Code
+#include "../Engine/4.26/Core/Public/CoreMinimal.h"
+#include "../Engine/4.26/CoreUObject/Public/UObject/UObject.h"
+#include "../Engine/4.26/CoreUObject/Public/UObject/Class.h"
+#include "../Engine/4.26/Engine/Engine/Public/Engine.h"
+#include "../Engine/4.26/Engine/Engine/Classes/GameFramework/Actor.h"
+#include "../Engine/4.26/Engine/Engine/Classes/GameFramework/PlayerController.h"
+#include "../Engine/4.26/Engine/Engine/Classes/Engine/World.h"
+
 // Include the dumped SDK headers
 #include "../SDK/SDK.hpp"
 

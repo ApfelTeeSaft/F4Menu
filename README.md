@@ -45,4 +45,4 @@ This repository contains a cheat menu for the game AltF4, designed to be compile
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GPLv3 License. See the [LICENSE](https://github.com/apfelteesaft/F4menu/LICENSE) file for details.

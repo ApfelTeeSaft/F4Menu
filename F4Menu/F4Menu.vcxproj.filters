@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="UE4">
+      <UniqueIdentifier>{646a6f38-6010-4c2a-8c4f-9b509b8df6ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UE4\Logic">
+      <UniqueIdentifier>{64437027-c772-46f3-a327-27531669ebdb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.hpp">
+      <Filter>UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="UE4\Containers.h">
+      <Filter>UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="UE4\SDK.h">
+      <Filter>UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="UE4\UE4.hpp">
+      <Filter>UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="UE4\Classes.hpp">
+      <Filter>UE4</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UE4\UE4.cpp">
+      <Filter>UE4</Filter>
+    </ClCompile>
+    <ClCompile Include="UE4\Classes.cpp">
+      <Filter>UE4</Filter>
+    </ClCompile>
+    <ClCompile Include="finder.cpp">
+      <Filter>UE4\Logic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

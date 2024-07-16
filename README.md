@@ -7,12 +7,13 @@ This repository contains a cheat menu for the game AltF4, designed to be compile
 - **Compilable with Visual Studio 2022**
 - **Hooking using Minhook**
 - **GUI using ImGui**
-- **SDK dumping with Dumper-7**
+- **SDK and Offset dumping with Dumper-7**
 
 ## Used Resources
 
 - **Minhook**: A hooking library for x86/x64 binaries. More information [here](https://github.com/TsudaKageyu/minhook)
 - **ImGui**: A bloat-free graphical user interface library for C++. More information [here](https://github.com/ocornut/imgui)
+- **Dumper-7** SDK Generator for all Unreal Engine games. More Information [here](https://github.com/Encryqed/Dumper-7)
 
 ## Requirements
 

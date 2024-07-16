@@ -13,54 +13,2714 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="UE4">
-      <UniqueIdentifier>{646a6f38-6010-4c2a-8c4f-9b509b8df6ae}</UniqueIdentifier>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{cdf46759-3fd9-4d14-b240-f7779198c26e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="UE4\Logic">
-      <UniqueIdentifier>{64437027-c772-46f3-a327-27531669ebdb}</UniqueIdentifier>
+    <Filter Include="SDK\SDK">
+      <UniqueIdentifier>{0eefff8e-c2af-48e2-8eab-4c1ba3ca4abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{62474dc3-a67a-4721-baad-9ac5236ef507}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="pch.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="SDK\PropertyFixup.hpp">
+      <Filter>SDK</Filter>
     </ClInclude>
-    <ClInclude Include="Offsets.hpp">
-      <Filter>UE4</Filter>
+    <ClInclude Include="SDK\SDK.hpp">
+      <Filter>SDK</Filter>
     </ClInclude>
-    <ClInclude Include="UE4\Containers.h">
-      <Filter>UE4</Filter>
+    <ClInclude Include="SDK\UnrealContainers.hpp">
+      <Filter>SDK</Filter>
     </ClInclude>
-    <ClInclude Include="UE4\SDK.h">
-      <Filter>UE4</Filter>
+    <ClInclude Include="SDK\SDK\ActorSequence_classes.hpp">
+      <Filter>SDK\SDK</Filter>
     </ClInclude>
-    <ClInclude Include="UE4\UE4.hpp">
-      <Filter>UE4</Filter>
+    <ClInclude Include="SDK\SDK\ActorSequence_structs.hpp">
+      <Filter>SDK\SDK</Filter>
     </ClInclude>
-    <ClInclude Include="UE4\Classes.hpp">
-      <Filter>UE4</Filter>
+    <ClInclude Include="SDK\SDK\AdvancedSessions_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AdvancedSessions_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AdvancedSessions_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AdvancedSteamSessions_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AdvancedSteamSessions_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AdvancedSteamSessions_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AIModule_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AIModule_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AIModule_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ALTF4_DragonEGG_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ALTF4_DragonEGG_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ALTF4_Solo_GM_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ALTF4_Solo_GM_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ALTF4_Solo_PC_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ALTF4_Solo_PC_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ALTF4_Start_Blueprint_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ALTF4_Tuto_GM_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ALTF4_Tuto_GM_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ALTF4_Tuto_PC_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ALTF4_Tuto_PC_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AnimationCore_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AnimationCore_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AnimationSharing_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AnimationSharing_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AnimationSharing_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AnimBP_ai_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AnimBP_ai_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AnimBP_ALTF4_Character_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AnimBP_ALTF4_Character_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AnimBP_BarNpc_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AnimBP_BarNpc_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AnimBP_BarNpcDance_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AnimBP_BarNpcDance_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AnimBP_Character_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AnimBP_Character_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AnimGraphRuntime_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AnimGraphRuntime_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AnimGraphRuntime_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ApexDestruction_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ApexDestruction_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ApexDestruction_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ArchVisCharacter_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Area_02_TrapTrigger_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Area_02_TrapTrigger_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AssetRegistry_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AssetRegistry_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AssetRegistry_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AssetTags_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AssetTags_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AssetTags_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AudioAnalyzer_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AudioCapture_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AudioCapture_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AudioCapture_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AudioExtensions_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AudioMixer_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AudioMixer_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AudioMixer_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AudioPlatformConfiguration_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AudioSettingsWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AudioSettingsWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AudioSynesthesia_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AudioSynesthesia_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AudioSynesthesia_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AugmentedReality_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AugmentedReality_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AugmentedReality_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AutomationUtils_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AutomationUtils_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\AvfMediaFactory_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BarDanceNPC_Pawn_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BarDanceNPC_Pawn_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BarNPC_Pawn_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BarNPC_Pawn_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Barrel_Follower_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Barrel_Follower_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Barrel_Projectile_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Barrel_Projectile_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BarrelFireTrapTrigger_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BarrelFireTrapTrigger_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BarrelSpawner_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BarrelSpawner_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Basic.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BGM_bp_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BGM_bp_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_ai_DarkNight_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_ai_DarkNight_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_ai_pawn_ver2_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_ai_pawn_ver2_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_ALTF4_Chick_Pawn_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_ALTF4_Chick_Pawn_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_ALTF4_Dragon_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_ALTF4_Dragon_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_ALTF4_Pawn_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_ALTF4_Pawn_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_ALTF4_Pawn_SoloPlay_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_Cannon_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_Cannon_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_CannonProjectile_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_CannonProjectile_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_MainMenu_GM_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_MainMenuPC_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_MainMenuPC_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_Pawn_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_Pawn_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_PendulumTraps_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_PendulumTraps_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_SA01_SwingTrap_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_SA01_SwingTrap_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_Sky_Sphere_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_Sky_Sphere_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_WaterDiePawn_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BP_WaterDiePawn_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BPI_Gameinstance_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BPI_Gameinstance_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BPI_MainMenu_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Brige_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Brige_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BuildPatchServices_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\BuildPatchServices_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CableComponent_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CableComponent_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CannonFireTrapTrigger_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CannonFireTrapTrigger_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Castle_FootRest_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Castle_FootRest_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CastleGate_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CastleGate_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CastleRoute_TrapTrigger_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CastleRoute_TrapTrigger_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CenterButton_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CenterButton_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Challenge_EpicLeaderboardEntry_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Challenge_EpicLeaderboardEntry_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ChallengeRecordMenuWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ChallengeRecordMenuWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Chaos_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ChaosCloth_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ChaosCloth_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ChaosNiagara_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ChaosNiagara_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ChaosSolverEngine_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ChaosSolverEngine_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ChaosSolverEngine_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CheeringNPC_Trap_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CheeringNPC_Trap_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ChickBoat_Trap_Bp_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ChickBoat_Trap_Bp_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ChickEggFire_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ChickEggFire_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ChickenAnimBlueprint_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ChickenAnimBlueprint_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CinematicCamera_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CinematicCamera_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CinematicCamera_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ClothingSystemRuntimeCommon_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ClothingSystemRuntimeCommon_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ClothingSystemRuntimeInterface_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ClothingSystemRuntimeInterface_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ClothingSystemRuntimeInterface_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ClothingSystemRuntimeNv_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ClothingSystemRuntimeNv_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ClothingSystemRuntimeNv_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ControlsGamepadBindingsWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ControlsGamepadBindingsWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ControlsKeyBindingsWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ControlsKeyBindingsWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ControlsOverviewWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ControlsOverviewWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ControlsSettingsContainerWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ControlsSettingsContainerWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CoreUObject_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CoreUObject_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CoreUObject_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CreditsWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CreditsWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CustomMeshComponent_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CustomMeshComponent_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CustomMeshComponent_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\CustomSaveGameBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DatasmithContent_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DatasmithContent_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DatasmithContent_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Dead_NormalBody_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Dead_NormalBody_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DecisionButton_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DecisionButton_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DecisionDialogWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DecisionDialogWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DemoWidget_Challenge_Mainmenu_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DemoWidget_Challenge_Mainmenu_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DemoWidget_Item_Mainmenu_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DemoWidget_Item_Mainmenu_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DeveloperSettings_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DevilRoute_BarrelSpawner_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DevilRoute_BarrelSpawner_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DevilRoute_TrapTrigger_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DevilRoute_TrapTrigger_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DisplaySettingsWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DisplaySettingsWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DmgTypeBP_Environmental_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DoorLight_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DoorLight_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Drangon_AnimBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Drangon_AnimBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DropSwordTrap_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DropSwordTrap_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DrunkNPC_Pawn_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DrunkNPC_Pawn_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DynamicNode_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DynamicNode_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\DynamicNode_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\EditableMesh_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\EditableMesh_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\EditableMesh_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Egg_shot_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Egg_shot_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ElevatorTrap_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ElevatorTrap_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\EndLocation_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Engine_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Engine_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Engine_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\EngineMessages_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\EngineSettings_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\EngineSettings_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\EngineSettings_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\EpicLeaderboard_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\EpicLeaderboard_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\EpicLeaderboard_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\EpicLeaderboardEntryInterface_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\EpicLeaderboardEntryInterface_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\EpicLeaderboardFrame_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\EpicLeaderboardFrame_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\EyeTracker_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\EyeTracker_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\EyeTracker_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\FacialAnimation_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\FadeBorderWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\FadeBorderWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\FastMoveFootrest_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\FastMoveFootrest_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\FieldSystemEngine_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\FieldSystemEngine_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\FireBall_Projectile_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\FireBall_Projectile_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\First_Route_TrapTrigger_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\First_Route_TrapTrigger_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Foliage_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Foliage_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Foliage_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GamepadKey_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GamepadKey_Move_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GamepadKey_Move_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GamepadKey_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GamepadKeyPOV_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GamepadKeyPOV_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GamepadWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GamepadWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GameplayTags_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GameplayTags_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GameplayTags_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GameplayTasks_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GameplayTasks_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GameplayTasks_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GameSettingsWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GameSettingsWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GeometryCache_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GeometryCache_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GeometryCache_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GeometryCacheTracks_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GeometryCacheTracks_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GeometryCollectionEngine_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GeometryCollectionEngine_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GeometryCollectionEngine_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GeometryCollectionTracks_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GeometryCollectionTracks_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GlobalInteractableUserWidget_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GlobalInteractableUserWidget_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GooglePAD_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GooglePAD_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GooglePAD_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Goose_shot_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Goose_shot_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GooseShot_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GooseShot_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GooseShot_Replicate_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GooseShot_Replicate_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GraphicsSettingsWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\GraphicsSettingsWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\HardRoute_TrapTrigger_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\HardRoute_TrapTrigger_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\HeadMountedDisplay_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\HeadMountedDisplay_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\HeadMountedDisplay_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ImageWrapper_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ImageWriteQueue_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ImageWriteQueue_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ImageWriteQueue_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ImgMedia_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ImgMedia_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ImgMediaFactory_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\IngameMenuContainerWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\IngameMenuContainerWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\IngameMenuOverviewWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\IngameMenuOverviewWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\InputCore_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\InputCore_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\InteractableMenuWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\InteractableMenuWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\InteractableUserWidget_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\InteractableUserWidget_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\InteractiveToolsFramework_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\InteractiveToolsFramework_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\InteractiveToolsFramework_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\IntroWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\IntroWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_EpicLeaderboardEntry_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Item_EpicLeaderboardEntry_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ItemRecordMenuWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ItemRecordMenuWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\JsonUtilities_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\JsonUtilities_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\JumpJumpTrap_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\JumpJumpTrap_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\KeyboardKey_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\KeyboardKey_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\KeyboardWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\KeyboardWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Knight_PortalGo_Trigger_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Knight_PortalGo_Trigger_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Knight_Shot_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Knight_Shot_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Landscape_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Landscape_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Landscape_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LastRoute_FootRest_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LastRoute_FootRest_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LastRoute_TrapTrigger_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LastRoute_TrapTrigger_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LastRouteSwingTrap_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LastRouteSwingTrap_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LaunchShield_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LaunchShield_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LevelSequence_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LevelSequence_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LevelSequence_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LightPropagationVolumeRuntime_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LiveLinkInterface_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LiveLinkInterface_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LoadingScreenWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LoadingScreenWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LocationServicesBPLibrary_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LocationServicesBPLibrary_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LocationServicesBPLibrary_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LuminRuntimeSettings_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\LuminRuntimeSettings_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Mackerel_anim_bp_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Mackerel_anim_bp_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeap_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeap_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeap_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapAR_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapAR_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapAR_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapARPin_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapARPin_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapARPin_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapARPinInfoActor_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapARPinInfoActor_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapAudio_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapAudio_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapAudio_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapController_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapController_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapController_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapEyeTracker_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapEyeTracker_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapEyeTracker_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapHandMeshing_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapHandMeshing_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapHandMeshing_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapHandTracking_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapHandTracking_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapHandTracking_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapIdentity_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapIdentity_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapIdentity_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapImageTracker_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapImageTracker_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapImageTracker_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapLightEstimation_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapLightEstimation_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapLightEstimation_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapPlanes_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapPlanes_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapPlanes_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapPrivileges_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapPrivileges_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapPrivileges_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapSecureStorage_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapSecureStorage_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapSharedWorld_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapSharedWorld_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MagicLeapSharedWorld_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MainButton_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MainButton_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MainMenu_02_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MainMenu_02_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MainMenuContainerWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MainMenuContainerWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MainMenuOverviewWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MainMenuOverviewWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MapselectMenuWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MapselectMenuWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MaterialShaderQualitySettings_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MaterialShaderQualitySettings_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MediaAssets_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MediaAssets_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MediaAssets_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MediaCompositing_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MediaCompositing_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MediaUtils_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MenuCharacterComponent_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MenuCharacterComponent_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MenuControllerComponent_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MenuControllerComponent_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MenuScrollBox_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MenuScrollBox_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MenuSystemPro_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MenuSystemPro_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MeshDescription_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MeshDescription_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MeshDescription_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MH_Route_TrapTrigger_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MH_Route_TrapTrigger_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MiddleRoute_Jump_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MiddleRoute_Jump_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MiddleRoute_RotationFootrest_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MiddleRoute_RotationFootrest_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MobilePatchingUtils_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MobilePatchingUtils_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MotoSynth_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MotoSynth_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MotoSynth_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MoveDock_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MoveDock_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MoveVane_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MoveVane_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MoviePlayer_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MoviePlayer_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MovieScene_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MovieScene_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MovieScene_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MovieSceneCapture_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MovieSceneCapture_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MovieSceneCapture_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MovieSceneTracks_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MovieSceneTracks_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MovieSceneTracks_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MRMesh_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MRMesh_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\MRMesh_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Mug_Projectile_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Mug_Projectile_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\NavigationKeyButton_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\NavigationKeyButton_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\NavigationSystem_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\NavigationSystem_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\NavigationSystem_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\NetCore_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\NetCore_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Niagara_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Niagara_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Niagara_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\NiagaraAnimNotifies_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\NiagaraAnimNotifies_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\NiagaraCore_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\NiagaraCore_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\NiagaraShader_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\NiagaraShader_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Nintendo_Stage_Start_Widget_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Nintendo_Stage_Start_Widget_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\NoticeWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\NoticeWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OnlineSubsystem_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OnlineSubsystem_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OnlineSubsystem_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OnlineSubsystemSteam_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OnlineSubsystemUtils_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OnlineSubsystemUtils_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OnlineSubsystemUtils_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OpenBtn_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OpenBtn_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OptionsActionBinder_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OptionsActionBinder_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OptionsButton_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OptionsButton_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OptionsMenuContainerWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OptionsOverviewWidgetBP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OptionsOverviewWidgetBP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OptionsPicker_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OptionsPicker_IngameVer_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OptionsPicker_IngameVer_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OptionsPicker_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OptionsPickerSubButton_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OptionsPickerSubButton_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OptionsSlider_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\OptionsSlider_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Overlay_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Overlay_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\PacketHandler_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Paper2D_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Paper2D_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Paper2D_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\PathFollow_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\PathFollow_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\PathFollow_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\PauseGameBPI_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\PhysicsCore_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\PhysicsCore_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\PhysicsGetUpBlend_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\PhysicsGetUpBlend_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\PhysicsGetUpBlend_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\PhysXVehicles_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\PhysXVehicles_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\PhysXVehicles_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Play_DeathAndItem_UI_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Play_DeathAndItem_UI_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ProceduralMeshComponent_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ProceduralMeshComponent_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ProceduralMeshComponent_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\PropertyAccess_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\PropertyAccess_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\PropertyPath_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\QuizDoor_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\QuizDoor_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Renderer_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Rotation_SpikeBall_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Rotation_SpikeBall_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\RotationBull_Trap_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\RotationBull_Trap_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\RotationCannon_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\RotationCannon_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\RotationFootRest_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\RotationFootRest_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\RotationSide_Footrest_Bp_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\RotationSide_Footrest_Bp_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\RotationTrap_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\RotationTrap_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\RotationWoodenBoard_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\RotationWoodenBoard_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Sancho_ai_controler_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Sancho_ai_controler_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Save_Point_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Save_Point_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SaveAreaTrigger_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SaveAreaTrigger_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SavePointSpawn_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SavePointSpawn_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Serialization_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SessionMessages_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ShortCut_Trigger_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ShortCut_Trigger_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ShortCutRouteWall_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ShortCutRouteWall_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SignificanceManager_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Slate_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Slate_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SlateCore_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SlateCore_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SoundFields_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SpikeStairTrap_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SpikeStairTrap_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SplineMover_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SplineMover_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\StageA01_FishShot_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\StageA01_FishShot_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\StageA01_FishSpwan_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\StageA01_FishSpwan_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Start_AirPlane_Blueprint_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Start_AirPlane_Blueprint_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\StaticMeshDescription_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\StaticMeshDescription_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\StaticMeshDescription_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SteamMulti_GameInstance_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SteamMulti_GameInstance_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\StoneSpawnPoint_KillRock_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\StoneSpawnPoint_KillRock_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SwingFire_Trap_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SwingFire_Trap_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SwingSickle_Trap_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\SwingSickle_Trap_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Synthesis_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Synthesis_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Synthesis_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\TcpMessaging_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\TemplateSequence_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\TemplateSequence_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\TemplateSequence_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\TimeManagement_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\TimeManagement_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\TimeManagement_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\TIP_UI_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\TIP_UI_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\TrainRoute_TrapTrigger_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\TrainRoute_TrapTrigger_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\TutoDuckDoor_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\TutoDuckDoor_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Tutorial_Info_UI_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Tutorial_Info_UI_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\UdpMessaging_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\UdpMessaging_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\UltimateAbility_CameraShake_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\UMG_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\UMG_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\UMG_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\UObjectPlugin_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\UObjectPlugin_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\UpDownBalde_Trap_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\UpDownBalde_Trap_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\UpdownFootRest_02_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\UpdownFootRest_02_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\UpTownDragon_TrapTrigger_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\UpTownDragon_TrapTrigger_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\VariantManagerContent_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\VariantManagerContent_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\VariantManagerContent_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\VectorVM_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\WaterDie_BP_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\WaterDie_BP_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\WeaponTypeEnum_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\WmfMediaFactory_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\YouDie_UI_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\YouDie_UI_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Zero1_MapSelectButton_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\Zero1_MapSelectButton_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\___7_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\___7_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ActorLayerUtilities_classes.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ActorLayerUtilities_parameters.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK\ActorLayerUtilities_structs.hpp">
+      <Filter>SDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\memcury.h">
+      <Filter>Engine</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="pch.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="SDK\SDK\AdvancedSessions_functions.cpp">
+      <Filter>SDK\SDK</Filter>
     </ClCompile>
-    <ClCompile Include="UE4\UE4.cpp">
-      <Filter>UE4</Filter>
+    <ClCompile Include="SDK\SDK\AdvancedSteamSessions_functions.cpp">
+      <Filter>SDK\SDK</Filter>
     </ClCompile>
-    <ClCompile Include="UE4\Classes.cpp">
-      <Filter>UE4</Filter>
+    <ClCompile Include="SDK\SDK\AIModule_functions.cpp">
+      <Filter>SDK\SDK</Filter>
     </ClCompile>
-    <ClCompile Include="finder.cpp">
-      <Filter>UE4\Logic</Filter>
+    <ClCompile Include="SDK\SDK\ALTF4_DragonEGG_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ALTF4_Solo_GM_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ALTF4_Solo_PC_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ALTF4_Tuto_GM_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ALTF4_Tuto_PC_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\AnimationSharing_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\AnimBP_ai_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\AnimBP_ALTF4_Character_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\AnimBP_BarNpc_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\AnimBP_BarNpcDance_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\AnimBP_Character_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\AnimGraphRuntime_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ApexDestruction_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Area_02_TrapTrigger_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\AssetRegistry_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\AssetTags_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\AudioCapture_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\AudioMixer_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\AudioSettingsWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\AudioSynesthesia_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\AugmentedReality_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\AutomationUtils_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BarDanceNPC_Pawn_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BarNPC_Pawn_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Barrel_Follower_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Barrel_Projectile_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BarrelFireTrapTrigger_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BarrelSpawner_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Basic.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BGM_bp_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_ai_DarkNight_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_ai_pawn_ver2_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_ALTF4_Chick_Pawn_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_ALTF4_Dragon_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_ALTF4_Pawn_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_Cannon_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_CannonProjectile_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_MainMenuPC_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_Pawn_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_PendulumTraps_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_SA01_SwingTrap_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_Sky_Sphere_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BP_WaterDiePawn_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BPI_Gameinstance_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Brige_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\CableComponent_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\CannonFireTrapTrigger_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Castle_FootRest_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\CastleGate_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\CastleRoute_TrapTrigger_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\CenterButton_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Challenge_EpicLeaderboardEntry_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ChallengeRecordMenuWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ChaosSolverEngine_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\CheeringNPC_Trap_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ChickBoat_Trap_Bp_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ChickEggFire_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ChickenAnimBlueprint_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\CinematicCamera_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ClothingSystemRuntimeInterface_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ClothingSystemRuntimeNv_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ControlsGamepadBindingsWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ControlsKeyBindingsWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ControlsOverviewWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ControlsSettingsContainerWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\CoreUObject_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\CreditsWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\CustomMeshComponent_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\DatasmithContent_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Dead_NormalBody_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\DecisionButton_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\DecisionDialogWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\DemoWidget_Challenge_Mainmenu_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\DemoWidget_Item_Mainmenu_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\DevilRoute_BarrelSpawner_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\DevilRoute_TrapTrigger_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\DisplaySettingsWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\DoorLight_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Drangon_AnimBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\DropSwordTrap_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\DrunkNPC_Pawn_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\DynamicNode_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\EditableMesh_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Egg_shot_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ElevatorTrap_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Engine_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\EngineSettings_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\EpicLeaderboard_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\EpicLeaderboardEntryInterface_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\EpicLeaderboardFrame_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\EyeTracker_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\FadeBorderWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\FastMoveFootrest_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\FieldSystemEngine_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\FireBall_Projectile_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\First_Route_TrapTrigger_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Foliage_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\GamepadKey_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\GamepadKey_Move_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\GamepadKeyPOV_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\GamepadWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\GameplayTags_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\GameplayTasks_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\GameSettingsWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\GeometryCache_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\GeometryCollectionEngine_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\GlobalInteractableUserWidget_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\GooglePAD_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Goose_shot_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\GooseShot_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\GooseShot_Replicate_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\GraphicsSettingsWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\HardRoute_TrapTrigger_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\HeadMountedDisplay_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ImageWriteQueue_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ImgMedia_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\IngameMenuContainerWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\IngameMenuOverviewWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\InteractableMenuWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\InteractableUserWidget_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\InteractiveToolsFramework_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\IntroWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Item_EpicLeaderboardEntry_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ItemRecordMenuWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\JumpJumpTrap_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\KeyboardKey_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\KeyboardWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Knight_PortalGo_Trigger_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Knight_Shot_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Landscape_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\LastRoute_FootRest_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\LastRoute_TrapTrigger_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\LastRouteSwingTrap_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\LaunchShield_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\LevelSequence_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\LoadingScreenWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\LocationServicesBPLibrary_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Mackerel_anim_bp_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MagicLeap_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MagicLeapAR_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MagicLeapARPin_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MagicLeapARPinInfoActor_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MagicLeapAudio_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MagicLeapController_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MagicLeapEyeTracker_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MagicLeapHandMeshing_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MagicLeapHandTracking_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MagicLeapIdentity_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MagicLeapImageTracker_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MagicLeapLightEstimation_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MagicLeapPlanes_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MagicLeapPrivileges_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MagicLeapSecureStorage_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MagicLeapSharedWorld_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MainButton_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MainMenu_02_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MainMenuContainerWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MainMenuOverviewWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MapselectMenuWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MediaAssets_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MenuCharacterComponent_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MenuControllerComponent_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MenuScrollBox_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MenuSystemPro_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MeshDescription_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MH_Route_TrapTrigger_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MiddleRoute_Jump_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MiddleRoute_RotationFootrest_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MobilePatchingUtils_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MotoSynth_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MoveDock_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MoveVane_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MovieScene_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MovieSceneCapture_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MovieSceneTracks_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MRMesh_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Mug_Projectile_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\NavigationKeyButton_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\NavigationSystem_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Niagara_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\NiagaraAnimNotifies_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Nintendo_Stage_Start_Widget_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\NoticeWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\OnlineSubsystem_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\OnlineSubsystemUtils_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\OpenBtn_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\OptionsActionBinder_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\OptionsButton_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\OptionsOverviewWidgetBP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\OptionsPicker_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\OptionsPicker_IngameVer_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\OptionsPickerSubButton_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\OptionsSlider_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Paper2D_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\PathFollow_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\PauseGameBPI_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\PhysicsGetUpBlend_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\PhysXVehicles_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Play_DeathAndItem_UI_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ProceduralMeshComponent_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\QuizDoor_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Rotation_SpikeBall_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\RotationBull_Trap_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\RotationCannon_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\RotationFootRest_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\RotationSide_Footrest_Bp_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\RotationTrap_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\RotationWoodenBoard_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Sancho_ai_controler_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Save_Point_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\SaveAreaTrigger_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\SavePointSpawn_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ShortCut_Trigger_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ShortCutRouteWall_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\SpikeStairTrap_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\SplineMover_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\StageA01_FishShot_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\StageA01_FishSpwan_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Start_AirPlane_Blueprint_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\StaticMeshDescription_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\SteamMulti_GameInstance_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\StoneSpawnPoint_KillRock_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\SwingFire_Trap_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\SwingSickle_Trap_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Synthesis_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\TemplateSequence_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\TimeManagement_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\TIP_UI_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\TrainRoute_TrapTrigger_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\TutoDuckDoor_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Tutorial_Info_UI_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\UMG_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\UpDownBalde_Trap_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\UpdownFootRest_02_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\UpTownDragon_TrapTrigger_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\VariantManagerContent_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\WaterDie_BP_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\YouDie_UI_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Zero1_MapSelectButton_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\___7_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\ActorLayerUtilities_functions.cpp">
+      <Filter>SDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Engine</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="SDK\NameCollisions.inl">
+      <Filter>SDK</Filter>
+    </None>
   </ItemGroup>
 </Project>

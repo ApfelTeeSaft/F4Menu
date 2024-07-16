@@ -13,7 +13,7 @@ This repository contains a cheat menu for the game AltF4, designed to be compile
 
 - **Minhook**: A hooking library for x86/x64 binaries. More information [here](https://github.com/TsudaKageyu/minhook)
 - **ImGui**: A bloat-free graphical user interface library for C++. More information [here](https://github.com/ocornut/imgui)
-- **Dumper-7** SDK Generator for all Unreal Engine games. More Information [here](https://github.com/Encryqed/Dumper-7)
+- **Dumper-7**: SDK Generator for all Unreal Engine games. More Information [here](https://github.com/Encryqed/Dumper-7)
 
 ## Requirements
 

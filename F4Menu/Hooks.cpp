@@ -2,9 +2,8 @@
 #include <iostream>
 #include <iomanip>
 #include "Hooks.hpp"
-#include "SDK/SDK/Basic.hpp"
 #include "SDK/SDK/CoreUObject_classes.hpp"
-#include "Engine/Helper.hpp"
+#include "GuiManager.hpp"
 #include "ThirdParty/MinHook/include/MinHook.h"
 
 // Typedef for ProcessEvent
@@ -17,24 +16,26 @@ void hkProcessEvent(SDK::UObject* Object, SDK::UFunction* Function, void* Params
 
     // Prevent recursion
     if (isInsideProcessEvent) {
-        oProcessEvent(Object, Function, Params);
-        return;
+        return oProcessEvent(Object, Function, Params);
     }
 
     isInsideProcessEvent = true;
 
-    std::string FunctionFullName = Function->GetFullName();
     std::string FunctionName = Function->GetName();
-    std::string ObjectFullName = Object->GetFullName();
 
-    if (oProcessEvent) {
-        oProcessEvent(Object, Function, Params);
+    // Handle Tick function to check for F4 key press and render GUI
+    if (FunctionName == "Tick") {
+        if (GetAsyncKeyState(VK_F4) & 1) {
+            GuiManager::ToggleGui();
+        }
+        GuiManager::RenderGui();
     }
 
     isInsideProcessEvent = false;
+    return oProcessEvent(Object, Function, Params);
 }
 
-// used for debugging purposes, can be removed if too annoying
+// Function to dump memory
 void DumpMemory(uintptr_t address, size_t size) {
     unsigned char* mem = reinterpret_cast<unsigned char*>(address);
     std::cout << "Memory dump at address: " << std::hex << address << std::endl;
@@ -60,6 +61,9 @@ void SetupHooks() {
         uintptr_t processEventAddress = baseAddress + SDK::Offsets::ProcessEvent;
         std::cout << "ProcessEvent address: " << std::hex << processEventAddress << std::endl;
 
+        // Dump at least 256 bytes of memory at the ProcessEvent address
+        DumpMemory(processEventAddress, 256);
+
         if (MH_CreateHook(reinterpret_cast<void*>(processEventAddress), &hkProcessEvent, reinterpret_cast<void**>(&oProcessEvent)) != MH_OK) {
             std::cerr << "Failed to create hook" << std::endl;
             return;
@@ -70,7 +74,7 @@ void SetupHooks() {
             return;
         }
 
-        std::cout << "Process Event Hook successfully enabled" << std::endl;
+        std::cout << "Hook successfully enabled" << std::endl;
     }
     catch (const std::exception& e) {
         std::cerr << "Exception during hook setup: " << e.what() << std::endl;

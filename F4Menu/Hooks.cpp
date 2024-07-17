@@ -60,8 +60,6 @@ void SetupHooks() {
         uintptr_t processEventAddress = baseAddress + SDK::Offsets::ProcessEvent;
         std::cout << "ProcessEvent address: " << std::hex << processEventAddress << std::endl;
 
-        DumpMemory(processEventAddress, 256);
-
         if (MH_CreateHook(reinterpret_cast<void*>(processEventAddress), &hkProcessEvent, reinterpret_cast<void**>(&oProcessEvent)) != MH_OK) {
             std::cerr << "Failed to create hook" << std::endl;
             return;
@@ -72,7 +70,7 @@ void SetupHooks() {
             return;
         }
 
-        std::cout << "Hook successfully enabled" << std::endl;
+        std::cout << "Process Event Hook successfully enabled" << std::endl;
     }
     catch (const std::exception& e) {
         std::cerr << "Exception during hook setup: " << e.what() << std::endl;

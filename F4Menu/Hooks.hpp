@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ThirdParty/MinHook/include/MinHook.h"
+#include "SDK/SDK/Basic.hpp"
 
 void SetupHooks();
 void RemoveHooks();

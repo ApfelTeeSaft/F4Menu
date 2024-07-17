@@ -2,9 +2,10 @@
 
 #include "ThirdParty/MinHook/include/MinHook.h"
 #include "SDK/SDK/Basic.hpp"
+#include "SDK/SDK/CoreUObject_classes.hpp"
 
 void SetupHooks();
 void RemoveHooks();
-void hkProcessEvent(void* Object, void* Function, void* Params);
+void hkProcessEvent(SDK::UObject* Object, SDK::UFunction* Function, void* Params);
 
-extern void (*oProcessEvent)(void* Object, void* Function, void* Params);
+extern void (*oProcessEvent)(SDK::UObject* Object, SDK::UFunction* Function, void* Params);

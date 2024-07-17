@@ -3,47 +3,38 @@
 #include <iomanip> // Include iomanip for setw and setfill
 #include "Hooks.hpp"
 #include "SDK/SDK/Basic.hpp"
+#include "SDK/SDK/CoreUObject_classes.hpp"
 #include "Engine/Helper.hpp"
 #include "ThirdParty/MinHook/include/MinHook.h"
 
 // Typedef for ProcessEvent
-typedef void(*tProcessEvent)(void* Object, void* Function, void* Params);
+typedef void(*tProcessEvent)(SDK::UObject* Object, SDK::UFunction* Function, void* Params);
 tProcessEvent oProcessEvent = nullptr;
 
 // Hooked ProcessEvent function
-void hkProcessEvent(void* Object, void* Function, void* Params) {
-    static thread_local bool isInsideProcessEvent = false; // Recursion prevention flag
-
-    // Capture debug statements or other logic
-    std::cout << "hkProcessEvent called" << std::endl;
+void hkProcessEvent(SDK::UObject* Object, SDK::UFunction* Function, void* Params) {
+    static thread_local bool isInsideProcessEvent = false;
 
     // Prevent recursion
     if (isInsideProcessEvent) {
-        std::cerr << "Recursion detected! Exiting." << std::endl;
+        oProcessEvent(Object, Function, Params);
         return;
     }
 
     isInsideProcessEvent = true;
 
-    // Temporarily disable the hook to call the original ProcessEvent
+    std::string FunctionFullName = Function->GetFullName();
+    std::string FunctionName = Function->GetName();
+    std::string ObjectFullName = Object->GetFullName();
+
     if (oProcessEvent) {
-        std::cout << "Disabling hook to call original ProcessEvent" << std::endl;
-        if (MH_DisableHook(reinterpret_cast<void*>(SDK::Offsets::ProcessEvent)) == MH_OK) {
-            oProcessEvent(Object, Function, Params);
-            MH_EnableHook(reinterpret_cast<void*>(SDK::Offsets::ProcessEvent));
-        }
-        else {
-            std::cerr << "Failed to disable hook" << std::endl;
-        }
-    }
-    else {
-        std::cerr << "Error: Original ProcessEvent function pointer is null" << std::endl;
+        oProcessEvent(Object, Function, Params);
     }
 
     isInsideProcessEvent = false;
 }
 
-// Function to dump memory
+// used for debugging purposes, can be removed if too annoying
 void DumpMemory(uintptr_t address, size_t size) {
     unsigned char* mem = reinterpret_cast<unsigned char*>(address);
     std::cout << "Memory dump at address: " << std::hex << address << std::endl;
@@ -65,12 +56,10 @@ void SetupHooks() {
     }
 
     try {
-        // Use the ProcessEvent offset from the SDK's Basic.hpp
         uintptr_t baseAddress = SDK::InSDKUtils::GetImageBase();
         uintptr_t processEventAddress = baseAddress + SDK::Offsets::ProcessEvent;
         std::cout << "ProcessEvent address: " << std::hex << processEventAddress << std::endl;
 
-        // Dump at least 256 bytes of memory at the ProcessEvent address
         DumpMemory(processEventAddress, 256);
 
         if (MH_CreateHook(reinterpret_cast<void*>(processEventAddress), &hkProcessEvent, reinterpret_cast<void**>(&oProcessEvent)) != MH_OK) {

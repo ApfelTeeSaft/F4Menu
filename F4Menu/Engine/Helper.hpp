@@ -1,6 +1,7 @@
 #pragma once
 #include "ThirdParty/MinHook/include/MinHook.h"
 
+// Helper function to convert MH_STATUS to string
 inline const char* MyMH_StatusToString(MH_STATUS status) {
     switch (status) {
     case MH_OK: return "MH_OK";

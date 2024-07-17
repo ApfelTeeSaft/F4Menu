@@ -1,5 +1,5 @@
 #pragma once
-#include "MinHook.h"
+#include "ThirdParty/MinHook/include/MinHook.h"
 
 inline const char* MyMH_StatusToString(MH_STATUS status) {
     switch (status) {

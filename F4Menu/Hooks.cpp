@@ -1,10 +1,10 @@
 #include <Windows.h>
 #include <iostream>
 #include <iomanip> // Include iomanip for setw and setfill
-#include "Engine/Hooks.hpp"
+#include "Hooks.hpp"
 #include "SDK/SDK/Basic.hpp"
 #include "Engine/Helper.hpp"
-#include "MinHook.h" // Include MinHook header
+#include "ThirdParty/MinHook/include/MinHook.h"
 
 // Typedef for ProcessEvent
 typedef void(*tProcessEvent)(void* Object, void* Function, void* Params);

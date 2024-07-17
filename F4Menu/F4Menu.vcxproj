@@ -144,14 +144,14 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalLibraryDirectories>$(ProjectDir)/ThirdParty/MinHook/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>MinHook.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Engine\Helper.hpp" />
     <ClInclude Include="Engine\memcury.h" />
     <ClInclude Include="framework.h" />
-    <ClInclude Include="Helper.hpp" />
     <ClInclude Include="Hooks.hpp" />
     <ClInclude Include="SDK\PropertyFixup.hpp" />
     <ClInclude Include="SDK\SDK.hpp" />
@@ -800,6 +800,14 @@
     <ClInclude Include="SDK\SDK\___7_classes.hpp" />
     <ClInclude Include="SDK\SDK\___7_parameters.hpp" />
     <ClInclude Include="SDK\UnrealContainers.hpp" />
+    <ClInclude Include="ThirdParty\MinHook\include\buffer.h" />
+    <ClInclude Include="ThirdParty\MinHook\include\hde\hde32.h" />
+    <ClInclude Include="ThirdParty\MinHook\include\hde\hde64.h" />
+    <ClInclude Include="ThirdParty\MinHook\include\hde\pstdint.h" />
+    <ClInclude Include="ThirdParty\MinHook\include\hde\table32.h" />
+    <ClInclude Include="ThirdParty\MinHook\include\hde\table64.h" />
+    <ClInclude Include="ThirdParty\MinHook\include\MinHook.h" />
+    <ClInclude Include="ThirdParty\MinHook\include\trampoline.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
@@ -1048,6 +1056,11 @@
     <ClCompile Include="SDK\SDK\YouDie_UI_functions.cpp" />
     <ClCompile Include="SDK\SDK\Zero1_MapSelectButton_functions.cpp" />
     <ClCompile Include="SDK\SDK\___7_functions.cpp" />
+    <ClCompile Include="ThirdParty\MinHook\include\buffer.c" />
+    <ClCompile Include="ThirdParty\MinHook\include\hde\hde32.c" />
+    <ClCompile Include="ThirdParty\MinHook\include\hde\hde64.c" />
+    <ClCompile Include="ThirdParty\MinHook\include\hook.c" />
+    <ClCompile Include="ThirdParty\MinHook\include\trampoline.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SDK\NameCollisions.inl" />

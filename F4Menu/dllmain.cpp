@@ -8,6 +8,9 @@
 #include "ThirdParty/imgui/imgui_impl_win32.h"
 #include "ThirdParty/imgui/imgui_impl_dx11.h"
 
+// Forward declare message handler from imgui_impl_win32.cpp
+extern IMGUI_IMPL_API LRESULT ImGui_ImplWin32_WndProcHandler(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
+
 // DirectX data
 ID3D11Device* g_pd3dDevice = nullptr;
 ID3D11DeviceContext* g_pd3dDeviceContext = nullptr;
@@ -64,19 +67,11 @@ void CleanupDeviceD3D() {
     if (g_pd3dDevice) { g_pd3dDevice->Release(); g_pd3dDevice = nullptr; }
 }
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-    LRESULT WINAPI WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
-        if (ImGui_ImplWin32_WndProcHandler(hWnd, msg, wParam, lParam))
-            return true;
-        return DefWindowProc(hWnd, msg, wParam, lParam);
-    }
-
-#ifdef __cplusplus
+LRESULT WINAPI WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
+    if (ImGui_ImplWin32_WndProcHandler(hWnd, msg, wParam, lParam))
+        return true;
+    return DefWindowProc(hWnd, msg, wParam, lParam);
 }
-#endif
 
 // Function to allocate console for debug output
 void AllocateConsole() {

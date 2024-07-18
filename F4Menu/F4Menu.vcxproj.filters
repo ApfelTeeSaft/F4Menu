@@ -37,6 +37,9 @@
     <Filter Include="ThirdParty\imgui">
       <UniqueIdentifier>{e26e9c40-97ed-4b77-ab53-dec94227c35c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ALTF4_F">
+      <UniqueIdentifier>{68d198a5-d4b1-416f-9e54-86c4dbbb69d9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -2043,6 +2046,21 @@
     <ClInclude Include="ThirdParty\imgui\imgui_internal.h">
       <Filter>ThirdParty\imgui</Filter>
     </ClInclude>
+    <ClInclude Include="Logic.hpp">
+      <Filter>ALTF4_F</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>ALTF4_F</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UE4.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -2818,6 +2836,18 @@
     </ClCompile>
     <ClCompile Include="ThirdParty\imgui\imgui_impl_win32.cpp">
       <Filter>ThirdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic.cpp">
+      <Filter>ALTF4_F</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="UE4.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ALTF4_F</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

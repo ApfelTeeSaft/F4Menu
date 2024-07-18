@@ -149,11 +149,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Classes.hpp" />
+    <ClInclude Include="Containers.h" />
     <ClInclude Include="Engine\Helper.hpp" />
     <ClInclude Include="Engine\memcury.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="Game.h" />
     <ClInclude Include="GuiManager.hpp" />
     <ClInclude Include="Hooks.hpp" />
+    <ClInclude Include="Logic.hpp" />
     <ClInclude Include="SDK\PropertyFixup.hpp" />
     <ClInclude Include="SDK\SDK.hpp" />
     <ClInclude Include="SDK\SDK\ActorLayerUtilities_classes.hpp" />
@@ -817,11 +821,15 @@
     <ClInclude Include="ThirdParty\MinHook\include\hde\table64.h" />
     <ClInclude Include="ThirdParty\MinHook\include\MinHook.h" />
     <ClInclude Include="ThirdParty\MinHook\include\trampoline.h" />
+    <ClInclude Include="UE4.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Classes.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="GuiManager.cpp" />
     <ClCompile Include="Hooks.cpp" />
+    <ClCompile Include="Logic.cpp" />
     <ClCompile Include="SDK\SDK\ActorLayerUtilities_functions.cpp" />
     <ClCompile Include="SDK\SDK\AdvancedSessions_functions.cpp" />
     <ClCompile Include="SDK\SDK\AdvancedSteamSessions_functions.cpp" />
@@ -1077,6 +1085,7 @@
     <ClCompile Include="ThirdParty\MinHook\include\hde\hde64.c" />
     <ClCompile Include="ThirdParty\MinHook\include\hook.c" />
     <ClCompile Include="ThirdParty\MinHook\include\trampoline.c" />
+    <ClCompile Include="UE4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SDK\NameCollisions.inl" />

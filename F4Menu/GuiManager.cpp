@@ -4,6 +4,7 @@
 #include "ThirdParty/imgui/imgui_impl_dx11.h"
 #include <Windows.h>
 #include <d3d11.h>
+#include "Logic.hpp"
 
 extern ID3D11Device* g_pd3dDevice;
 extern ID3D11DeviceContext* g_pd3dDeviceContext;
@@ -18,9 +19,8 @@ namespace {
     void ShowGui() {
         ImGui::Begin("Menu");
 
-        if (ImGui::Button("Flying")) {
-            flyingEnabled = !flyingEnabled;
-            // Add logic to enable/disable flying
+        if (ImGui::Checkbox("Flying", &flyingEnabled)) {
+            Logic::ToggleFlyingMode(flyingEnabled);
         }
 
         ImGui::End();
@@ -75,17 +75,7 @@ namespace GuiManager {
 
             // Rendering
             ImGui::Render();
-            g_pd3dDeviceContext->OMSetRenderTargets(1, &g_mainRenderTargetView, nullptr);
             ImGui_ImplDX11_RenderDrawData(ImGui::GetDrawData());
         }
-    }
-
-    bool IsGuiVisible() {
-        return guiVisible;
-    }
-
-    void SetupGui() {
-        // Initialize ImGui
-        InitImGui();
     }
 }

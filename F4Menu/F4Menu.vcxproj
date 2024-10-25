@@ -143,12 +143,17 @@
   <ItemGroup>
     <ClInclude Include="Engine.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="gameplay.h" />
     <ClInclude Include="globals.h" />
+    <ClInclude Include="kiero.h" />
+    <ClInclude Include="memcury.h" />
+    <ClInclude Include="Memory.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="Engine.cpp" />
     <ClCompile Include="globals.cpp" />
+    <ClCompile Include="kiero.cpp" />
     <ClCompile Include="SDK\SDK\ActorLayerUtilities_functions.cpp" />
     <ClCompile Include="SDK\SDK\AdvancedSessions_functions.cpp" />
     <ClCompile Include="SDK\SDK\AdvancedSteamSessions_functions.cpp" />

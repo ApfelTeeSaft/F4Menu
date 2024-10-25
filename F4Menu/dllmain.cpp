@@ -20,6 +20,7 @@ void Welcome()
 {
     AllocateConsole();
     ShowConsole();
+    Initialize();
 }
 
 BOOL APIENTRY DllMain( HMODULE hModule,

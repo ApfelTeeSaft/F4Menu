@@ -148,6 +148,7 @@
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="globals.cpp" />
     <ClCompile Include="SDK\SDK\ActorLayerUtilities_functions.cpp" />
     <ClCompile Include="SDK\SDK\AdvancedSessions_functions.cpp" />
     <ClCompile Include="SDK\SDK\AdvancedSteamSessions_functions.cpp" />

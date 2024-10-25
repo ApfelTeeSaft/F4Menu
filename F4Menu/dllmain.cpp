@@ -6,7 +6,9 @@ void AllocateConsole() {
         FILE* fp;
         freopen_s(&fp, "CONOUT$", "w", stdout);
         freopen_s(&fp, "CONOUT$", "w", stderr);
-        std::cout << "Console allocated" << std::endl;
+        std::cout << "Console allocated!" << std::endl;
+        std::cout << "F4Menu made with <3 by ApfelTeeSaft!" << std::endl;
+        std::cout << "Press F8 to open Console ingame!" << std::endl;
 
     }
     else {
@@ -28,6 +30,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
     switch (ul_reason_for_call)
     {
     case DLL_PROCESS_ATTACH:
+        Welcome();
     case DLL_THREAD_ATTACH:
     case DLL_THREAD_DETACH:
     case DLL_PROCESS_DETACH:

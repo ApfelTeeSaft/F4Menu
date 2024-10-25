@@ -767,5 +767,8 @@
     <ClCompile Include="SDK\SDK\ALTF4_Solo_GM_functions.cpp">
       <Filter>Funcs</Filter>
     </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

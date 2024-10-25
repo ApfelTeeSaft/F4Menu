@@ -111,7 +111,7 @@ public:
 	static void GetPositionalTrackingCameraParameters(struct FVector* CameraOrigin, struct FRotator* CameraRotation, float* HFOV, float* VFOV, float* CameraDistance, float* NearPlane, float* FarPlane);
 	static float GetScreenPercentage();
 	static EHMDTrackingOrigin GetTrackingOrigin();
-	static void GetTrackingSensorParameters(struct FVector* Origin, struct FRotator* Rotation, float* LeftFOV, float* RightFOV, float* TopFOV, float* BottomFOV, float* Distance, float* NearPlane, float* FarPlane, bool* IsActive, int32 Param_Index);
+	static void GetTrackingSensorParameters(struct FVector* Origin, struct FRotator* Rotation, float* LeftFOV, float* RightFOV, float* TopFOV, float* BottomFOV, float* Distance, float* NearPlane, float* FarPlane, bool* IsActive, int32 Index_0);
 	static struct FTransform GetTrackingToWorldTransform(class UObject* WorldContext);
 	static class FString GetVersionString();
 	static void GetVRFocusState(bool* bUseFocus, bool* bHasFocus);

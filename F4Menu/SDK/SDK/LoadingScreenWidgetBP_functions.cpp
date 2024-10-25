@@ -40,9 +40,9 @@ void ULoadingScreenWidgetBP_C::ExecuteUbergraph_LoadingScreenWidgetBP(int32 Entr
 // Function LoadingScreenWidgetBP.LoadingScreenWidgetBP_C.Set Image
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
-// int32                                   Param_Integer_MapImage                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// int32                                   Integer_MapImage_0                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void ULoadingScreenWidgetBP_C::Set_Image(int32 Param_Integer_MapImage)
+void ULoadingScreenWidgetBP_C::Set_Image(int32 Integer_MapImage_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -51,7 +51,7 @@ void ULoadingScreenWidgetBP_C::Set_Image(int32 Param_Integer_MapImage)
 
 	Params::LoadingScreenWidgetBP_C_Set_Image Parms{};
 
-	Parms.Param_Integer_MapImage = Param_Integer_MapImage;
+	Parms.Integer_MapImage_0 = Integer_MapImage_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }

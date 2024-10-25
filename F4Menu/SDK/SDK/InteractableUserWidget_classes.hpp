@@ -52,7 +52,7 @@ public:
 	void OnWidgetEnabled();
 	void OnSetupNavigation();
 	void Construct();
-	void OnChangeInputDevice(bool Param_bIsGamepadBeingUsed);
+	void OnChangeInputDevice(bool bIsGamepadBeingUsed_0);
 	void OnPressedLeft();
 	void OnPressedRight();
 	void OnRemovedFromFocusPath(const struct FFocusEvent& InFocusEvent);
@@ -64,16 +64,16 @@ public:
 	void OnSetHoverEffect(bool bIsHovered, bool bPlaySound);
 	void SetupNavigation();
 	void UnhoverAllAndHoverSelf(bool bPlaySound);
-	void SetAllNavigation(bool Param_bAllowNavigation, bool bIgnoreParentMenu);
+	void SetAllNavigation(bool bAllowNavigation_0, bool bIgnoreParentMenu);
 	void FocusWidget(class UInteractableUserWidget_C* InWidget);
 	void FindFirstAndLastWidget();
-	void PlayHoverSound(bool bIsHovered, bool Param_PlaySound);
+	void PlayHoverSound(bool bIsHovered, bool PlaySound_0);
 	void PlaySelectSound();
 	void PlayChangeSound();
 	void PlaySliderSound(bool bPlaySound);
 	void CreateChangeInputDeviceUIEvent();
 	void SetSelfAsLastSelectedWidget();
-	void EnableWidget(bool Param_bIsWidgetEnabled);
+	void EnableWidget(bool bIsWidgetEnabled_0);
 
 public:
 	static class UClass* StaticClass()

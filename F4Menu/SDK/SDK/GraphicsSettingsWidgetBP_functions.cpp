@@ -1166,9 +1166,9 @@ void UGraphicsSettingsWidgetBP_C::OnNavigationExit(class UInteractableMenuWidget
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
 // class UInteractableMenuWidgetBP_C*      NavigateFromMenu                                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// bool                                    Param_bIsGamepadBeingUsed                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bIsGamepadBeingUsed_0                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UGraphicsSettingsWidgetBP_C::OnNavigationEnter(class UInteractableMenuWidgetBP_C* NavigateFromMenu, bool Param_bIsGamepadBeingUsed)
+void UGraphicsSettingsWidgetBP_C::OnNavigationEnter(class UInteractableMenuWidgetBP_C* NavigateFromMenu, bool bIsGamepadBeingUsed_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -1178,7 +1178,7 @@ void UGraphicsSettingsWidgetBP_C::OnNavigationEnter(class UInteractableMenuWidge
 	Params::GraphicsSettingsWidgetBP_C_OnNavigationEnter Parms{};
 
 	Parms.NavigateFromMenu = NavigateFromMenu;
-	Parms.Param_bIsGamepadBeingUsed = Param_bIsGamepadBeingUsed;
+	Parms.bIsGamepadBeingUsed_0 = bIsGamepadBeingUsed_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }

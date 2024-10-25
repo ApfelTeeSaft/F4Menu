@@ -87,7 +87,7 @@ public:
 	bool                                          bIntroEnabled;                                     // 0x05F4(0x0001)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor)
 
 public:
-	void OnChangeInputDeviceUI__DelegateSignature(bool Param_bIsGamepadBeingUsed);
+	void OnChangeInputDeviceUI__DelegateSignature(bool bIsGamepadBeingUsed_0);
 	void ExecuteUbergraph_GlobalInteractableUserWidget(int32 EntryPoint);
 	void PreConstruct(bool IsDesignTime);
 	void OnNavigationCooldownStart();
@@ -103,31 +103,31 @@ public:
 	void OnPressedAnyKey();
 	void SetTextAppearence(class UTextBlock* TextObject, const struct FSlateFontInfo& Font, const struct FLinearColor& Color);
 	void SetEditableTextAppearence(class UEditableText* EditableText, const struct FSlateFontInfo& Font, const struct FLinearColor& Color);
-	void GetGlobalGeneralData(bool* Param_bPlayFadeAnimations, float* Param_PlayFadeAnimationLength, bool* Param_bIntroLogosSkippable, bool* Param_bIntroEnabled);
-	void GetGlobalFonts(struct FSlateFontInfo* Param_MainFont, struct FSlateFontInfo* Param_SmallTitleFont, struct FSlateFontInfo* Param_MediumTitleFont, struct FSlateFontInfo* Param_LargeTitleFont, struct FSlateFontInfo* Param_ValueFont, bool* Param_OnlyUppercase);
-	void GetGlobalSounds(class USoundCue** Param_SelectSound, class USoundCue** Param_BackSound, class USoundCue** Param_HoverSound, class USoundCue** Param_ChangeSound, class USoundCue** Param_SliderSound, class USoundCue** Param_BackgroundMusic, class USoundCue** Param_CreditsMusic);
-	void GetGlobalColors(struct FLinearColor* Param_MainColor, struct FLinearColor* Param_HighlightColor, struct FLinearColor* Param_HighlightExtraColor, struct FLinearColor* Param_MenuBackgroundColor, struct FLinearColor* Param_WidgetBackgroundColor, struct FLinearColor* Param_SymbolColor, struct FLinearColor* Param_SubtleColor, struct FLinearColor* Param_DecisionButtonColor, struct FLinearColor* Param_SliderBackgroundColor);
+	void GetGlobalGeneralData(bool* bPlayFadeAnimations_0, float* PlayFadeAnimationLength_0, bool* bIntroLogosSkippable_0, bool* bIntroEnabled_0);
+	void GetGlobalFonts(struct FSlateFontInfo* MainFont_0, struct FSlateFontInfo* SmallTitleFont_0, struct FSlateFontInfo* MediumTitleFont_0, struct FSlateFontInfo* LargeTitleFont_0, struct FSlateFontInfo* ValueFont_0, bool* OnlyUppercase_0);
+	void GetGlobalSounds(class USoundCue** SelectSound_0, class USoundCue** BackSound_0, class USoundCue** HoverSound_0, class USoundCue** ChangeSound_0, class USoundCue** SliderSound_0, class USoundCue** BackgroundMusic_0, class USoundCue** CreditsMusic_0);
+	void GetGlobalColors(struct FLinearColor* MainColor_0, struct FLinearColor* HighlightColor_0, struct FLinearColor* HighlightExtraColor_0, struct FLinearColor* MenuBackgroundColor_0, struct FLinearColor* WidgetBackgroundColor_0, struct FLinearColor* SymbolColor_0, struct FLinearColor* SubtleColor_0, struct FLinearColor* DecisionButtonColor_0, struct FLinearColor* SliderBackgroundColor_0);
 	void SetGlobalVariableValues();
 	void SetCurrentInputDeviceUI(const struct FKey& InKey, bool bIsMouseInput);
-	void GetCurrentInputDeviceUI(bool* Param_bIsGamepadBeingUsed);
+	void GetCurrentInputDeviceUI(bool* bIsGamepadBeingUsed_0);
 	struct FEventReply OnMouseMove(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
 	struct FEventReply OnMouseButtonDown(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
-	void SetActiveMenu(bool Param_bIsActiveMenu);
-	void GetIsActiveMenu(bool* Param_bIsActiveMenu);
+	void SetActiveMenu(bool bIsActiveMenu_0);
+	void GetIsActiveMenu(bool* bIsActiveMenu_0);
 	struct FEventReply OnKeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent);
-	void SetAllowNavigation(bool Param_bAllowNavigation);
-	void GetAllowNavigation(bool* Param_bAllowNavigation);
+	void SetAllowNavigation(bool bAllowNavigation_0);
+	void GetAllowNavigation(bool* bAllowNavigation_0);
 	struct FEventReply OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent);
-	void SetIsMenu(bool Param_bIsMenu);
-	void GetIsMenu(bool* Param_bIsMenu);
-	void GetIsGamepadBeingUsed(bool* Param_bIsGamepadBeingUsed);
+	void SetIsMenu(bool bIsMenu_0);
+	void GetIsMenu(bool* bIsMenu_0);
+	void GetIsGamepadBeingUsed(bool* bIsGamepadBeingUsed_0);
 	void SetGlobalSettingsGeneral();
 	void SetGlobalSettingsColors();
 	void SetGlobalSettingsSounds();
 	void SetGlobalSettingsFonts();
 	void SetGlobalSettingsMenuKeybindings();
-	void SetIsGamepadBeingUsed(bool Param_bIsGamepadBeingUsed);
-	void DelayAnimation(class UWidgetAnimation* Param_DelayAnimation, TDelegate<void()> Delegate);
+	void SetIsGamepadBeingUsed(bool bIsGamepadBeingUsed_0);
+	void DelayAnimation(class UWidgetAnimation* DelayAnimation_0, TDelegate<void()> Delegate);
 
 public:
 	static class UClass* StaticClass()

@@ -71,12 +71,12 @@ static_assert(offsetof(NiagaraComponent_AdvanceSimulationByTime, TickDeltaSecond
 struct NiagaraComponent_GetDataInterface final
 {
 public:
-	class FString                                 Param_Name;                                        // 0x0000(0x0010)(Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class FString                                 Name_0;                                            // 0x0000(0x0010)(Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class UNiagaraDataInterface*                  ReturnValue;                                       // 0x0010(0x0008)(Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 static_assert(alignof(NiagaraComponent_GetDataInterface) == 0x000008, "Wrong alignment on NiagaraComponent_GetDataInterface");
 static_assert(sizeof(NiagaraComponent_GetDataInterface) == 0x000018, "Wrong size on NiagaraComponent_GetDataInterface");
-static_assert(offsetof(NiagaraComponent_GetDataInterface, Param_Name) == 0x000000, "Member 'NiagaraComponent_GetDataInterface::Param_Name' has a wrong offset!");
+static_assert(offsetof(NiagaraComponent_GetDataInterface, Name_0) == 0x000000, "Member 'NiagaraComponent_GetDataInterface::Name_0' has a wrong offset!");
 static_assert(offsetof(NiagaraComponent_GetDataInterface, ReturnValue) == 0x000010, "Member 'NiagaraComponent_GetDataInterface::ReturnValue' has a wrong offset!");
 
 // Function Niagara.NiagaraComponent.GetNiagaraParticlePositions_DebugOnly

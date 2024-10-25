@@ -152,9 +152,9 @@ void UInteractableUserWidget_C::Construct()
 // Function InteractableUserWidget.InteractableUserWidget_C.OnChangeInputDevice
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
-// bool                                    Param_bIsGamepadBeingUsed                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bIsGamepadBeingUsed_0                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UInteractableUserWidget_C::OnChangeInputDevice(bool Param_bIsGamepadBeingUsed)
+void UInteractableUserWidget_C::OnChangeInputDevice(bool bIsGamepadBeingUsed_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -163,7 +163,7 @@ void UInteractableUserWidget_C::OnChangeInputDevice(bool Param_bIsGamepadBeingUs
 
 	Params::InteractableUserWidget_C_OnChangeInputDevice Parms{};
 
-	Parms.Param_bIsGamepadBeingUsed = Param_bIsGamepadBeingUsed;
+	Parms.bIsGamepadBeingUsed_0 = bIsGamepadBeingUsed_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -352,10 +352,10 @@ void UInteractableUserWidget_C::UnhoverAllAndHoverSelf(bool bPlaySound)
 // Function InteractableUserWidget.InteractableUserWidget_C.SetAllNavigation
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// bool                                    Param_bAllowNavigation                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bAllowNavigation_0                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 // bool                                    bIgnoreParentMenu                                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UInteractableUserWidget_C::SetAllNavigation(bool Param_bAllowNavigation, bool bIgnoreParentMenu)
+void UInteractableUserWidget_C::SetAllNavigation(bool bAllowNavigation_0, bool bIgnoreParentMenu)
 {
 	static class UFunction* Func = nullptr;
 
@@ -364,7 +364,7 @@ void UInteractableUserWidget_C::SetAllNavigation(bool Param_bAllowNavigation, bo
 
 	Params::InteractableUserWidget_C_SetAllNavigation Parms{};
 
-	Parms.Param_bAllowNavigation = Param_bAllowNavigation;
+	Parms.bAllowNavigation_0 = bAllowNavigation_0;
 	Parms.bIgnoreParentMenu = bIgnoreParentMenu;
 
 	UObject::ProcessEvent(Func, &Parms);
@@ -409,9 +409,9 @@ void UInteractableUserWidget_C::FindFirstAndLastWidget()
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
 // bool                                    bIsHovered                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
-// bool                                    Param_PlaySound                                        (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    PlaySound_0                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UInteractableUserWidget_C::PlayHoverSound(bool bIsHovered, bool Param_PlaySound)
+void UInteractableUserWidget_C::PlayHoverSound(bool bIsHovered, bool PlaySound_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -421,7 +421,7 @@ void UInteractableUserWidget_C::PlayHoverSound(bool bIsHovered, bool Param_PlayS
 	Params::InteractableUserWidget_C_PlayHoverSound Parms{};
 
 	Parms.bIsHovered = bIsHovered;
-	Parms.Param_PlaySound = Param_PlaySound;
+	Parms.PlaySound_0 = PlaySound_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -506,9 +506,9 @@ void UInteractableUserWidget_C::SetSelfAsLastSelectedWidget()
 // Function InteractableUserWidget.InteractableUserWidget_C.EnableWidget
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// bool                                    Param_bIsWidgetEnabled                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bIsWidgetEnabled_0                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UInteractableUserWidget_C::EnableWidget(bool Param_bIsWidgetEnabled)
+void UInteractableUserWidget_C::EnableWidget(bool bIsWidgetEnabled_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -517,7 +517,7 @@ void UInteractableUserWidget_C::EnableWidget(bool Param_bIsWidgetEnabled)
 
 	Params::InteractableUserWidget_C_EnableWidget Parms{};
 
-	Parms.Param_bIsWidgetEnabled = Param_bIsWidgetEnabled;
+	Parms.bIsWidgetEnabled_0 = bIsWidgetEnabled_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }

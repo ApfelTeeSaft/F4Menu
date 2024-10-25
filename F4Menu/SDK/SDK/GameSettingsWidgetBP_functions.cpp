@@ -441,9 +441,9 @@ void UGameSettingsWidgetBP_C::GetSystemLanguage()
 // Function GameSettingsWidgetBP.GameSettingsWidgetBP_C.SetLanguageCodeArray
 // (Public, HasOutParams, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// TArray<class FText>                     Param_LanguageCodeArray                                (BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
+// TArray<class FText>                     LanguageCodeArray_0                                    (BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
 
-void UGameSettingsWidgetBP_C::SetLanguageCodeArray(TArray<class FText>& Param_LanguageCodeArray)
+void UGameSettingsWidgetBP_C::SetLanguageCodeArray(TArray<class FText>& LanguageCodeArray_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -452,11 +452,11 @@ void UGameSettingsWidgetBP_C::SetLanguageCodeArray(TArray<class FText>& Param_La
 
 	Params::GameSettingsWidgetBP_C_SetLanguageCodeArray Parms{};
 
-	Parms.Param_LanguageCodeArray = std::move(Param_LanguageCodeArray);
+	Parms.LanguageCodeArray_0 = std::move(LanguageCodeArray_0);
 
 	UObject::ProcessEvent(Func, &Parms);
 
-	Param_LanguageCodeArray = std::move(Parms.Param_LanguageCodeArray);
+	LanguageCodeArray_0 = std::move(Parms.LanguageCodeArray_0);
 }
 
 
@@ -554,9 +554,9 @@ void UGameSettingsWidgetBP_C::OnNavigationExit(class UInteractableMenuWidgetBP_C
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
 // class UInteractableMenuWidgetBP_C*      NavigateFromMenu                                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// bool                                    Param_bIsGamepadBeingUsed                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bIsGamepadBeingUsed_0                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UGameSettingsWidgetBP_C::OnNavigationEnter(class UInteractableMenuWidgetBP_C* NavigateFromMenu, bool Param_bIsGamepadBeingUsed)
+void UGameSettingsWidgetBP_C::OnNavigationEnter(class UInteractableMenuWidgetBP_C* NavigateFromMenu, bool bIsGamepadBeingUsed_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -566,7 +566,7 @@ void UGameSettingsWidgetBP_C::OnNavigationEnter(class UInteractableMenuWidgetBP_
 	Params::GameSettingsWidgetBP_C_OnNavigationEnter Parms{};
 
 	Parms.NavigateFromMenu = NavigateFromMenu;
-	Parms.Param_bIsGamepadBeingUsed = Param_bIsGamepadBeingUsed;
+	Parms.bIsGamepadBeingUsed_0 = bIsGamepadBeingUsed_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }

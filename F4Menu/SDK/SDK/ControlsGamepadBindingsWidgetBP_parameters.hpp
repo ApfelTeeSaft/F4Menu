@@ -288,12 +288,12 @@ struct ControlsGamepadBindingsWidgetBP_C_OnNavigationEnter final
 {
 public:
 	class UInteractableMenuWidgetBP_C*            NavigateFromMenu;                                  // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          Param_bIsGamepadBeingUsed;                         // 0x0008(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bIsGamepadBeingUsed_0;                             // 0x0008(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 static_assert(alignof(ControlsGamepadBindingsWidgetBP_C_OnNavigationEnter) == 0x000008, "Wrong alignment on ControlsGamepadBindingsWidgetBP_C_OnNavigationEnter");
 static_assert(sizeof(ControlsGamepadBindingsWidgetBP_C_OnNavigationEnter) == 0x000010, "Wrong size on ControlsGamepadBindingsWidgetBP_C_OnNavigationEnter");
 static_assert(offsetof(ControlsGamepadBindingsWidgetBP_C_OnNavigationEnter, NavigateFromMenu) == 0x000000, "Member 'ControlsGamepadBindingsWidgetBP_C_OnNavigationEnter::NavigateFromMenu' has a wrong offset!");
-static_assert(offsetof(ControlsGamepadBindingsWidgetBP_C_OnNavigationEnter, Param_bIsGamepadBeingUsed) == 0x000008, "Member 'ControlsGamepadBindingsWidgetBP_C_OnNavigationEnter::Param_bIsGamepadBeingUsed' has a wrong offset!");
+static_assert(offsetof(ControlsGamepadBindingsWidgetBP_C_OnNavigationEnter, bIsGamepadBeingUsed_0) == 0x000008, "Member 'ControlsGamepadBindingsWidgetBP_C_OnNavigationEnter::bIsGamepadBeingUsed_0' has a wrong offset!");
 
 // Function ControlsGamepadBindingsWidgetBP.ControlsGamepadBindingsWidgetBP_C.OnNavigationExit
 // 0x0010 (0x0010 - 0x0000)

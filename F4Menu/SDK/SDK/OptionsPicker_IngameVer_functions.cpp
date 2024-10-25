@@ -418,9 +418,9 @@ void UOptionsPicker_IngameVer_C::SetPickedOptionTextSettings()
 // Function OptionsPicker_IngameVer.OptionsPicker_IngameVer_C.SetCurrentImage
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// int32                                   Param_Index                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// int32                                   Index_0                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UOptionsPicker_IngameVer_C::SetCurrentImage(int32 Param_Index)
+void UOptionsPicker_IngameVer_C::SetCurrentImage(int32 Index_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -429,7 +429,7 @@ void UOptionsPicker_IngameVer_C::SetCurrentImage(int32 Param_Index)
 
 	Params::OptionsPicker_IngameVer_C_SetCurrentImage Parms{};
 
-	Parms.Param_Index = Param_Index;
+	Parms.Index_0 = Index_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }

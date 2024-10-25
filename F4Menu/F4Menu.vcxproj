@@ -110,8 +110,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;F4MENU_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -127,8 +128,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;F4MENU_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -139,17 +141,257 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Engine.h" />
     <ClInclude Include="framework.h" />
-    <ClInclude Include="pch.h" />
+    <ClInclude Include="globals.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
-    </ClCompile>
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="SDK\SDK\ActorLayerUtilities_functions.cpp" />
+    <ClCompile Include="SDK\SDK\AdvancedSessions_functions.cpp" />
+    <ClCompile Include="SDK\SDK\AdvancedSteamSessions_functions.cpp" />
+    <ClCompile Include="SDK\SDK\AIModule_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ALTF4_DragonEGG_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ALTF4_Solo_GM_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ALTF4_Solo_PC_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ALTF4_Tuto_GM_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ALTF4_Tuto_PC_functions.cpp" />
+    <ClCompile Include="SDK\SDK\AnimationSharing_functions.cpp" />
+    <ClCompile Include="SDK\SDK\AnimBP_ai_functions.cpp" />
+    <ClCompile Include="SDK\SDK\AnimBP_ALTF4_Character_functions.cpp" />
+    <ClCompile Include="SDK\SDK\AnimBP_BarNpcDance_functions.cpp" />
+    <ClCompile Include="SDK\SDK\AnimBP_BarNpc_functions.cpp" />
+    <ClCompile Include="SDK\SDK\AnimBP_Character_functions.cpp" />
+    <ClCompile Include="SDK\SDK\AnimGraphRuntime_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ApexDestruction_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Area_02_TrapTrigger_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\AssetRegistry_functions.cpp" />
+    <ClCompile Include="SDK\SDK\AssetTags_functions.cpp" />
+    <ClCompile Include="SDK\SDK\AudioCapture_functions.cpp" />
+    <ClCompile Include="SDK\SDK\AudioMixer_functions.cpp" />
+    <ClCompile Include="SDK\SDK\AudioSettingsWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\AudioSynesthesia_functions.cpp" />
+    <ClCompile Include="SDK\SDK\AugmentedReality_functions.cpp" />
+    <ClCompile Include="SDK\SDK\AutomationUtils_functions.cpp" />
+    <ClCompile Include="SDK\SDK\BarDanceNPC_Pawn_functions.cpp" />
+    <ClCompile Include="SDK\SDK\BarNPC_Pawn_functions.cpp" />
+    <ClCompile Include="SDK\SDK\BarrelFireTrapTrigger_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\BarrelSpawner_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Barrel_Follower_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Barrel_Projectile_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Basic.cpp" />
+    <ClCompile Include="SDK\SDK\BGM_bp_functions.cpp" />
+    <ClCompile Include="SDK\SDK\BPI_Gameinstance_functions.cpp" />
+    <ClCompile Include="SDK\SDK\BP_ai_DarkNight_functions.cpp" />
+    <ClCompile Include="SDK\SDK\BP_ai_pawn_ver2_functions.cpp" />
+    <ClCompile Include="SDK\SDK\BP_ALTF4_Chick_Pawn_functions.cpp" />
+    <ClCompile Include="SDK\SDK\BP_ALTF4_Dragon_functions.cpp" />
+    <ClCompile Include="SDK\SDK\BP_ALTF4_Pawn_functions.cpp" />
+    <ClCompile Include="SDK\SDK\BP_CannonProjectile_functions.cpp" />
+    <ClCompile Include="SDK\SDK\BP_Cannon_functions.cpp" />
+    <ClCompile Include="SDK\SDK\BP_MainMenuPC_functions.cpp" />
+    <ClCompile Include="SDK\SDK\BP_Pawn_functions.cpp" />
+    <ClCompile Include="SDK\SDK\BP_PendulumTraps_functions.cpp" />
+    <ClCompile Include="SDK\SDK\BP_SA01_SwingTrap_functions.cpp" />
+    <ClCompile Include="SDK\SDK\BP_Sky_Sphere_functions.cpp" />
+    <ClCompile Include="SDK\SDK\BP_WaterDiePawn_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Brige_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\CableComponent_functions.cpp" />
+    <ClCompile Include="SDK\SDK\CannonFireTrapTrigger_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\CastleGate_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\CastleRoute_TrapTrigger_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Castle_FootRest_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\CenterButton_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ChallengeRecordMenuWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Challenge_EpicLeaderboardEntry_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ChaosSolverEngine_functions.cpp" />
+    <ClCompile Include="SDK\SDK\CheeringNPC_Trap_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ChickBoat_Trap_Bp_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ChickEggFire_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ChickenAnimBlueprint_functions.cpp" />
+    <ClCompile Include="SDK\SDK\CinematicCamera_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ClothingSystemRuntimeInterface_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ClothingSystemRuntimeNv_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ControlsGamepadBindingsWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ControlsKeyBindingsWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ControlsOverviewWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ControlsSettingsContainerWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\CoreUObject_functions.cpp" />
+    <ClCompile Include="SDK\SDK\CreditsWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\CustomMeshComponent_functions.cpp" />
+    <ClCompile Include="SDK\SDK\DatasmithContent_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Dead_NormalBody_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\DecisionButton_functions.cpp" />
+    <ClCompile Include="SDK\SDK\DecisionDialogWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\DemoWidget_Challenge_Mainmenu_functions.cpp" />
+    <ClCompile Include="SDK\SDK\DemoWidget_Item_Mainmenu_functions.cpp" />
+    <ClCompile Include="SDK\SDK\DevilRoute_BarrelSpawner_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\DevilRoute_TrapTrigger_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\DisplaySettingsWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\DoorLight_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Drangon_AnimBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\DropSwordTrap_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\DrunkNPC_Pawn_functions.cpp" />
+    <ClCompile Include="SDK\SDK\DynamicNode_functions.cpp" />
+    <ClCompile Include="SDK\SDK\EditableMesh_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Egg_shot_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ElevatorTrap_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\EngineSettings_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Engine_functions.cpp" />
+    <ClCompile Include="SDK\SDK\EpicLeaderboardEntryInterface_functions.cpp" />
+    <ClCompile Include="SDK\SDK\EpicLeaderboardFrame_functions.cpp" />
+    <ClCompile Include="SDK\SDK\EpicLeaderboard_functions.cpp" />
+    <ClCompile Include="SDK\SDK\EyeTracker_functions.cpp" />
+    <ClCompile Include="SDK\SDK\FadeBorderWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\FastMoveFootrest_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\FieldSystemEngine_functions.cpp" />
+    <ClCompile Include="SDK\SDK\FireBall_Projectile_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\First_Route_TrapTrigger_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Foliage_functions.cpp" />
+    <ClCompile Include="SDK\SDK\GamepadKeyPOV_functions.cpp" />
+    <ClCompile Include="SDK\SDK\GamepadKey_functions.cpp" />
+    <ClCompile Include="SDK\SDK\GamepadKey_Move_functions.cpp" />
+    <ClCompile Include="SDK\SDK\GamepadWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\GameplayTags_functions.cpp" />
+    <ClCompile Include="SDK\SDK\GameplayTasks_functions.cpp" />
+    <ClCompile Include="SDK\SDK\GameSettingsWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\GeometryCache_functions.cpp" />
+    <ClCompile Include="SDK\SDK\GeometryCollectionEngine_functions.cpp" />
+    <ClCompile Include="SDK\SDK\GlobalInteractableUserWidget_functions.cpp" />
+    <ClCompile Include="SDK\SDK\GooglePAD_functions.cpp" />
+    <ClCompile Include="SDK\SDK\GooseShot_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\GooseShot_Replicate_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Goose_shot_functions.cpp" />
+    <ClCompile Include="SDK\SDK\GraphicsSettingsWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\HardRoute_TrapTrigger_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\HeadMountedDisplay_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ImageWriteQueue_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ImgMedia_functions.cpp" />
+    <ClCompile Include="SDK\SDK\IngameMenuContainerWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\IngameMenuOverviewWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\InteractableMenuWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\InteractableUserWidget_functions.cpp" />
+    <ClCompile Include="SDK\SDK\InteractiveToolsFramework_functions.cpp" />
+    <ClCompile Include="SDK\SDK\IntroWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ItemRecordMenuWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Item_EpicLeaderboardEntry_functions.cpp" />
+    <ClCompile Include="SDK\SDK\JumpJumpTrap_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\KeyboardKey_functions.cpp" />
+    <ClCompile Include="SDK\SDK\KeyboardWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Knight_PortalGo_Trigger_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Knight_Shot_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Landscape_functions.cpp" />
+    <ClCompile Include="SDK\SDK\LastRouteSwingTrap_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\LastRoute_FootRest_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\LastRoute_TrapTrigger_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\LaunchShield_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\LevelSequence_functions.cpp" />
+    <ClCompile Include="SDK\SDK\LoadingScreenWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\LocationServicesBPLibrary_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Mackerel_anim_bp_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MagicLeapARPinInfoActor_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MagicLeapARPin_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MagicLeapAR_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MagicLeapAudio_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MagicLeapController_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MagicLeapEyeTracker_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MagicLeapHandMeshing_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MagicLeapHandTracking_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MagicLeapIdentity_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MagicLeapImageTracker_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MagicLeapLightEstimation_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MagicLeapPlanes_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MagicLeapPrivileges_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MagicLeapSecureStorage_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MagicLeapSharedWorld_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MagicLeap_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MainButton_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MainMenuContainerWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MainMenuOverviewWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MainMenu_02_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MapselectMenuWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MediaAssets_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MenuCharacterComponent_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MenuControllerComponent_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MenuScrollBox_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MenuSystemPro_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MeshDescription_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MH_Route_TrapTrigger_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MiddleRoute_Jump_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MiddleRoute_RotationFootrest_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MobilePatchingUtils_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MotoSynth_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MoveDock_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MoveVane_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MovieSceneCapture_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MovieSceneTracks_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MovieScene_functions.cpp" />
+    <ClCompile Include="SDK\SDK\MRMesh_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Mug_Projectile_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\NavigationKeyButton_functions.cpp" />
+    <ClCompile Include="SDK\SDK\NavigationSystem_functions.cpp" />
+    <ClCompile Include="SDK\SDK\NiagaraAnimNotifies_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Niagara_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Nintendo_Stage_Start_Widget_functions.cpp" />
+    <ClCompile Include="SDK\SDK\NoticeWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\OnlineSubsystemUtils_functions.cpp" />
+    <ClCompile Include="SDK\SDK\OnlineSubsystem_functions.cpp" />
+    <ClCompile Include="SDK\SDK\OpenBtn_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\OptionsActionBinder_functions.cpp" />
+    <ClCompile Include="SDK\SDK\OptionsButton_functions.cpp" />
+    <ClCompile Include="SDK\SDK\OptionsOverviewWidgetBP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\OptionsPickerSubButton_functions.cpp" />
+    <ClCompile Include="SDK\SDK\OptionsPicker_functions.cpp" />
+    <ClCompile Include="SDK\SDK\OptionsPicker_IngameVer_functions.cpp" />
+    <ClCompile Include="SDK\SDK\OptionsSlider_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Paper2D_functions.cpp" />
+    <ClCompile Include="SDK\SDK\PathFollow_functions.cpp" />
+    <ClCompile Include="SDK\SDK\PauseGameBPI_functions.cpp" />
+    <ClCompile Include="SDK\SDK\PhysicsGetUpBlend_functions.cpp" />
+    <ClCompile Include="SDK\SDK\PhysXVehicles_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Play_DeathAndItem_UI_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ProceduralMeshComponent_functions.cpp" />
+    <ClCompile Include="SDK\SDK\QuizDoor_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\RotationBull_Trap_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\RotationCannon_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\RotationFootRest_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\RotationSide_Footrest_Bp_functions.cpp" />
+    <ClCompile Include="SDK\SDK\RotationTrap_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\RotationWoodenBoard_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Rotation_SpikeBall_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Sancho_ai_controler_functions.cpp" />
+    <ClCompile Include="SDK\SDK\SaveAreaTrigger_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\SavePointSpawn_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Save_Point_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ShortCutRouteWall_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\ShortCut_Trigger_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\SpikeStairTrap_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\SplineMover_functions.cpp" />
+    <ClCompile Include="SDK\SDK\StageA01_FishShot_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\StageA01_FishSpwan_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Start_AirPlane_Blueprint_functions.cpp" />
+    <ClCompile Include="SDK\SDK\StaticMeshDescription_functions.cpp" />
+    <ClCompile Include="SDK\SDK\SteamMulti_GameInstance_functions.cpp" />
+    <ClCompile Include="SDK\SDK\StoneSpawnPoint_KillRock_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\SwingFire_Trap_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\SwingSickle_Trap_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Synthesis_functions.cpp" />
+    <ClCompile Include="SDK\SDK\TemplateSequence_functions.cpp" />
+    <ClCompile Include="SDK\SDK\TimeManagement_functions.cpp" />
+    <ClCompile Include="SDK\SDK\TIP_UI_functions.cpp" />
+    <ClCompile Include="SDK\SDK\TrainRoute_TrapTrigger_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\TutoDuckDoor_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Tutorial_Info_UI_functions.cpp" />
+    <ClCompile Include="SDK\SDK\UMG_functions.cpp" />
+    <ClCompile Include="SDK\SDK\UpDownBalde_Trap_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\UpdownFootRest_02_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\UpTownDragon_TrapTrigger_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\VariantManagerContent_functions.cpp" />
+    <ClCompile Include="SDK\SDK\WaterDie_BP_functions.cpp" />
+    <ClCompile Include="SDK\SDK\YouDie_UI_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Zero1_MapSelectButton_functions.cpp" />
+    <ClCompile Include="SDK\SDK\___7_functions.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

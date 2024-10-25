@@ -20,9 +20,9 @@ namespace SDK
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.OnChangeInputDeviceUI__DelegateSignature
 // (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// bool                                    Param_bIsGamepadBeingUsed                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bIsGamepadBeingUsed_0                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UGlobalInteractableUserWidget_C::OnChangeInputDeviceUI__DelegateSignature(bool Param_bIsGamepadBeingUsed)
+void UGlobalInteractableUserWidget_C::OnChangeInputDeviceUI__DelegateSignature(bool bIsGamepadBeingUsed_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -31,7 +31,7 @@ void UGlobalInteractableUserWidget_C::OnChangeInputDeviceUI__DelegateSignature(b
 
 	Params::GlobalInteractableUserWidget_C_OnChangeInputDeviceUI__DelegateSignature Parms{};
 
-	Parms.Param_bIsGamepadBeingUsed = Param_bIsGamepadBeingUsed;
+	Parms.bIsGamepadBeingUsed_0 = bIsGamepadBeingUsed_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -282,12 +282,12 @@ void UGlobalInteractableUserWidget_C::SetEditableTextAppearence(class UEditableT
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.GetGlobalGeneralData
 // (Public, HasOutParams, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
-// bool                                    Param_bPlayFadeAnimations                              (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
-// float                                   Param_PlayFadeAnimationLength                          (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// bool                                    Param_bIntroLogosSkippable                             (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
-// bool                                    Param_bIntroEnabled                                    (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bPlayFadeAnimations_0                                  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// float                                   PlayFadeAnimationLength_0                              (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// bool                                    bIntroLogosSkippable_0                                 (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bIntroEnabled_0                                        (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UGlobalInteractableUserWidget_C::GetGlobalGeneralData(bool* Param_bPlayFadeAnimations, float* Param_PlayFadeAnimationLength, bool* Param_bIntroLogosSkippable, bool* Param_bIntroEnabled)
+void UGlobalInteractableUserWidget_C::GetGlobalGeneralData(bool* bPlayFadeAnimations_0, float* PlayFadeAnimationLength_0, bool* bIntroLogosSkippable_0, bool* bIntroEnabled_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -298,31 +298,31 @@ void UGlobalInteractableUserWidget_C::GetGlobalGeneralData(bool* Param_bPlayFade
 
 	UObject::ProcessEvent(Func, &Parms);
 
-	if (Param_bPlayFadeAnimations != nullptr)
-		*Param_bPlayFadeAnimations = Parms.Param_bPlayFadeAnimations;
+	if (bPlayFadeAnimations_0 != nullptr)
+		*bPlayFadeAnimations_0 = Parms.bPlayFadeAnimations_0;
 
-	if (Param_PlayFadeAnimationLength != nullptr)
-		*Param_PlayFadeAnimationLength = Parms.Param_PlayFadeAnimationLength;
+	if (PlayFadeAnimationLength_0 != nullptr)
+		*PlayFadeAnimationLength_0 = Parms.PlayFadeAnimationLength_0;
 
-	if (Param_bIntroLogosSkippable != nullptr)
-		*Param_bIntroLogosSkippable = Parms.Param_bIntroLogosSkippable;
+	if (bIntroLogosSkippable_0 != nullptr)
+		*bIntroLogosSkippable_0 = Parms.bIntroLogosSkippable_0;
 
-	if (Param_bIntroEnabled != nullptr)
-		*Param_bIntroEnabled = Parms.Param_bIntroEnabled;
+	if (bIntroEnabled_0 != nullptr)
+		*bIntroEnabled_0 = Parms.bIntroEnabled_0;
 }
 
 
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.GetGlobalFonts
 // (Public, HasOutParams, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
-// struct FSlateFontInfo                   Param_MainFont                                         (Parm, OutParm, HasGetValueTypeHash)
-// struct FSlateFontInfo                   Param_SmallTitleFont                                   (Parm, OutParm, HasGetValueTypeHash)
-// struct FSlateFontInfo                   Param_MediumTitleFont                                  (Parm, OutParm, HasGetValueTypeHash)
-// struct FSlateFontInfo                   Param_LargeTitleFont                                   (Parm, OutParm, HasGetValueTypeHash)
-// struct FSlateFontInfo                   Param_ValueFont                                        (Parm, OutParm, HasGetValueTypeHash)
-// bool                                    Param_OnlyUppercase                                    (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// struct FSlateFontInfo                   MainFont_0                                             (Parm, OutParm, HasGetValueTypeHash)
+// struct FSlateFontInfo                   SmallTitleFont_0                                       (Parm, OutParm, HasGetValueTypeHash)
+// struct FSlateFontInfo                   MediumTitleFont_0                                      (Parm, OutParm, HasGetValueTypeHash)
+// struct FSlateFontInfo                   LargeTitleFont_0                                       (Parm, OutParm, HasGetValueTypeHash)
+// struct FSlateFontInfo                   ValueFont_0                                            (Parm, OutParm, HasGetValueTypeHash)
+// bool                                    OnlyUppercase_0                                        (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UGlobalInteractableUserWidget_C::GetGlobalFonts(struct FSlateFontInfo* Param_MainFont, struct FSlateFontInfo* Param_SmallTitleFont, struct FSlateFontInfo* Param_MediumTitleFont, struct FSlateFontInfo* Param_LargeTitleFont, struct FSlateFontInfo* Param_ValueFont, bool* Param_OnlyUppercase)
+void UGlobalInteractableUserWidget_C::GetGlobalFonts(struct FSlateFontInfo* MainFont_0, struct FSlateFontInfo* SmallTitleFont_0, struct FSlateFontInfo* MediumTitleFont_0, struct FSlateFontInfo* LargeTitleFont_0, struct FSlateFontInfo* ValueFont_0, bool* OnlyUppercase_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -333,38 +333,38 @@ void UGlobalInteractableUserWidget_C::GetGlobalFonts(struct FSlateFontInfo* Para
 
 	UObject::ProcessEvent(Func, &Parms);
 
-	if (Param_MainFont != nullptr)
-		*Param_MainFont = std::move(Parms.Param_MainFont);
+	if (MainFont_0 != nullptr)
+		*MainFont_0 = std::move(Parms.MainFont_0);
 
-	if (Param_SmallTitleFont != nullptr)
-		*Param_SmallTitleFont = std::move(Parms.Param_SmallTitleFont);
+	if (SmallTitleFont_0 != nullptr)
+		*SmallTitleFont_0 = std::move(Parms.SmallTitleFont_0);
 
-	if (Param_MediumTitleFont != nullptr)
-		*Param_MediumTitleFont = std::move(Parms.Param_MediumTitleFont);
+	if (MediumTitleFont_0 != nullptr)
+		*MediumTitleFont_0 = std::move(Parms.MediumTitleFont_0);
 
-	if (Param_LargeTitleFont != nullptr)
-		*Param_LargeTitleFont = std::move(Parms.Param_LargeTitleFont);
+	if (LargeTitleFont_0 != nullptr)
+		*LargeTitleFont_0 = std::move(Parms.LargeTitleFont_0);
 
-	if (Param_ValueFont != nullptr)
-		*Param_ValueFont = std::move(Parms.Param_ValueFont);
+	if (ValueFont_0 != nullptr)
+		*ValueFont_0 = std::move(Parms.ValueFont_0);
 
-	if (Param_OnlyUppercase != nullptr)
-		*Param_OnlyUppercase = Parms.Param_OnlyUppercase;
+	if (OnlyUppercase_0 != nullptr)
+		*OnlyUppercase_0 = Parms.OnlyUppercase_0;
 }
 
 
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.GetGlobalSounds
 // (Public, HasOutParams, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
-// class USoundCue*                        Param_SelectSound                                      (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// class USoundCue*                        Param_BackSound                                        (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// class USoundCue*                        Param_HoverSound                                       (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// class USoundCue*                        Param_ChangeSound                                      (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// class USoundCue*                        Param_SliderSound                                      (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// class USoundCue*                        Param_BackgroundMusic                                  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// class USoundCue*                        Param_CreditsMusic                                     (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class USoundCue*                        SelectSound_0                                          (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class USoundCue*                        BackSound_0                                            (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class USoundCue*                        HoverSound_0                                           (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class USoundCue*                        ChangeSound_0                                          (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class USoundCue*                        SliderSound_0                                          (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class USoundCue*                        BackgroundMusic_0                                      (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class USoundCue*                        CreditsMusic_0                                         (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UGlobalInteractableUserWidget_C::GetGlobalSounds(class USoundCue** Param_SelectSound, class USoundCue** Param_BackSound, class USoundCue** Param_HoverSound, class USoundCue** Param_ChangeSound, class USoundCue** Param_SliderSound, class USoundCue** Param_BackgroundMusic, class USoundCue** Param_CreditsMusic)
+void UGlobalInteractableUserWidget_C::GetGlobalSounds(class USoundCue** SelectSound_0, class USoundCue** BackSound_0, class USoundCue** HoverSound_0, class USoundCue** ChangeSound_0, class USoundCue** SliderSound_0, class USoundCue** BackgroundMusic_0, class USoundCue** CreditsMusic_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -375,43 +375,43 @@ void UGlobalInteractableUserWidget_C::GetGlobalSounds(class USoundCue** Param_Se
 
 	UObject::ProcessEvent(Func, &Parms);
 
-	if (Param_SelectSound != nullptr)
-		*Param_SelectSound = Parms.Param_SelectSound;
+	if (SelectSound_0 != nullptr)
+		*SelectSound_0 = Parms.SelectSound_0;
 
-	if (Param_BackSound != nullptr)
-		*Param_BackSound = Parms.Param_BackSound;
+	if (BackSound_0 != nullptr)
+		*BackSound_0 = Parms.BackSound_0;
 
-	if (Param_HoverSound != nullptr)
-		*Param_HoverSound = Parms.Param_HoverSound;
+	if (HoverSound_0 != nullptr)
+		*HoverSound_0 = Parms.HoverSound_0;
 
-	if (Param_ChangeSound != nullptr)
-		*Param_ChangeSound = Parms.Param_ChangeSound;
+	if (ChangeSound_0 != nullptr)
+		*ChangeSound_0 = Parms.ChangeSound_0;
 
-	if (Param_SliderSound != nullptr)
-		*Param_SliderSound = Parms.Param_SliderSound;
+	if (SliderSound_0 != nullptr)
+		*SliderSound_0 = Parms.SliderSound_0;
 
-	if (Param_BackgroundMusic != nullptr)
-		*Param_BackgroundMusic = Parms.Param_BackgroundMusic;
+	if (BackgroundMusic_0 != nullptr)
+		*BackgroundMusic_0 = Parms.BackgroundMusic_0;
 
-	if (Param_CreditsMusic != nullptr)
-		*Param_CreditsMusic = Parms.Param_CreditsMusic;
+	if (CreditsMusic_0 != nullptr)
+		*CreditsMusic_0 = Parms.CreditsMusic_0;
 }
 
 
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.GetGlobalColors
 // (Public, HasOutParams, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
-// struct FLinearColor                     Param_MainColor                                        (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// struct FLinearColor                     Param_HighlightColor                                   (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// struct FLinearColor                     Param_HighlightExtraColor                              (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// struct FLinearColor                     Param_MenuBackgroundColor                              (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// struct FLinearColor                     Param_WidgetBackgroundColor                            (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// struct FLinearColor                     Param_SymbolColor                                      (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// struct FLinearColor                     Param_SubtleColor                                      (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// struct FLinearColor                     Param_DecisionButtonColor                              (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// struct FLinearColor                     Param_SliderBackgroundColor                            (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// struct FLinearColor                     MainColor_0                                            (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// struct FLinearColor                     HighlightColor_0                                       (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// struct FLinearColor                     HighlightExtraColor_0                                  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// struct FLinearColor                     MenuBackgroundColor_0                                  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// struct FLinearColor                     WidgetBackgroundColor_0                                (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// struct FLinearColor                     SymbolColor_0                                          (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// struct FLinearColor                     SubtleColor_0                                          (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// struct FLinearColor                     DecisionButtonColor_0                                  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// struct FLinearColor                     SliderBackgroundColor_0                                (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UGlobalInteractableUserWidget_C::GetGlobalColors(struct FLinearColor* Param_MainColor, struct FLinearColor* Param_HighlightColor, struct FLinearColor* Param_HighlightExtraColor, struct FLinearColor* Param_MenuBackgroundColor, struct FLinearColor* Param_WidgetBackgroundColor, struct FLinearColor* Param_SymbolColor, struct FLinearColor* Param_SubtleColor, struct FLinearColor* Param_DecisionButtonColor, struct FLinearColor* Param_SliderBackgroundColor)
+void UGlobalInteractableUserWidget_C::GetGlobalColors(struct FLinearColor* MainColor_0, struct FLinearColor* HighlightColor_0, struct FLinearColor* HighlightExtraColor_0, struct FLinearColor* MenuBackgroundColor_0, struct FLinearColor* WidgetBackgroundColor_0, struct FLinearColor* SymbolColor_0, struct FLinearColor* SubtleColor_0, struct FLinearColor* DecisionButtonColor_0, struct FLinearColor* SliderBackgroundColor_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -422,32 +422,32 @@ void UGlobalInteractableUserWidget_C::GetGlobalColors(struct FLinearColor* Param
 
 	UObject::ProcessEvent(Func, &Parms);
 
-	if (Param_MainColor != nullptr)
-		*Param_MainColor = std::move(Parms.Param_MainColor);
+	if (MainColor_0 != nullptr)
+		*MainColor_0 = std::move(Parms.MainColor_0);
 
-	if (Param_HighlightColor != nullptr)
-		*Param_HighlightColor = std::move(Parms.Param_HighlightColor);
+	if (HighlightColor_0 != nullptr)
+		*HighlightColor_0 = std::move(Parms.HighlightColor_0);
 
-	if (Param_HighlightExtraColor != nullptr)
-		*Param_HighlightExtraColor = std::move(Parms.Param_HighlightExtraColor);
+	if (HighlightExtraColor_0 != nullptr)
+		*HighlightExtraColor_0 = std::move(Parms.HighlightExtraColor_0);
 
-	if (Param_MenuBackgroundColor != nullptr)
-		*Param_MenuBackgroundColor = std::move(Parms.Param_MenuBackgroundColor);
+	if (MenuBackgroundColor_0 != nullptr)
+		*MenuBackgroundColor_0 = std::move(Parms.MenuBackgroundColor_0);
 
-	if (Param_WidgetBackgroundColor != nullptr)
-		*Param_WidgetBackgroundColor = std::move(Parms.Param_WidgetBackgroundColor);
+	if (WidgetBackgroundColor_0 != nullptr)
+		*WidgetBackgroundColor_0 = std::move(Parms.WidgetBackgroundColor_0);
 
-	if (Param_SymbolColor != nullptr)
-		*Param_SymbolColor = std::move(Parms.Param_SymbolColor);
+	if (SymbolColor_0 != nullptr)
+		*SymbolColor_0 = std::move(Parms.SymbolColor_0);
 
-	if (Param_SubtleColor != nullptr)
-		*Param_SubtleColor = std::move(Parms.Param_SubtleColor);
+	if (SubtleColor_0 != nullptr)
+		*SubtleColor_0 = std::move(Parms.SubtleColor_0);
 
-	if (Param_DecisionButtonColor != nullptr)
-		*Param_DecisionButtonColor = std::move(Parms.Param_DecisionButtonColor);
+	if (DecisionButtonColor_0 != nullptr)
+		*DecisionButtonColor_0 = std::move(Parms.DecisionButtonColor_0);
 
-	if (Param_SliderBackgroundColor != nullptr)
-		*Param_SliderBackgroundColor = std::move(Parms.Param_SliderBackgroundColor);
+	if (SliderBackgroundColor_0 != nullptr)
+		*SliderBackgroundColor_0 = std::move(Parms.SliderBackgroundColor_0);
 }
 
 
@@ -490,9 +490,9 @@ void UGlobalInteractableUserWidget_C::SetCurrentInputDeviceUI(const struct FKey&
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.GetCurrentInputDeviceUI
 // (Public, HasOutParams, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
-// bool                                    Param_bIsGamepadBeingUsed                              (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bIsGamepadBeingUsed_0                                  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UGlobalInteractableUserWidget_C::GetCurrentInputDeviceUI(bool* Param_bIsGamepadBeingUsed)
+void UGlobalInteractableUserWidget_C::GetCurrentInputDeviceUI(bool* bIsGamepadBeingUsed_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -503,8 +503,8 @@ void UGlobalInteractableUserWidget_C::GetCurrentInputDeviceUI(bool* Param_bIsGam
 
 	UObject::ProcessEvent(Func, &Parms);
 
-	if (Param_bIsGamepadBeingUsed != nullptr)
-		*Param_bIsGamepadBeingUsed = Parms.Param_bIsGamepadBeingUsed;
+	if (bIsGamepadBeingUsed_0 != nullptr)
+		*bIsGamepadBeingUsed_0 = Parms.bIsGamepadBeingUsed_0;
 }
 
 
@@ -561,9 +561,9 @@ struct FEventReply UGlobalInteractableUserWidget_C::OnMouseButtonDown(const stru
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.SetActiveMenu
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// bool                                    Param_bIsActiveMenu                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bIsActiveMenu_0                                        (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UGlobalInteractableUserWidget_C::SetActiveMenu(bool Param_bIsActiveMenu)
+void UGlobalInteractableUserWidget_C::SetActiveMenu(bool bIsActiveMenu_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -572,7 +572,7 @@ void UGlobalInteractableUserWidget_C::SetActiveMenu(bool Param_bIsActiveMenu)
 
 	Params::GlobalInteractableUserWidget_C_SetActiveMenu Parms{};
 
-	Parms.Param_bIsActiveMenu = Param_bIsActiveMenu;
+	Parms.bIsActiveMenu_0 = bIsActiveMenu_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -581,9 +581,9 @@ void UGlobalInteractableUserWidget_C::SetActiveMenu(bool Param_bIsActiveMenu)
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.GetIsActiveMenu
 // (Public, HasOutParams, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
-// bool                                    Param_bIsActiveMenu                                    (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bIsActiveMenu_0                                        (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UGlobalInteractableUserWidget_C::GetIsActiveMenu(bool* Param_bIsActiveMenu)
+void UGlobalInteractableUserWidget_C::GetIsActiveMenu(bool* bIsActiveMenu_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -594,8 +594,8 @@ void UGlobalInteractableUserWidget_C::GetIsActiveMenu(bool* Param_bIsActiveMenu)
 
 	UObject::ProcessEvent(Func, &Parms);
 
-	if (Param_bIsActiveMenu != nullptr)
-		*Param_bIsActiveMenu = Parms.Param_bIsActiveMenu;
+	if (bIsActiveMenu_0 != nullptr)
+		*bIsActiveMenu_0 = Parms.bIsActiveMenu_0;
 }
 
 
@@ -627,9 +627,9 @@ struct FEventReply UGlobalInteractableUserWidget_C::OnKeyDown(const struct FGeom
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.SetAllowNavigation
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// bool                                    Param_bAllowNavigation                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bAllowNavigation_0                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UGlobalInteractableUserWidget_C::SetAllowNavigation(bool Param_bAllowNavigation)
+void UGlobalInteractableUserWidget_C::SetAllowNavigation(bool bAllowNavigation_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -638,7 +638,7 @@ void UGlobalInteractableUserWidget_C::SetAllowNavigation(bool Param_bAllowNaviga
 
 	Params::GlobalInteractableUserWidget_C_SetAllowNavigation Parms{};
 
-	Parms.Param_bAllowNavigation = Param_bAllowNavigation;
+	Parms.bAllowNavigation_0 = bAllowNavigation_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -647,9 +647,9 @@ void UGlobalInteractableUserWidget_C::SetAllowNavigation(bool Param_bAllowNaviga
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.GetAllowNavigation
 // (Public, HasOutParams, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
-// bool                                    Param_bAllowNavigation                                 (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bAllowNavigation_0                                     (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UGlobalInteractableUserWidget_C::GetAllowNavigation(bool* Param_bAllowNavigation)
+void UGlobalInteractableUserWidget_C::GetAllowNavigation(bool* bAllowNavigation_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -660,8 +660,8 @@ void UGlobalInteractableUserWidget_C::GetAllowNavigation(bool* Param_bAllowNavig
 
 	UObject::ProcessEvent(Func, &Parms);
 
-	if (Param_bAllowNavigation != nullptr)
-		*Param_bAllowNavigation = Parms.Param_bAllowNavigation;
+	if (bAllowNavigation_0 != nullptr)
+		*bAllowNavigation_0 = Parms.bAllowNavigation_0;
 }
 
 
@@ -693,9 +693,9 @@ struct FEventReply UGlobalInteractableUserWidget_C::OnKeyUp(const struct FGeomet
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.SetIsMenu
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// bool                                    Param_bIsMenu                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bIsMenu_0                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UGlobalInteractableUserWidget_C::SetIsMenu(bool Param_bIsMenu)
+void UGlobalInteractableUserWidget_C::SetIsMenu(bool bIsMenu_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -704,7 +704,7 @@ void UGlobalInteractableUserWidget_C::SetIsMenu(bool Param_bIsMenu)
 
 	Params::GlobalInteractableUserWidget_C_SetIsMenu Parms{};
 
-	Parms.Param_bIsMenu = Param_bIsMenu;
+	Parms.bIsMenu_0 = bIsMenu_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -713,9 +713,9 @@ void UGlobalInteractableUserWidget_C::SetIsMenu(bool Param_bIsMenu)
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.GetIsMenu
 // (Public, HasOutParams, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
-// bool                                    Param_bIsMenu                                          (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bIsMenu_0                                              (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UGlobalInteractableUserWidget_C::GetIsMenu(bool* Param_bIsMenu)
+void UGlobalInteractableUserWidget_C::GetIsMenu(bool* bIsMenu_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -726,17 +726,17 @@ void UGlobalInteractableUserWidget_C::GetIsMenu(bool* Param_bIsMenu)
 
 	UObject::ProcessEvent(Func, &Parms);
 
-	if (Param_bIsMenu != nullptr)
-		*Param_bIsMenu = Parms.Param_bIsMenu;
+	if (bIsMenu_0 != nullptr)
+		*bIsMenu_0 = Parms.bIsMenu_0;
 }
 
 
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.GetIsGamepadBeingUsed
 // (Public, HasOutParams, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
-// bool                                    Param_bIsGamepadBeingUsed                              (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bIsGamepadBeingUsed_0                                  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UGlobalInteractableUserWidget_C::GetIsGamepadBeingUsed(bool* Param_bIsGamepadBeingUsed)
+void UGlobalInteractableUserWidget_C::GetIsGamepadBeingUsed(bool* bIsGamepadBeingUsed_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -747,8 +747,8 @@ void UGlobalInteractableUserWidget_C::GetIsGamepadBeingUsed(bool* Param_bIsGamep
 
 	UObject::ProcessEvent(Func, &Parms);
 
-	if (Param_bIsGamepadBeingUsed != nullptr)
-		*Param_bIsGamepadBeingUsed = Parms.Param_bIsGamepadBeingUsed;
+	if (bIsGamepadBeingUsed_0 != nullptr)
+		*bIsGamepadBeingUsed_0 = Parms.bIsGamepadBeingUsed_0;
 }
 
 
@@ -825,9 +825,9 @@ void UGlobalInteractableUserWidget_C::SetGlobalSettingsMenuKeybindings()
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.SetIsGamepadBeingUsed
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// bool                                    Param_bIsGamepadBeingUsed                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bIsGamepadBeingUsed_0                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UGlobalInteractableUserWidget_C::SetIsGamepadBeingUsed(bool Param_bIsGamepadBeingUsed)
+void UGlobalInteractableUserWidget_C::SetIsGamepadBeingUsed(bool bIsGamepadBeingUsed_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -836,7 +836,7 @@ void UGlobalInteractableUserWidget_C::SetIsGamepadBeingUsed(bool Param_bIsGamepa
 
 	Params::GlobalInteractableUserWidget_C_SetIsGamepadBeingUsed Parms{};
 
-	Parms.Param_bIsGamepadBeingUsed = Param_bIsGamepadBeingUsed;
+	Parms.bIsGamepadBeingUsed_0 = bIsGamepadBeingUsed_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -845,10 +845,10 @@ void UGlobalInteractableUserWidget_C::SetIsGamepadBeingUsed(bool Param_bIsGamepa
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.DelayAnimation
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// class UWidgetAnimation*                 Param_DelayAnimation                                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class UWidgetAnimation*                 DelayAnimation_0                                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 // TDelegate<void()>                       Delegate                                               (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor)
 
-void UGlobalInteractableUserWidget_C::DelayAnimation(class UWidgetAnimation* Param_DelayAnimation, TDelegate<void()> Delegate)
+void UGlobalInteractableUserWidget_C::DelayAnimation(class UWidgetAnimation* DelayAnimation_0, TDelegate<void()> Delegate)
 {
 	static class UFunction* Func = nullptr;
 
@@ -857,7 +857,7 @@ void UGlobalInteractableUserWidget_C::DelayAnimation(class UWidgetAnimation* Par
 
 	Params::GlobalInteractableUserWidget_C_DelayAnimation Parms{};
 
-	Parms.Param_DelayAnimation = Param_DelayAnimation;
+	Parms.DelayAnimation_0 = DelayAnimation_0;
 	Parms.Delegate = Delegate;
 
 	UObject::ProcessEvent(Func, &Parms);

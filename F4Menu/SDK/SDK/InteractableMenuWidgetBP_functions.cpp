@@ -130,9 +130,9 @@ void UInteractableMenuWidgetBP_C::OnSpecialPreConstruct(class UPanelWidget* InMe
 // Function InteractableMenuWidgetBP.InteractableMenuWidgetBP_C.OnChangeInputDeviceMenuUI
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
-// bool                                    Param_bIsGamepadBeingUsed                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bIsGamepadBeingUsed_0                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UInteractableMenuWidgetBP_C::OnChangeInputDeviceMenuUI(bool Param_bIsGamepadBeingUsed)
+void UInteractableMenuWidgetBP_C::OnChangeInputDeviceMenuUI(bool bIsGamepadBeingUsed_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -141,7 +141,7 @@ void UInteractableMenuWidgetBP_C::OnChangeInputDeviceMenuUI(bool Param_bIsGamepa
 
 	Params::InteractableMenuWidgetBP_C_OnChangeInputDeviceMenuUI Parms{};
 
-	Parms.Param_bIsGamepadBeingUsed = Param_bIsGamepadBeingUsed;
+	Parms.bIsGamepadBeingUsed_0 = bIsGamepadBeingUsed_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -193,9 +193,9 @@ void UInteractableMenuWidgetBP_C::OnNavigationExit(class UInteractableMenuWidget
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
 // class UInteractableMenuWidgetBP_C*      NavigateFromMenu                                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// bool                                    Param_bIsGamepadBeingUsed                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bIsGamepadBeingUsed_0                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UInteractableMenuWidgetBP_C::OnNavigationEnter(class UInteractableMenuWidgetBP_C* NavigateFromMenu, bool Param_bIsGamepadBeingUsed)
+void UInteractableMenuWidgetBP_C::OnNavigationEnter(class UInteractableMenuWidgetBP_C* NavigateFromMenu, bool bIsGamepadBeingUsed_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -205,7 +205,7 @@ void UInteractableMenuWidgetBP_C::OnNavigationEnter(class UInteractableMenuWidge
 	Params::InteractableMenuWidgetBP_C_OnNavigationEnter Parms{};
 
 	Parms.NavigateFromMenu = NavigateFromMenu;
-	Parms.Param_bIsGamepadBeingUsed = Param_bIsGamepadBeingUsed;
+	Parms.bIsGamepadBeingUsed_0 = bIsGamepadBeingUsed_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -276,9 +276,9 @@ void UInteractableMenuWidgetBP_C::SetInteractableUserWidgetReferences(class UPan
 // Function InteractableMenuWidgetBP.InteractableMenuWidgetBP_C.UpdateNavigationBarIcons
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// bool                                    Param_bIsGamepadBeingUsed                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bIsGamepadBeingUsed_0                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UInteractableMenuWidgetBP_C::UpdateNavigationBarIcons(bool Param_bIsGamepadBeingUsed)
+void UInteractableMenuWidgetBP_C::UpdateNavigationBarIcons(bool bIsGamepadBeingUsed_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -287,7 +287,7 @@ void UInteractableMenuWidgetBP_C::UpdateNavigationBarIcons(bool Param_bIsGamepad
 
 	Params::InteractableMenuWidgetBP_C_UpdateNavigationBarIcons Parms{};
 
-	Parms.Param_bIsGamepadBeingUsed = Param_bIsGamepadBeingUsed;
+	Parms.bIsGamepadBeingUsed_0 = bIsGamepadBeingUsed_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -310,9 +310,9 @@ void UInteractableMenuWidgetBP_C::SetupFadeAnimation()
 // Function InteractableMenuWidgetBP.InteractableMenuWidgetBP_C.SetMenuAndChildReferences
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// class UPanelWidget*                     Param_MenuCanvasPanelWidget                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class UPanelWidget*                     MenuCanvasPanelWidget_0                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UInteractableMenuWidgetBP_C::SetMenuAndChildReferences(class UPanelWidget* Param_MenuCanvasPanelWidget)
+void UInteractableMenuWidgetBP_C::SetMenuAndChildReferences(class UPanelWidget* MenuCanvasPanelWidget_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -321,7 +321,7 @@ void UInteractableMenuWidgetBP_C::SetMenuAndChildReferences(class UPanelWidget* 
 
 	Params::InteractableMenuWidgetBP_C_SetMenuAndChildReferences Parms{};
 
-	Parms.Param_MenuCanvasPanelWidget = Param_MenuCanvasPanelWidget;
+	Parms.MenuCanvasPanelWidget_0 = MenuCanvasPanelWidget_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -358,9 +358,9 @@ void UInteractableMenuWidgetBP_C::PlaySelectSound()
 // Function InteractableMenuWidgetBP.InteractableMenuWidgetBP_C.GetPreviousMenuInputDevice
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// bool                                    Param_bIsGamepadBeingUsed                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bIsGamepadBeingUsed_0                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UInteractableMenuWidgetBP_C::GetPreviousMenuInputDevice(bool Param_bIsGamepadBeingUsed)
+void UInteractableMenuWidgetBP_C::GetPreviousMenuInputDevice(bool bIsGamepadBeingUsed_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -369,7 +369,7 @@ void UInteractableMenuWidgetBP_C::GetPreviousMenuInputDevice(bool Param_bIsGamep
 
 	Params::InteractableMenuWidgetBP_C_GetPreviousMenuInputDevice Parms{};
 
-	Parms.Param_bIsGamepadBeingUsed = Param_bIsGamepadBeingUsed;
+	Parms.bIsGamepadBeingUsed_0 = bIsGamepadBeingUsed_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }

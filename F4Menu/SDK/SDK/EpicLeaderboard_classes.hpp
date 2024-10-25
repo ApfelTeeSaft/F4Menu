@@ -30,7 +30,7 @@ public:
 	struct FEpicLeaderboardEntry                  PlayerEntry;                                       // 0x0078(0x0098)(Edit, BlueprintVisible, EditConst, NativeAccessSpecifierPublic)
 
 public:
-	static class FString CleanupName(const class FString& Param_Name);
+	static class FString CleanupName(const class FString& Name_0);
 	static class UEpicLeaderboardObject* GetEpicLeaderboard(const class FString& LeaderboardID, const class FString& LeaderboardKey);
 
 	void GetLeaderboardEntries(const class FString& PlayerName, bool AroundPlayer);

@@ -25,11 +25,11 @@ namespace SDK::Params
 struct GlobalInteractableUserWidget_C_OnChangeInputDeviceUI__DelegateSignature final
 {
 public:
-	bool                                          Param_bIsGamepadBeingUsed;                         // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bIsGamepadBeingUsed_0;                             // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 static_assert(alignof(GlobalInteractableUserWidget_C_OnChangeInputDeviceUI__DelegateSignature) == 0x000001, "Wrong alignment on GlobalInteractableUserWidget_C_OnChangeInputDeviceUI__DelegateSignature");
 static_assert(sizeof(GlobalInteractableUserWidget_C_OnChangeInputDeviceUI__DelegateSignature) == 0x000001, "Wrong size on GlobalInteractableUserWidget_C_OnChangeInputDeviceUI__DelegateSignature");
-static_assert(offsetof(GlobalInteractableUserWidget_C_OnChangeInputDeviceUI__DelegateSignature, Param_bIsGamepadBeingUsed) == 0x000000, "Member 'GlobalInteractableUserWidget_C_OnChangeInputDeviceUI__DelegateSignature::Param_bIsGamepadBeingUsed' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_OnChangeInputDeviceUI__DelegateSignature, bIsGamepadBeingUsed_0) == 0x000000, "Member 'GlobalInteractableUserWidget_C_OnChangeInputDeviceUI__DelegateSignature::bIsGamepadBeingUsed_0' has a wrong offset!");
 
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.ExecuteUbergraph_GlobalInteractableUserWidget
 // 0x0008 (0x0008 - 0x0000)
@@ -104,89 +104,89 @@ static_assert(offsetof(GlobalInteractableUserWidget_C_SetEditableTextAppearence,
 struct GlobalInteractableUserWidget_C_GetGlobalGeneralData final
 {
 public:
-	bool                                          Param_bPlayFadeAnimations;                         // 0x0000(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bPlayFadeAnimations_0;                             // 0x0000(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
 	uint8                                         Pad_1[0x3];                                        // 0x0001(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
-	float                                         Param_PlayFadeAnimationLength;                     // 0x0004(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          Param_bIntroLogosSkippable;                        // 0x0008(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
-	bool                                          Param_bIntroEnabled;                               // 0x0009(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	float                                         PlayFadeAnimationLength_0;                         // 0x0004(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          bIntroLogosSkippable_0;                            // 0x0008(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bIntroEnabled_0;                                   // 0x0009(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 static_assert(alignof(GlobalInteractableUserWidget_C_GetGlobalGeneralData) == 0x000004, "Wrong alignment on GlobalInteractableUserWidget_C_GetGlobalGeneralData");
 static_assert(sizeof(GlobalInteractableUserWidget_C_GetGlobalGeneralData) == 0x00000C, "Wrong size on GlobalInteractableUserWidget_C_GetGlobalGeneralData");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalGeneralData, Param_bPlayFadeAnimations) == 0x000000, "Member 'GlobalInteractableUserWidget_C_GetGlobalGeneralData::Param_bPlayFadeAnimations' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalGeneralData, Param_PlayFadeAnimationLength) == 0x000004, "Member 'GlobalInteractableUserWidget_C_GetGlobalGeneralData::Param_PlayFadeAnimationLength' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalGeneralData, Param_bIntroLogosSkippable) == 0x000008, "Member 'GlobalInteractableUserWidget_C_GetGlobalGeneralData::Param_bIntroLogosSkippable' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalGeneralData, Param_bIntroEnabled) == 0x000009, "Member 'GlobalInteractableUserWidget_C_GetGlobalGeneralData::Param_bIntroEnabled' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalGeneralData, bPlayFadeAnimations_0) == 0x000000, "Member 'GlobalInteractableUserWidget_C_GetGlobalGeneralData::bPlayFadeAnimations_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalGeneralData, PlayFadeAnimationLength_0) == 0x000004, "Member 'GlobalInteractableUserWidget_C_GetGlobalGeneralData::PlayFadeAnimationLength_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalGeneralData, bIntroLogosSkippable_0) == 0x000008, "Member 'GlobalInteractableUserWidget_C_GetGlobalGeneralData::bIntroLogosSkippable_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalGeneralData, bIntroEnabled_0) == 0x000009, "Member 'GlobalInteractableUserWidget_C_GetGlobalGeneralData::bIntroEnabled_0' has a wrong offset!");
 
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.GetGlobalFonts
 // 0x01C0 (0x01C0 - 0x0000)
 struct GlobalInteractableUserWidget_C_GetGlobalFonts final
 {
 public:
-	struct FSlateFontInfo                         Param_MainFont;                                    // 0x0000(0x0058)(Parm, OutParm, HasGetValueTypeHash)
-	struct FSlateFontInfo                         Param_SmallTitleFont;                              // 0x0058(0x0058)(Parm, OutParm, HasGetValueTypeHash)
-	struct FSlateFontInfo                         Param_MediumTitleFont;                             // 0x00B0(0x0058)(Parm, OutParm, HasGetValueTypeHash)
-	struct FSlateFontInfo                         Param_LargeTitleFont;                              // 0x0108(0x0058)(Parm, OutParm, HasGetValueTypeHash)
-	struct FSlateFontInfo                         Param_ValueFont;                                   // 0x0160(0x0058)(Parm, OutParm, HasGetValueTypeHash)
-	bool                                          Param_OnlyUppercase;                               // 0x01B8(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	struct FSlateFontInfo                         MainFont_0;                                        // 0x0000(0x0058)(Parm, OutParm, HasGetValueTypeHash)
+	struct FSlateFontInfo                         SmallTitleFont_0;                                  // 0x0058(0x0058)(Parm, OutParm, HasGetValueTypeHash)
+	struct FSlateFontInfo                         MediumTitleFont_0;                                 // 0x00B0(0x0058)(Parm, OutParm, HasGetValueTypeHash)
+	struct FSlateFontInfo                         LargeTitleFont_0;                                  // 0x0108(0x0058)(Parm, OutParm, HasGetValueTypeHash)
+	struct FSlateFontInfo                         ValueFont_0;                                       // 0x0160(0x0058)(Parm, OutParm, HasGetValueTypeHash)
+	bool                                          OnlyUppercase_0;                                   // 0x01B8(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 static_assert(alignof(GlobalInteractableUserWidget_C_GetGlobalFonts) == 0x000008, "Wrong alignment on GlobalInteractableUserWidget_C_GetGlobalFonts");
 static_assert(sizeof(GlobalInteractableUserWidget_C_GetGlobalFonts) == 0x0001C0, "Wrong size on GlobalInteractableUserWidget_C_GetGlobalFonts");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalFonts, Param_MainFont) == 0x000000, "Member 'GlobalInteractableUserWidget_C_GetGlobalFonts::Param_MainFont' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalFonts, Param_SmallTitleFont) == 0x000058, "Member 'GlobalInteractableUserWidget_C_GetGlobalFonts::Param_SmallTitleFont' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalFonts, Param_MediumTitleFont) == 0x0000B0, "Member 'GlobalInteractableUserWidget_C_GetGlobalFonts::Param_MediumTitleFont' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalFonts, Param_LargeTitleFont) == 0x000108, "Member 'GlobalInteractableUserWidget_C_GetGlobalFonts::Param_LargeTitleFont' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalFonts, Param_ValueFont) == 0x000160, "Member 'GlobalInteractableUserWidget_C_GetGlobalFonts::Param_ValueFont' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalFonts, Param_OnlyUppercase) == 0x0001B8, "Member 'GlobalInteractableUserWidget_C_GetGlobalFonts::Param_OnlyUppercase' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalFonts, MainFont_0) == 0x000000, "Member 'GlobalInteractableUserWidget_C_GetGlobalFonts::MainFont_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalFonts, SmallTitleFont_0) == 0x000058, "Member 'GlobalInteractableUserWidget_C_GetGlobalFonts::SmallTitleFont_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalFonts, MediumTitleFont_0) == 0x0000B0, "Member 'GlobalInteractableUserWidget_C_GetGlobalFonts::MediumTitleFont_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalFonts, LargeTitleFont_0) == 0x000108, "Member 'GlobalInteractableUserWidget_C_GetGlobalFonts::LargeTitleFont_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalFonts, ValueFont_0) == 0x000160, "Member 'GlobalInteractableUserWidget_C_GetGlobalFonts::ValueFont_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalFonts, OnlyUppercase_0) == 0x0001B8, "Member 'GlobalInteractableUserWidget_C_GetGlobalFonts::OnlyUppercase_0' has a wrong offset!");
 
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.GetGlobalSounds
 // 0x0038 (0x0038 - 0x0000)
 struct GlobalInteractableUserWidget_C_GetGlobalSounds final
 {
 public:
-	class USoundCue*                              Param_SelectSound;                                 // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	class USoundCue*                              Param_BackSound;                                   // 0x0008(0x0008)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	class USoundCue*                              Param_HoverSound;                                  // 0x0010(0x0008)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	class USoundCue*                              Param_ChangeSound;                                 // 0x0018(0x0008)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	class USoundCue*                              Param_SliderSound;                                 // 0x0020(0x0008)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	class USoundCue*                              Param_BackgroundMusic;                             // 0x0028(0x0008)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	class USoundCue*                              Param_CreditsMusic;                                // 0x0030(0x0008)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class USoundCue*                              SelectSound_0;                                     // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class USoundCue*                              BackSound_0;                                       // 0x0008(0x0008)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class USoundCue*                              HoverSound_0;                                      // 0x0010(0x0008)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class USoundCue*                              ChangeSound_0;                                     // 0x0018(0x0008)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class USoundCue*                              SliderSound_0;                                     // 0x0020(0x0008)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class USoundCue*                              BackgroundMusic_0;                                 // 0x0028(0x0008)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class USoundCue*                              CreditsMusic_0;                                    // 0x0030(0x0008)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 static_assert(alignof(GlobalInteractableUserWidget_C_GetGlobalSounds) == 0x000008, "Wrong alignment on GlobalInteractableUserWidget_C_GetGlobalSounds");
 static_assert(sizeof(GlobalInteractableUserWidget_C_GetGlobalSounds) == 0x000038, "Wrong size on GlobalInteractableUserWidget_C_GetGlobalSounds");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalSounds, Param_SelectSound) == 0x000000, "Member 'GlobalInteractableUserWidget_C_GetGlobalSounds::Param_SelectSound' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalSounds, Param_BackSound) == 0x000008, "Member 'GlobalInteractableUserWidget_C_GetGlobalSounds::Param_BackSound' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalSounds, Param_HoverSound) == 0x000010, "Member 'GlobalInteractableUserWidget_C_GetGlobalSounds::Param_HoverSound' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalSounds, Param_ChangeSound) == 0x000018, "Member 'GlobalInteractableUserWidget_C_GetGlobalSounds::Param_ChangeSound' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalSounds, Param_SliderSound) == 0x000020, "Member 'GlobalInteractableUserWidget_C_GetGlobalSounds::Param_SliderSound' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalSounds, Param_BackgroundMusic) == 0x000028, "Member 'GlobalInteractableUserWidget_C_GetGlobalSounds::Param_BackgroundMusic' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalSounds, Param_CreditsMusic) == 0x000030, "Member 'GlobalInteractableUserWidget_C_GetGlobalSounds::Param_CreditsMusic' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalSounds, SelectSound_0) == 0x000000, "Member 'GlobalInteractableUserWidget_C_GetGlobalSounds::SelectSound_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalSounds, BackSound_0) == 0x000008, "Member 'GlobalInteractableUserWidget_C_GetGlobalSounds::BackSound_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalSounds, HoverSound_0) == 0x000010, "Member 'GlobalInteractableUserWidget_C_GetGlobalSounds::HoverSound_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalSounds, ChangeSound_0) == 0x000018, "Member 'GlobalInteractableUserWidget_C_GetGlobalSounds::ChangeSound_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalSounds, SliderSound_0) == 0x000020, "Member 'GlobalInteractableUserWidget_C_GetGlobalSounds::SliderSound_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalSounds, BackgroundMusic_0) == 0x000028, "Member 'GlobalInteractableUserWidget_C_GetGlobalSounds::BackgroundMusic_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalSounds, CreditsMusic_0) == 0x000030, "Member 'GlobalInteractableUserWidget_C_GetGlobalSounds::CreditsMusic_0' has a wrong offset!");
 
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.GetGlobalColors
 // 0x0090 (0x0090 - 0x0000)
 struct GlobalInteractableUserWidget_C_GetGlobalColors final
 {
 public:
-	struct FLinearColor                           Param_MainColor;                                   // 0x0000(0x0010)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	struct FLinearColor                           Param_HighlightColor;                              // 0x0010(0x0010)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	struct FLinearColor                           Param_HighlightExtraColor;                         // 0x0020(0x0010)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	struct FLinearColor                           Param_MenuBackgroundColor;                         // 0x0030(0x0010)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	struct FLinearColor                           Param_WidgetBackgroundColor;                       // 0x0040(0x0010)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	struct FLinearColor                           Param_SymbolColor;                                 // 0x0050(0x0010)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	struct FLinearColor                           Param_SubtleColor;                                 // 0x0060(0x0010)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	struct FLinearColor                           Param_DecisionButtonColor;                         // 0x0070(0x0010)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	struct FLinearColor                           Param_SliderBackgroundColor;                       // 0x0080(0x0010)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FLinearColor                           MainColor_0;                                       // 0x0000(0x0010)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FLinearColor                           HighlightColor_0;                                  // 0x0010(0x0010)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FLinearColor                           HighlightExtraColor_0;                             // 0x0020(0x0010)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FLinearColor                           MenuBackgroundColor_0;                             // 0x0030(0x0010)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FLinearColor                           WidgetBackgroundColor_0;                           // 0x0040(0x0010)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FLinearColor                           SymbolColor_0;                                     // 0x0050(0x0010)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FLinearColor                           SubtleColor_0;                                     // 0x0060(0x0010)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FLinearColor                           DecisionButtonColor_0;                             // 0x0070(0x0010)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FLinearColor                           SliderBackgroundColor_0;                           // 0x0080(0x0010)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 static_assert(alignof(GlobalInteractableUserWidget_C_GetGlobalColors) == 0x000004, "Wrong alignment on GlobalInteractableUserWidget_C_GetGlobalColors");
 static_assert(sizeof(GlobalInteractableUserWidget_C_GetGlobalColors) == 0x000090, "Wrong size on GlobalInteractableUserWidget_C_GetGlobalColors");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalColors, Param_MainColor) == 0x000000, "Member 'GlobalInteractableUserWidget_C_GetGlobalColors::Param_MainColor' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalColors, Param_HighlightColor) == 0x000010, "Member 'GlobalInteractableUserWidget_C_GetGlobalColors::Param_HighlightColor' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalColors, Param_HighlightExtraColor) == 0x000020, "Member 'GlobalInteractableUserWidget_C_GetGlobalColors::Param_HighlightExtraColor' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalColors, Param_MenuBackgroundColor) == 0x000030, "Member 'GlobalInteractableUserWidget_C_GetGlobalColors::Param_MenuBackgroundColor' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalColors, Param_WidgetBackgroundColor) == 0x000040, "Member 'GlobalInteractableUserWidget_C_GetGlobalColors::Param_WidgetBackgroundColor' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalColors, Param_SymbolColor) == 0x000050, "Member 'GlobalInteractableUserWidget_C_GetGlobalColors::Param_SymbolColor' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalColors, Param_SubtleColor) == 0x000060, "Member 'GlobalInteractableUserWidget_C_GetGlobalColors::Param_SubtleColor' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalColors, Param_DecisionButtonColor) == 0x000070, "Member 'GlobalInteractableUserWidget_C_GetGlobalColors::Param_DecisionButtonColor' has a wrong offset!");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalColors, Param_SliderBackgroundColor) == 0x000080, "Member 'GlobalInteractableUserWidget_C_GetGlobalColors::Param_SliderBackgroundColor' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalColors, MainColor_0) == 0x000000, "Member 'GlobalInteractableUserWidget_C_GetGlobalColors::MainColor_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalColors, HighlightColor_0) == 0x000010, "Member 'GlobalInteractableUserWidget_C_GetGlobalColors::HighlightColor_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalColors, HighlightExtraColor_0) == 0x000020, "Member 'GlobalInteractableUserWidget_C_GetGlobalColors::HighlightExtraColor_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalColors, MenuBackgroundColor_0) == 0x000030, "Member 'GlobalInteractableUserWidget_C_GetGlobalColors::MenuBackgroundColor_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalColors, WidgetBackgroundColor_0) == 0x000040, "Member 'GlobalInteractableUserWidget_C_GetGlobalColors::WidgetBackgroundColor_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalColors, SymbolColor_0) == 0x000050, "Member 'GlobalInteractableUserWidget_C_GetGlobalColors::SymbolColor_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalColors, SubtleColor_0) == 0x000060, "Member 'GlobalInteractableUserWidget_C_GetGlobalColors::SubtleColor_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalColors, DecisionButtonColor_0) == 0x000070, "Member 'GlobalInteractableUserWidget_C_GetGlobalColors::DecisionButtonColor_0' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetGlobalColors, SliderBackgroundColor_0) == 0x000080, "Member 'GlobalInteractableUserWidget_C_GetGlobalColors::SliderBackgroundColor_0' has a wrong offset!");
 
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.SetCurrentInputDeviceUI
 // 0x0020 (0x0020 - 0x0000)
@@ -214,11 +214,11 @@ static_assert(offsetof(GlobalInteractableUserWidget_C_SetCurrentInputDeviceUI, C
 struct GlobalInteractableUserWidget_C_GetCurrentInputDeviceUI final
 {
 public:
-	bool                                          Param_bIsGamepadBeingUsed;                         // 0x0000(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bIsGamepadBeingUsed_0;                             // 0x0000(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 static_assert(alignof(GlobalInteractableUserWidget_C_GetCurrentInputDeviceUI) == 0x000001, "Wrong alignment on GlobalInteractableUserWidget_C_GetCurrentInputDeviceUI");
 static_assert(sizeof(GlobalInteractableUserWidget_C_GetCurrentInputDeviceUI) == 0x000001, "Wrong size on GlobalInteractableUserWidget_C_GetCurrentInputDeviceUI");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetCurrentInputDeviceUI, Param_bIsGamepadBeingUsed) == 0x000000, "Member 'GlobalInteractableUserWidget_C_GetCurrentInputDeviceUI::Param_bIsGamepadBeingUsed' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetCurrentInputDeviceUI, bIsGamepadBeingUsed_0) == 0x000000, "Member 'GlobalInteractableUserWidget_C_GetCurrentInputDeviceUI::bIsGamepadBeingUsed_0' has a wrong offset!");
 
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.OnMouseMove
 // 0x0230 (0x0230 - 0x0000)
@@ -292,22 +292,22 @@ static_assert(offsetof(GlobalInteractableUserWidget_C_OnMouseButtonDown, K2Node_
 struct GlobalInteractableUserWidget_C_SetActiveMenu final
 {
 public:
-	bool                                          Param_bIsActiveMenu;                               // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bIsActiveMenu_0;                                   // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 static_assert(alignof(GlobalInteractableUserWidget_C_SetActiveMenu) == 0x000001, "Wrong alignment on GlobalInteractableUserWidget_C_SetActiveMenu");
 static_assert(sizeof(GlobalInteractableUserWidget_C_SetActiveMenu) == 0x000001, "Wrong size on GlobalInteractableUserWidget_C_SetActiveMenu");
-static_assert(offsetof(GlobalInteractableUserWidget_C_SetActiveMenu, Param_bIsActiveMenu) == 0x000000, "Member 'GlobalInteractableUserWidget_C_SetActiveMenu::Param_bIsActiveMenu' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_SetActiveMenu, bIsActiveMenu_0) == 0x000000, "Member 'GlobalInteractableUserWidget_C_SetActiveMenu::bIsActiveMenu_0' has a wrong offset!");
 
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.GetIsActiveMenu
 // 0x0001 (0x0001 - 0x0000)
 struct GlobalInteractableUserWidget_C_GetIsActiveMenu final
 {
 public:
-	bool                                          Param_bIsActiveMenu;                               // 0x0000(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bIsActiveMenu_0;                                   // 0x0000(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 static_assert(alignof(GlobalInteractableUserWidget_C_GetIsActiveMenu) == 0x000001, "Wrong alignment on GlobalInteractableUserWidget_C_GetIsActiveMenu");
 static_assert(sizeof(GlobalInteractableUserWidget_C_GetIsActiveMenu) == 0x000001, "Wrong size on GlobalInteractableUserWidget_C_GetIsActiveMenu");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetIsActiveMenu, Param_bIsActiveMenu) == 0x000000, "Member 'GlobalInteractableUserWidget_C_GetIsActiveMenu::Param_bIsActiveMenu' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetIsActiveMenu, bIsActiveMenu_0) == 0x000000, "Member 'GlobalInteractableUserWidget_C_GetIsActiveMenu::bIsActiveMenu_0' has a wrong offset!");
 
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.OnKeyDown
 // 0x0278 (0x0278 - 0x0000)
@@ -385,22 +385,22 @@ static_assert(offsetof(GlobalInteractableUserWidget_C_OnKeyDown, K2Node_MakeStru
 struct GlobalInteractableUserWidget_C_SetAllowNavigation final
 {
 public:
-	bool                                          Param_bAllowNavigation;                            // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bAllowNavigation_0;                                // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 static_assert(alignof(GlobalInteractableUserWidget_C_SetAllowNavigation) == 0x000001, "Wrong alignment on GlobalInteractableUserWidget_C_SetAllowNavigation");
 static_assert(sizeof(GlobalInteractableUserWidget_C_SetAllowNavigation) == 0x000001, "Wrong size on GlobalInteractableUserWidget_C_SetAllowNavigation");
-static_assert(offsetof(GlobalInteractableUserWidget_C_SetAllowNavigation, Param_bAllowNavigation) == 0x000000, "Member 'GlobalInteractableUserWidget_C_SetAllowNavigation::Param_bAllowNavigation' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_SetAllowNavigation, bAllowNavigation_0) == 0x000000, "Member 'GlobalInteractableUserWidget_C_SetAllowNavigation::bAllowNavigation_0' has a wrong offset!");
 
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.GetAllowNavigation
 // 0x0001 (0x0001 - 0x0000)
 struct GlobalInteractableUserWidget_C_GetAllowNavigation final
 {
 public:
-	bool                                          Param_bAllowNavigation;                            // 0x0000(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bAllowNavigation_0;                                // 0x0000(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 static_assert(alignof(GlobalInteractableUserWidget_C_GetAllowNavigation) == 0x000001, "Wrong alignment on GlobalInteractableUserWidget_C_GetAllowNavigation");
 static_assert(sizeof(GlobalInteractableUserWidget_C_GetAllowNavigation) == 0x000001, "Wrong size on GlobalInteractableUserWidget_C_GetAllowNavigation");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetAllowNavigation, Param_bAllowNavigation) == 0x000000, "Member 'GlobalInteractableUserWidget_C_GetAllowNavigation::Param_bAllowNavigation' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetAllowNavigation, bAllowNavigation_0) == 0x000000, "Member 'GlobalInteractableUserWidget_C_GetAllowNavigation::bAllowNavigation_0' has a wrong offset!");
 
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.OnKeyUp
 // 0x03D0 (0x03D0 - 0x0000)
@@ -523,33 +523,33 @@ static_assert(offsetof(GlobalInteractableUserWidget_C_OnKeyUp, CallFunc_BooleanA
 struct GlobalInteractableUserWidget_C_SetIsMenu final
 {
 public:
-	bool                                          Param_bIsMenu;                                     // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bIsMenu_0;                                         // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 static_assert(alignof(GlobalInteractableUserWidget_C_SetIsMenu) == 0x000001, "Wrong alignment on GlobalInteractableUserWidget_C_SetIsMenu");
 static_assert(sizeof(GlobalInteractableUserWidget_C_SetIsMenu) == 0x000001, "Wrong size on GlobalInteractableUserWidget_C_SetIsMenu");
-static_assert(offsetof(GlobalInteractableUserWidget_C_SetIsMenu, Param_bIsMenu) == 0x000000, "Member 'GlobalInteractableUserWidget_C_SetIsMenu::Param_bIsMenu' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_SetIsMenu, bIsMenu_0) == 0x000000, "Member 'GlobalInteractableUserWidget_C_SetIsMenu::bIsMenu_0' has a wrong offset!");
 
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.GetIsMenu
 // 0x0001 (0x0001 - 0x0000)
 struct GlobalInteractableUserWidget_C_GetIsMenu final
 {
 public:
-	bool                                          Param_bIsMenu;                                     // 0x0000(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bIsMenu_0;                                         // 0x0000(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 static_assert(alignof(GlobalInteractableUserWidget_C_GetIsMenu) == 0x000001, "Wrong alignment on GlobalInteractableUserWidget_C_GetIsMenu");
 static_assert(sizeof(GlobalInteractableUserWidget_C_GetIsMenu) == 0x000001, "Wrong size on GlobalInteractableUserWidget_C_GetIsMenu");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetIsMenu, Param_bIsMenu) == 0x000000, "Member 'GlobalInteractableUserWidget_C_GetIsMenu::Param_bIsMenu' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetIsMenu, bIsMenu_0) == 0x000000, "Member 'GlobalInteractableUserWidget_C_GetIsMenu::bIsMenu_0' has a wrong offset!");
 
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.GetIsGamepadBeingUsed
 // 0x0001 (0x0001 - 0x0000)
 struct GlobalInteractableUserWidget_C_GetIsGamepadBeingUsed final
 {
 public:
-	bool                                          Param_bIsGamepadBeingUsed;                         // 0x0000(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bIsGamepadBeingUsed_0;                             // 0x0000(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 static_assert(alignof(GlobalInteractableUserWidget_C_GetIsGamepadBeingUsed) == 0x000001, "Wrong alignment on GlobalInteractableUserWidget_C_GetIsGamepadBeingUsed");
 static_assert(sizeof(GlobalInteractableUserWidget_C_GetIsGamepadBeingUsed) == 0x000001, "Wrong size on GlobalInteractableUserWidget_C_GetIsGamepadBeingUsed");
-static_assert(offsetof(GlobalInteractableUserWidget_C_GetIsGamepadBeingUsed, Param_bIsGamepadBeingUsed) == 0x000000, "Member 'GlobalInteractableUserWidget_C_GetIsGamepadBeingUsed::Param_bIsGamepadBeingUsed' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_GetIsGamepadBeingUsed, bIsGamepadBeingUsed_0) == 0x000000, "Member 'GlobalInteractableUserWidget_C_GetIsGamepadBeingUsed::bIsGamepadBeingUsed_0' has a wrong offset!");
 
 // Function GlobalInteractableUserWidget.GlobalInteractableUserWidget_C.SetGlobalSettingsFonts
 // 0x01B8 (0x01B8 - 0x0000)
@@ -600,7 +600,7 @@ static_assert(offsetof(GlobalInteractableUserWidget_C_SetGlobalSettingsMenuKeybi
 struct GlobalInteractableUserWidget_C_SetIsGamepadBeingUsed final
 {
 public:
-	bool                                          Param_bIsGamepadBeingUsed;                         // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bIsGamepadBeingUsed_0;                             // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 	uint8                                         Pad_1[0x7];                                        // 0x0001(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
 	class APlayerController*                      CallFunc_GetPlayerController_ReturnValue;          // 0x0008(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	float                                         CallFunc_GetMousePosition_LocationX;               // 0x0010(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
@@ -612,7 +612,7 @@ public:
 };
 static_assert(alignof(GlobalInteractableUserWidget_C_SetIsGamepadBeingUsed) == 0x000008, "Wrong alignment on GlobalInteractableUserWidget_C_SetIsGamepadBeingUsed");
 static_assert(sizeof(GlobalInteractableUserWidget_C_SetIsGamepadBeingUsed) == 0x000028, "Wrong size on GlobalInteractableUserWidget_C_SetIsGamepadBeingUsed");
-static_assert(offsetof(GlobalInteractableUserWidget_C_SetIsGamepadBeingUsed, Param_bIsGamepadBeingUsed) == 0x000000, "Member 'GlobalInteractableUserWidget_C_SetIsGamepadBeingUsed::Param_bIsGamepadBeingUsed' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_SetIsGamepadBeingUsed, bIsGamepadBeingUsed_0) == 0x000000, "Member 'GlobalInteractableUserWidget_C_SetIsGamepadBeingUsed::bIsGamepadBeingUsed_0' has a wrong offset!");
 static_assert(offsetof(GlobalInteractableUserWidget_C_SetIsGamepadBeingUsed, CallFunc_GetPlayerController_ReturnValue) == 0x000008, "Member 'GlobalInteractableUserWidget_C_SetIsGamepadBeingUsed::CallFunc_GetPlayerController_ReturnValue' has a wrong offset!");
 static_assert(offsetof(GlobalInteractableUserWidget_C_SetIsGamepadBeingUsed, CallFunc_GetMousePosition_LocationX) == 0x000010, "Member 'GlobalInteractableUserWidget_C_SetIsGamepadBeingUsed::CallFunc_GetMousePosition_LocationX' has a wrong offset!");
 static_assert(offsetof(GlobalInteractableUserWidget_C_SetIsGamepadBeingUsed, CallFunc_GetMousePosition_LocationY) == 0x000014, "Member 'GlobalInteractableUserWidget_C_SetIsGamepadBeingUsed::CallFunc_GetMousePosition_LocationY' has a wrong offset!");
@@ -625,13 +625,13 @@ static_assert(offsetof(GlobalInteractableUserWidget_C_SetIsGamepadBeingUsed, Cal
 struct GlobalInteractableUserWidget_C_DelayAnimation final
 {
 public:
-	class UWidgetAnimation*                       Param_DelayAnimation;                              // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UWidgetAnimation*                       DelayAnimation_0;                                  // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	TDelegate<void()>                             Delegate;                                          // 0x0008(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor)
 	class UUMGSequencePlayer*                     CallFunc_PlayAnimation_ReturnValue;                // 0x0018(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 static_assert(alignof(GlobalInteractableUserWidget_C_DelayAnimation) == 0x000008, "Wrong alignment on GlobalInteractableUserWidget_C_DelayAnimation");
 static_assert(sizeof(GlobalInteractableUserWidget_C_DelayAnimation) == 0x000020, "Wrong size on GlobalInteractableUserWidget_C_DelayAnimation");
-static_assert(offsetof(GlobalInteractableUserWidget_C_DelayAnimation, Param_DelayAnimation) == 0x000000, "Member 'GlobalInteractableUserWidget_C_DelayAnimation::Param_DelayAnimation' has a wrong offset!");
+static_assert(offsetof(GlobalInteractableUserWidget_C_DelayAnimation, DelayAnimation_0) == 0x000000, "Member 'GlobalInteractableUserWidget_C_DelayAnimation::DelayAnimation_0' has a wrong offset!");
 static_assert(offsetof(GlobalInteractableUserWidget_C_DelayAnimation, Delegate) == 0x000008, "Member 'GlobalInteractableUserWidget_C_DelayAnimation::Delegate' has a wrong offset!");
 static_assert(offsetof(GlobalInteractableUserWidget_C_DelayAnimation, CallFunc_PlayAnimation_ReturnValue) == 0x000018, "Member 'GlobalInteractableUserWidget_C_DelayAnimation::CallFunc_PlayAnimation_ReturnValue' has a wrong offset!");
 

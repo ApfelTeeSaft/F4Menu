@@ -63,7 +63,7 @@ public:
 	void OnGlobalSettingsApply();
 	void ShowDecisionDialog();
 	void SetGlobalSettings();
-	void OnNavigationEnter(class UInteractableMenuWidgetBP_C* NavigateFromMenu, bool Param_bIsGamepadBeingUsed);
+	void OnNavigationEnter(class UInteractableMenuWidgetBP_C* NavigateFromMenu, bool bIsGamepadBeingUsed_0);
 	void OnNavigationExit(class UInteractableMenuWidgetBP_C* NavigateToMenu, class UInteractableMenuWidgetBP_C* NavigateFromMenu);
 	void OnPressedBack();
 	void Construct();

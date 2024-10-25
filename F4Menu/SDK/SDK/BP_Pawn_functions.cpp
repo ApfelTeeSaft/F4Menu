@@ -380,9 +380,9 @@ void ABP_Pawn_C::ToRagdoll()
 // Function BP_Pawn.BP_Pawn_C.All_MontageSet
 // (Net, NetMulticast, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// class UAnimMontage*                     Param_MontageStanding                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class UAnimMontage*                     MontageStanding_0                                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void ABP_Pawn_C::All_MontageSet(class UAnimMontage* Param_MontageStanding)
+void ABP_Pawn_C::All_MontageSet(class UAnimMontage* MontageStanding_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -391,7 +391,7 @@ void ABP_Pawn_C::All_MontageSet(class UAnimMontage* Param_MontageStanding)
 
 	Params::BP_Pawn_C_All_MontageSet Parms{};
 
-	Parms.Param_MontageStanding = Param_MontageStanding;
+	Parms.MontageStanding_0 = MontageStanding_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -480,9 +480,9 @@ void ABP_Pawn_C::Server_RagdollSwitch(bool On_)
 // Function BP_Pawn.BP_Pawn_C.Server_MontageSet
 // (Net, NetServer, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// class UAnimMontage*                     Param_MontageStanding                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class UAnimMontage*                     MontageStanding_0                                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void ABP_Pawn_C::Server_MontageSet(class UAnimMontage* Param_MontageStanding)
+void ABP_Pawn_C::Server_MontageSet(class UAnimMontage* MontageStanding_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -491,7 +491,7 @@ void ABP_Pawn_C::Server_MontageSet(class UAnimMontage* Param_MontageStanding)
 
 	Params::BP_Pawn_C_Server_MontageSet Parms{};
 
-	Parms.Param_MontageStanding = Param_MontageStanding;
+	Parms.MontageStanding_0 = MontageStanding_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }

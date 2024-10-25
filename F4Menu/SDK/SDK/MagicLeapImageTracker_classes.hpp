@@ -23,7 +23,7 @@ class UMagicLeapImageTrackerComponent final : public USceneComponent
 {
 public:
 	class UTexture2D*                             TargetImageTexture;                                // 0x01F8(0x0008)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class FString                                 Name_MagicLeapImageTrackerComponent;               // 0x0200(0x0010)(Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class FString                                 Name_0;                                            // 0x0200(0x0010)(Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                         LongerDimension;                                   // 0x0210(0x0004)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                          bIsStationary;                                     // 0x0214(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                          bUseUnreliablePose;                                // 0x0215(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -53,7 +53,7 @@ public:
 static_assert(alignof(UMagicLeapImageTrackerComponent) == 0x000010, "Wrong alignment on UMagicLeapImageTrackerComponent");
 static_assert(sizeof(UMagicLeapImageTrackerComponent) == 0x000270, "Wrong size on UMagicLeapImageTrackerComponent");
 static_assert(offsetof(UMagicLeapImageTrackerComponent, TargetImageTexture) == 0x0001F8, "Member 'UMagicLeapImageTrackerComponent::TargetImageTexture' has a wrong offset!");
-static_assert(offsetof(UMagicLeapImageTrackerComponent, Name_MagicLeapImageTrackerComponent) == 0x000200, "Member 'UMagicLeapImageTrackerComponent::Name_MagicLeapImageTrackerComponent' has a wrong offset!");
+static_assert(offsetof(UMagicLeapImageTrackerComponent, Name_0) == 0x000200, "Member 'UMagicLeapImageTrackerComponent::Name_0' has a wrong offset!");
 static_assert(offsetof(UMagicLeapImageTrackerComponent, LongerDimension) == 0x000210, "Member 'UMagicLeapImageTrackerComponent::LongerDimension' has a wrong offset!");
 static_assert(offsetof(UMagicLeapImageTrackerComponent, bIsStationary) == 0x000214, "Member 'UMagicLeapImageTrackerComponent::bIsStationary' has a wrong offset!");
 static_assert(offsetof(UMagicLeapImageTrackerComponent, bUseUnreliablePose) == 0x000215, "Member 'UMagicLeapImageTrackerComponent::bUseUnreliablePose' has a wrong offset!");

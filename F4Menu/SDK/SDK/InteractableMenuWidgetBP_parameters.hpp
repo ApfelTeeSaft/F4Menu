@@ -111,11 +111,11 @@ static_assert(offsetof(InteractableMenuWidgetBP_C_OnSpecialPreConstruct, InMenuC
 struct InteractableMenuWidgetBP_C_OnChangeInputDeviceMenuUI final
 {
 public:
-	bool                                          Param_bIsGamepadBeingUsed;                         // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bIsGamepadBeingUsed_0;                             // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 static_assert(alignof(InteractableMenuWidgetBP_C_OnChangeInputDeviceMenuUI) == 0x000001, "Wrong alignment on InteractableMenuWidgetBP_C_OnChangeInputDeviceMenuUI");
 static_assert(sizeof(InteractableMenuWidgetBP_C_OnChangeInputDeviceMenuUI) == 0x000001, "Wrong size on InteractableMenuWidgetBP_C_OnChangeInputDeviceMenuUI");
-static_assert(offsetof(InteractableMenuWidgetBP_C_OnChangeInputDeviceMenuUI, Param_bIsGamepadBeingUsed) == 0x000000, "Member 'InteractableMenuWidgetBP_C_OnChangeInputDeviceMenuUI::Param_bIsGamepadBeingUsed' has a wrong offset!");
+static_assert(offsetof(InteractableMenuWidgetBP_C_OnChangeInputDeviceMenuUI, bIsGamepadBeingUsed_0) == 0x000000, "Member 'InteractableMenuWidgetBP_C_OnChangeInputDeviceMenuUI::bIsGamepadBeingUsed_0' has a wrong offset!");
 
 // Function InteractableMenuWidgetBP.InteractableMenuWidgetBP_C.PreConstruct
 // 0x0001 (0x0001 - 0x0000)
@@ -147,12 +147,12 @@ struct InteractableMenuWidgetBP_C_OnNavigationEnter final
 {
 public:
 	class UInteractableMenuWidgetBP_C*            NavigateFromMenu;                                  // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          Param_bIsGamepadBeingUsed;                         // 0x0008(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bIsGamepadBeingUsed_0;                             // 0x0008(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 static_assert(alignof(InteractableMenuWidgetBP_C_OnNavigationEnter) == 0x000008, "Wrong alignment on InteractableMenuWidgetBP_C_OnNavigationEnter");
 static_assert(sizeof(InteractableMenuWidgetBP_C_OnNavigationEnter) == 0x000010, "Wrong size on InteractableMenuWidgetBP_C_OnNavigationEnter");
 static_assert(offsetof(InteractableMenuWidgetBP_C_OnNavigationEnter, NavigateFromMenu) == 0x000000, "Member 'InteractableMenuWidgetBP_C_OnNavigationEnter::NavigateFromMenu' has a wrong offset!");
-static_assert(offsetof(InteractableMenuWidgetBP_C_OnNavigationEnter, Param_bIsGamepadBeingUsed) == 0x000008, "Member 'InteractableMenuWidgetBP_C_OnNavigationEnter::Param_bIsGamepadBeingUsed' has a wrong offset!");
+static_assert(offsetof(InteractableMenuWidgetBP_C_OnNavigationEnter, bIsGamepadBeingUsed_0) == 0x000008, "Member 'InteractableMenuWidgetBP_C_OnNavigationEnter::bIsGamepadBeingUsed_0' has a wrong offset!");
 
 // Function InteractableMenuWidgetBP.InteractableMenuWidgetBP_C.PlayBackSound
 // 0x0040 (0x0040 - 0x0000)
@@ -241,7 +241,7 @@ static_assert(offsetof(InteractableMenuWidgetBP_C_SetInteractableUserWidgetRefer
 struct InteractableMenuWidgetBP_C_UpdateNavigationBarIcons final
 {
 public:
-	bool                                          Param_bIsGamepadBeingUsed;                         // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bIsGamepadBeingUsed_0;                             // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 	uint8                                         Pad_1[0x3];                                        // 0x0001(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
 	int32                                         ___int_Array_Index_Variable;                       // 0x0004(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	class UInteractableUserWidget_C*              CallFunc_Array_Get_Item;                           // 0x0008(0x0008)(ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
@@ -257,7 +257,7 @@ public:
 };
 static_assert(alignof(InteractableMenuWidgetBP_C_UpdateNavigationBarIcons) == 0x000008, "Wrong alignment on InteractableMenuWidgetBP_C_UpdateNavigationBarIcons");
 static_assert(sizeof(InteractableMenuWidgetBP_C_UpdateNavigationBarIcons) == 0x000030, "Wrong size on InteractableMenuWidgetBP_C_UpdateNavigationBarIcons");
-static_assert(offsetof(InteractableMenuWidgetBP_C_UpdateNavigationBarIcons, Param_bIsGamepadBeingUsed) == 0x000000, "Member 'InteractableMenuWidgetBP_C_UpdateNavigationBarIcons::Param_bIsGamepadBeingUsed' has a wrong offset!");
+static_assert(offsetof(InteractableMenuWidgetBP_C_UpdateNavigationBarIcons, bIsGamepadBeingUsed_0) == 0x000000, "Member 'InteractableMenuWidgetBP_C_UpdateNavigationBarIcons::bIsGamepadBeingUsed_0' has a wrong offset!");
 static_assert(offsetof(InteractableMenuWidgetBP_C_UpdateNavigationBarIcons, ___int_Array_Index_Variable) == 0x000004, "Member 'InteractableMenuWidgetBP_C_UpdateNavigationBarIcons::___int_Array_Index_Variable' has a wrong offset!");
 static_assert(offsetof(InteractableMenuWidgetBP_C_UpdateNavigationBarIcons, CallFunc_Array_Get_Item) == 0x000008, "Member 'InteractableMenuWidgetBP_C_UpdateNavigationBarIcons::CallFunc_Array_Get_Item' has a wrong offset!");
 static_assert(offsetof(InteractableMenuWidgetBP_C_UpdateNavigationBarIcons, CallFunc_Array_Length_ReturnValue) == 0x000010, "Member 'InteractableMenuWidgetBP_C_UpdateNavigationBarIcons::CallFunc_Array_Length_ReturnValue' has a wrong offset!");
@@ -308,11 +308,11 @@ static_assert(offsetof(InteractableMenuWidgetBP_C_SetupFadeAnimation, CallFunc_A
 struct InteractableMenuWidgetBP_C_SetMenuAndChildReferences final
 {
 public:
-	class UPanelWidget*                           Param_MenuCanvasPanelWidget;                       // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UPanelWidget*                           MenuCanvasPanelWidget_0;                           // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 static_assert(alignof(InteractableMenuWidgetBP_C_SetMenuAndChildReferences) == 0x000008, "Wrong alignment on InteractableMenuWidgetBP_C_SetMenuAndChildReferences");
 static_assert(sizeof(InteractableMenuWidgetBP_C_SetMenuAndChildReferences) == 0x000008, "Wrong size on InteractableMenuWidgetBP_C_SetMenuAndChildReferences");
-static_assert(offsetof(InteractableMenuWidgetBP_C_SetMenuAndChildReferences, Param_MenuCanvasPanelWidget) == 0x000000, "Member 'InteractableMenuWidgetBP_C_SetMenuAndChildReferences::Param_MenuCanvasPanelWidget' has a wrong offset!");
+static_assert(offsetof(InteractableMenuWidgetBP_C_SetMenuAndChildReferences, MenuCanvasPanelWidget_0) == 0x000000, "Member 'InteractableMenuWidgetBP_C_SetMenuAndChildReferences::MenuCanvasPanelWidget_0' has a wrong offset!");
 
 // Function InteractableMenuWidgetBP.InteractableMenuWidgetBP_C.HoverDefaultOrLastSelectedWidget
 // 0x0010 (0x0010 - 0x0000)
@@ -361,11 +361,11 @@ static_assert(offsetof(InteractableMenuWidgetBP_C_PlaySelectSound, CallFunc_IsVa
 struct InteractableMenuWidgetBP_C_GetPreviousMenuInputDevice final
 {
 public:
-	bool                                          Param_bIsGamepadBeingUsed;                         // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bIsGamepadBeingUsed_0;                             // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 static_assert(alignof(InteractableMenuWidgetBP_C_GetPreviousMenuInputDevice) == 0x000001, "Wrong alignment on InteractableMenuWidgetBP_C_GetPreviousMenuInputDevice");
 static_assert(sizeof(InteractableMenuWidgetBP_C_GetPreviousMenuInputDevice) == 0x000001, "Wrong size on InteractableMenuWidgetBP_C_GetPreviousMenuInputDevice");
-static_assert(offsetof(InteractableMenuWidgetBP_C_GetPreviousMenuInputDevice, Param_bIsGamepadBeingUsed) == 0x000000, "Member 'InteractableMenuWidgetBP_C_GetPreviousMenuInputDevice::Param_bIsGamepadBeingUsed' has a wrong offset!");
+static_assert(offsetof(InteractableMenuWidgetBP_C_GetPreviousMenuInputDevice, bIsGamepadBeingUsed_0) == 0x000000, "Member 'InteractableMenuWidgetBP_C_GetPreviousMenuInputDevice::bIsGamepadBeingUsed_0' has a wrong offset!");
 
 // Function InteractableMenuWidgetBP.InteractableMenuWidgetBP_C.UpdateOptionsActionBinders
 // 0x0030 (0x0030 - 0x0000)

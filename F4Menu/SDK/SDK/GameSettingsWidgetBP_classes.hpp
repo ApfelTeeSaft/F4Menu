@@ -78,13 +78,13 @@ public:
 	void GetSavedGameSettings();
 	void SetCurrentLanguage(int32 InIndex);
 	void GetSystemLanguage();
-	void SetLanguageCodeArray(TArray<class FText>& Param_LanguageCodeArray);
+	void SetLanguageCodeArray(TArray<class FText>& LanguageCodeArray_0);
 	void F_BloodEffectSetting(int32 In_Index);
 	void OnPressedReset();
 	void Construct();
 	void PreConstruct(bool IsDesignTime);
 	void OnNavigationExit(class UInteractableMenuWidgetBP_C* NavigateToMenu, class UInteractableMenuWidgetBP_C* NavigateFromMenu);
-	void OnNavigationEnter(class UInteractableMenuWidgetBP_C* NavigateFromMenu, bool Param_bIsGamepadBeingUsed);
+	void OnNavigationEnter(class UInteractableMenuWidgetBP_C* NavigateFromMenu, bool bIsGamepadBeingUsed_0);
 	void OnPressedBack();
 
 public:

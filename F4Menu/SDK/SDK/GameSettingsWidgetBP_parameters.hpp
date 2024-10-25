@@ -456,7 +456,7 @@ static_assert(offsetof(GameSettingsWidgetBP_C_GetSystemLanguage, CallFunc_EqualE
 struct GameSettingsWidgetBP_C_SetLanguageCodeArray final
 {
 public:
-	TArray<class FText>                           Param_LanguageCodeArray;                           // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
+	TArray<class FText>                           LanguageCodeArray_0;                               // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
 	int32                                         CallFunc_Array_Length_ReturnValue;                 // 0x0010(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	int32                                         ___int_Array_Index_Variable;                       // 0x0014(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	class FText                                   CallFunc_Array_Get_Item;                           // 0x0018(0x0018)()
@@ -469,7 +469,7 @@ public:
 };
 static_assert(alignof(GameSettingsWidgetBP_C_SetLanguageCodeArray) == 0x000008, "Wrong alignment on GameSettingsWidgetBP_C_SetLanguageCodeArray");
 static_assert(sizeof(GameSettingsWidgetBP_C_SetLanguageCodeArray) == 0x000050, "Wrong size on GameSettingsWidgetBP_C_SetLanguageCodeArray");
-static_assert(offsetof(GameSettingsWidgetBP_C_SetLanguageCodeArray, Param_LanguageCodeArray) == 0x000000, "Member 'GameSettingsWidgetBP_C_SetLanguageCodeArray::Param_LanguageCodeArray' has a wrong offset!");
+static_assert(offsetof(GameSettingsWidgetBP_C_SetLanguageCodeArray, LanguageCodeArray_0) == 0x000000, "Member 'GameSettingsWidgetBP_C_SetLanguageCodeArray::LanguageCodeArray_0' has a wrong offset!");
 static_assert(offsetof(GameSettingsWidgetBP_C_SetLanguageCodeArray, CallFunc_Array_Length_ReturnValue) == 0x000010, "Member 'GameSettingsWidgetBP_C_SetLanguageCodeArray::CallFunc_Array_Length_ReturnValue' has a wrong offset!");
 static_assert(offsetof(GameSettingsWidgetBP_C_SetLanguageCodeArray, ___int_Array_Index_Variable) == 0x000014, "Member 'GameSettingsWidgetBP_C_SetLanguageCodeArray::___int_Array_Index_Variable' has a wrong offset!");
 static_assert(offsetof(GameSettingsWidgetBP_C_SetLanguageCodeArray, CallFunc_Array_Get_Item) == 0x000018, "Member 'GameSettingsWidgetBP_C_SetLanguageCodeArray::CallFunc_Array_Get_Item' has a wrong offset!");
@@ -553,12 +553,12 @@ struct GameSettingsWidgetBP_C_OnNavigationEnter final
 {
 public:
 	class UInteractableMenuWidgetBP_C*            NavigateFromMenu;                                  // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          Param_bIsGamepadBeingUsed;                         // 0x0008(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bIsGamepadBeingUsed_0;                             // 0x0008(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 static_assert(alignof(GameSettingsWidgetBP_C_OnNavigationEnter) == 0x000008, "Wrong alignment on GameSettingsWidgetBP_C_OnNavigationEnter");
 static_assert(sizeof(GameSettingsWidgetBP_C_OnNavigationEnter) == 0x000010, "Wrong size on GameSettingsWidgetBP_C_OnNavigationEnter");
 static_assert(offsetof(GameSettingsWidgetBP_C_OnNavigationEnter, NavigateFromMenu) == 0x000000, "Member 'GameSettingsWidgetBP_C_OnNavigationEnter::NavigateFromMenu' has a wrong offset!");
-static_assert(offsetof(GameSettingsWidgetBP_C_OnNavigationEnter, Param_bIsGamepadBeingUsed) == 0x000008, "Member 'GameSettingsWidgetBP_C_OnNavigationEnter::Param_bIsGamepadBeingUsed' has a wrong offset!");
+static_assert(offsetof(GameSettingsWidgetBP_C_OnNavigationEnter, bIsGamepadBeingUsed_0) == 0x000008, "Member 'GameSettingsWidgetBP_C_OnNavigationEnter::bIsGamepadBeingUsed_0' has a wrong offset!");
 
 }
 

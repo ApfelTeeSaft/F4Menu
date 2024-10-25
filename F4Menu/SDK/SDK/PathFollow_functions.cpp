@@ -159,10 +159,10 @@ struct FRotator UPFPathFollowerComponent::ComputeLookAtRotation(class USceneComp
 // Function PathFollow.PFPathFollowerComponent.EventPointExistByName
 // (Final, Native, Public, HasOutParams, BlueprintCallable)
 // Parameters:
-// class FName                             Param_Name                                             (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// class FName                             Name_0                                                 (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
-bool UPFPathFollowerComponent::EventPointExistByName(const class FName& Param_Name)
+bool UPFPathFollowerComponent::EventPointExistByName(const class FName& Name_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -171,7 +171,7 @@ bool UPFPathFollowerComponent::EventPointExistByName(const class FName& Param_Na
 
 	Params::PFPathFollowerComponent_EventPointExistByName Parms{};
 
-	Parms.Param_Name = Param_Name;
+	Parms.Name_0 = Name_0;
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -212,10 +212,10 @@ void UPFPathFollowerComponent::FollowPath(float FollowStep)
 // Function PathFollow.PFPathFollowerComponent.GetEventPointByName
 // (Final, Native, Public, HasOutParams, BlueprintCallable)
 // Parameters:
-// class FName                             Param_Name                                             (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// class FName                             Name_0                                                 (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // struct FEventPoint                      ReturnValue                                            (Parm, OutParm, ReturnParm, NoDestructor, NativeAccessSpecifierPublic)
 
-struct FEventPoint UPFPathFollowerComponent::GetEventPointByName(const class FName& Param_Name)
+struct FEventPoint UPFPathFollowerComponent::GetEventPointByName(const class FName& Name_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -224,7 +224,7 @@ struct FEventPoint UPFPathFollowerComponent::GetEventPointByName(const class FNa
 
 	Params::PFPathFollowerComponent_GetEventPointByName Parms{};
 
-	Parms.Param_Name = Param_Name;
+	Parms.Name_0 = Name_0;
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -265,10 +265,10 @@ class UEventPointDelegateHolder* UPFPathFollowerComponent::GetEventPointDelegate
 // Function PathFollow.PFPathFollowerComponent.GetEventPointDelegateByIndex
 // (Final, Native, Public, BlueprintCallable)
 // Parameters:
-// int32                                   Param_Index                                            (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// int32                                   Index_0                                                (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // class UEventPointDelegateHolder*        ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
-class UEventPointDelegateHolder* UPFPathFollowerComponent::GetEventPointDelegateByIndex(int32 Param_Index)
+class UEventPointDelegateHolder* UPFPathFollowerComponent::GetEventPointDelegateByIndex(int32 Index_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -277,7 +277,7 @@ class UEventPointDelegateHolder* UPFPathFollowerComponent::GetEventPointDelegate
 
 	Params::PFPathFollowerComponent_GetEventPointDelegateByIndex Parms{};
 
-	Parms.Param_Index = Param_Index;
+	Parms.Index_0 = Index_0;
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -293,10 +293,10 @@ class UEventPointDelegateHolder* UPFPathFollowerComponent::GetEventPointDelegate
 // Function PathFollow.PFPathFollowerComponent.GetEventPointDelegateByName
 // (Final, Native, Public, HasOutParams, BlueprintCallable)
 // Parameters:
-// class FName                             Param_Name                                             (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// class FName                             Name_0                                                 (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // class UEventPointDelegateHolder*        ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
-class UEventPointDelegateHolder* UPFPathFollowerComponent::GetEventPointDelegateByName(const class FName& Param_Name)
+class UEventPointDelegateHolder* UPFPathFollowerComponent::GetEventPointDelegateByName(const class FName& Name_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -305,7 +305,7 @@ class UEventPointDelegateHolder* UPFPathFollowerComponent::GetEventPointDelegate
 
 	Params::PFPathFollowerComponent_GetEventPointDelegateByName Parms{};
 
-	Parms.Param_Name = Param_Name;
+	Parms.Name_0 = Name_0;
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -471,9 +471,9 @@ void UPFPathFollowerComponent::Pause()
 // Function PathFollow.PFPathFollowerComponent.Reverse
 // (Final, Native, Public, BlueprintCallable)
 // Parameters:
-// bool                                    Param_Reverse                                          (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    Reverse_0                                              (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
-void UPFPathFollowerComponent::Reverse(bool Param_Reverse)
+void UPFPathFollowerComponent::Reverse(bool Reverse_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -482,7 +482,7 @@ void UPFPathFollowerComponent::Reverse(bool Param_Reverse)
 
 	Params::PFPathFollowerComponent_Reverse Parms{};
 
-	Parms.Param_Reverse = Param_Reverse;
+	Parms.Reverse_0 = Reverse_0;
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -521,9 +521,9 @@ void UPFPathFollowerComponent::SetCurrentDistance(float NewDistance)
 // Function PathFollow.PFPathFollowerComponent.SetPathOwner
 // (Final, Native, Public, BlueprintCallable)
 // Parameters:
-// class AActor*                           Param_PathOwner                                        (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// class AActor*                           PathOwner_0                                            (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
-void UPFPathFollowerComponent::SetPathOwner(class AActor* Param_PathOwner)
+void UPFPathFollowerComponent::SetPathOwner(class AActor* PathOwner_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -532,7 +532,7 @@ void UPFPathFollowerComponent::SetPathOwner(class AActor* Param_PathOwner)
 
 	Params::PFPathFollowerComponent_SetPathOwner Parms{};
 
-	Parms.Param_PathOwner = Param_PathOwner;
+	Parms.PathOwner_0 = PathOwner_0;
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -571,9 +571,9 @@ void UPFPathFollowerComponent::SetPathToFollow(class USplineComponent* Spline)
 // Function PathFollow.PFPathFollowerComponent.Start
 // (Final, Native, Public, BlueprintCallable)
 // Parameters:
-// float                                   Param_StartDelay                                       (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// float                                   StartDelay_0                                           (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
-void UPFPathFollowerComponent::Start(float Param_StartDelay)
+void UPFPathFollowerComponent::Start(float StartDelay_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -582,7 +582,7 @@ void UPFPathFollowerComponent::Start(float Param_StartDelay)
 
 	Params::PFPathFollowerComponent_Start Parms{};
 
-	Parms.Param_StartDelay = Param_StartDelay;
+	Parms.StartDelay_0 = StartDelay_0;
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;

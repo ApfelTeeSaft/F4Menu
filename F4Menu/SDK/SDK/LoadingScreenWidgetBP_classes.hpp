@@ -33,7 +33,7 @@ public:
 
 public:
 	void ExecuteUbergraph_LoadingScreenWidgetBP(int32 EntryPoint);
-	void Set_Image(int32 Param_Integer_MapImage);
+	void Set_Image(int32 Integer_MapImage_0);
 	void Construct();
 	void OnGlobalSettingsApply();
 	void SetGlobalSettings();

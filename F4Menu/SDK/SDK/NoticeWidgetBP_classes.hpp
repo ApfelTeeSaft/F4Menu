@@ -42,7 +42,7 @@ public:
 	void OnGlobalSettingsApply();
 	void SetGlobalSettings();
 	void Construct();
-	void OnNavigationEnter(class UInteractableMenuWidgetBP_C* NavigateFromMenu, bool Param_bIsGamepadBeingUsed);
+	void OnNavigationEnter(class UInteractableMenuWidgetBP_C* NavigateFromMenu, bool bIsGamepadBeingUsed_0);
 	void PreConstruct(bool IsDesignTime);
 	void OnNavigationExit(class UInteractableMenuWidgetBP_C* NavigateToMenu, class UInteractableMenuWidgetBP_C* NavigateFromMenu);
 

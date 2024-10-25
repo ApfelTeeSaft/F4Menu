@@ -389,7 +389,7 @@ public:
 	float                                         FarPlane;                                          // 0x0030(0x0004)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                          IsActive;                                          // 0x0034(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	uint8                                         Pad_35[0x3];                                       // 0x0035(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
-	int32                                         Param_Index;                                       // 0x0038(0x0004)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int32                                         Index_0;                                           // 0x0038(0x0004)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 static_assert(alignof(HeadMountedDisplayFunctionLibrary_GetTrackingSensorParameters) == 0x000004, "Wrong alignment on HeadMountedDisplayFunctionLibrary_GetTrackingSensorParameters");
 static_assert(sizeof(HeadMountedDisplayFunctionLibrary_GetTrackingSensorParameters) == 0x00003C, "Wrong size on HeadMountedDisplayFunctionLibrary_GetTrackingSensorParameters");
@@ -403,7 +403,7 @@ static_assert(offsetof(HeadMountedDisplayFunctionLibrary_GetTrackingSensorParame
 static_assert(offsetof(HeadMountedDisplayFunctionLibrary_GetTrackingSensorParameters, NearPlane) == 0x00002C, "Member 'HeadMountedDisplayFunctionLibrary_GetTrackingSensorParameters::NearPlane' has a wrong offset!");
 static_assert(offsetof(HeadMountedDisplayFunctionLibrary_GetTrackingSensorParameters, FarPlane) == 0x000030, "Member 'HeadMountedDisplayFunctionLibrary_GetTrackingSensorParameters::FarPlane' has a wrong offset!");
 static_assert(offsetof(HeadMountedDisplayFunctionLibrary_GetTrackingSensorParameters, IsActive) == 0x000034, "Member 'HeadMountedDisplayFunctionLibrary_GetTrackingSensorParameters::IsActive' has a wrong offset!");
-static_assert(offsetof(HeadMountedDisplayFunctionLibrary_GetTrackingSensorParameters, Param_Index) == 0x000038, "Member 'HeadMountedDisplayFunctionLibrary_GetTrackingSensorParameters::Param_Index' has a wrong offset!");
+static_assert(offsetof(HeadMountedDisplayFunctionLibrary_GetTrackingSensorParameters, Index_0) == 0x000038, "Member 'HeadMountedDisplayFunctionLibrary_GetTrackingSensorParameters::Index_0' has a wrong offset!");
 
 // Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetTrackingToWorldTransform
 // 0x0040 (0x0040 - 0x0000)

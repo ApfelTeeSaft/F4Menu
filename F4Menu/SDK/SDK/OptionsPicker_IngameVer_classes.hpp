@@ -12,8 +12,8 @@
 
 #include "Engine_structs.hpp"
 #include "CoreUObject_structs.hpp"
-#include "UMG_structs.hpp"
 #include "InteractableUserWidget_classes.hpp"
+#include "UMG_structs.hpp"
 
 
 namespace SDK
@@ -77,7 +77,7 @@ public:
 	void SetupOptionNameText();
 	void SetGlobalSettings();
 	void SetPickedOptionTextSettings();
-	void SetCurrentImage(int32 Param_Index);
+	void SetCurrentImage(int32 Index_0);
 	void SetChangeOptionButtonHoverEffect(bool bIsHovered, class UImage* InImage);
 	void SetDefaultOptionIndex();
 	void IsInOptionsArrayBounds(int32 InIndex, bool* bIsInBounds);

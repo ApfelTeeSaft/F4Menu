@@ -40,11 +40,11 @@ public:
 	void BndEvt__NavigationKeyButton_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature();
 	void BndEvt__MainButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature();
 	void SetHoverEffect(bool bIsHovered);
-	void UpdateButtonIcon(bool Param_bIsGamepadBeingUsed);
-	void SetButtonActive(bool Param_bIsActive);
+	void UpdateButtonIcon(bool bIsGamepadBeingUsed_0);
+	void SetButtonActive(bool bIsActive_0);
 	void SetupButtonText();
 	void SetGlobalSettings();
-	void GetButtonActive(bool* Param_bIsActive);
+	void GetButtonActive(bool* bIsActive_0);
 	void PreConstruct(bool IsDesignTime);
 	void OnPressedBack();
 	void OnPressedSelect();

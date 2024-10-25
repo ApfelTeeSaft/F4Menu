@@ -91,7 +91,7 @@ static_assert(offsetof(DemoWidget_Item_Mainmenu_C_EpicLeaderboard_OnFailure, Lea
 struct DemoWidget_Item_Mainmenu_C_DoCustomNavigation final
 {
 public:
-	EUINavigation                                 Param_Navigation;                                  // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	EUINavigation                                 Navigation_0;                                      // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	uint8                                         Pad_1[0x7];                                        // 0x0001(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
 	struct FKey                                   Key;                                               // 0x0008(0x0018)(BlueprintVisible, BlueprintReadOnly, Parm, HasGetValueTypeHash)
 	class UWidget*                                ReturnValue;                                       // 0x0020(0x0008)(Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
@@ -99,7 +99,7 @@ public:
 };
 static_assert(alignof(DemoWidget_Item_Mainmenu_C_DoCustomNavigation) == 0x000008, "Wrong alignment on DemoWidget_Item_Mainmenu_C_DoCustomNavigation");
 static_assert(sizeof(DemoWidget_Item_Mainmenu_C_DoCustomNavigation) == 0x000030, "Wrong size on DemoWidget_Item_Mainmenu_C_DoCustomNavigation");
-static_assert(offsetof(DemoWidget_Item_Mainmenu_C_DoCustomNavigation, Param_Navigation) == 0x000000, "Member 'DemoWidget_Item_Mainmenu_C_DoCustomNavigation::Param_Navigation' has a wrong offset!");
+static_assert(offsetof(DemoWidget_Item_Mainmenu_C_DoCustomNavigation, Navigation_0) == 0x000000, "Member 'DemoWidget_Item_Mainmenu_C_DoCustomNavigation::Navigation_0' has a wrong offset!");
 static_assert(offsetof(DemoWidget_Item_Mainmenu_C_DoCustomNavigation, Key) == 0x000008, "Member 'DemoWidget_Item_Mainmenu_C_DoCustomNavigation::Key' has a wrong offset!");
 static_assert(offsetof(DemoWidget_Item_Mainmenu_C_DoCustomNavigation, ReturnValue) == 0x000020, "Member 'DemoWidget_Item_Mainmenu_C_DoCustomNavigation::ReturnValue' has a wrong offset!");
 static_assert(offsetof(DemoWidget_Item_Mainmenu_C_DoCustomNavigation, CallFunc_EqualEqual_KeyKey_ReturnValue) == 0x000028, "Member 'DemoWidget_Item_Mainmenu_C_DoCustomNavigation::CallFunc_EqualEqual_KeyKey_ReturnValue' has a wrong offset!");

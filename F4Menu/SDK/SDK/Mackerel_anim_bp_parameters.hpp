@@ -32,11 +32,11 @@ static_assert(offsetof(Mackerel_anim_bp_C_ExecuteUbergraph_Mackerel_anim_bp, Ent
 struct Mackerel_anim_bp_C_AnimGraph final
 {
 public:
-	struct FPoseLink                              Param_AnimGraph;                                   // 0x0000(0x0010)(Parm, OutParm, NoDestructor)
+	struct FPoseLink                              AnimGraph_0;                                       // 0x0000(0x0010)(Parm, OutParm, NoDestructor)
 };
 static_assert(alignof(Mackerel_anim_bp_C_AnimGraph) == 0x000008, "Wrong alignment on Mackerel_anim_bp_C_AnimGraph");
 static_assert(sizeof(Mackerel_anim_bp_C_AnimGraph) == 0x000010, "Wrong size on Mackerel_anim_bp_C_AnimGraph");
-static_assert(offsetof(Mackerel_anim_bp_C_AnimGraph, Param_AnimGraph) == 0x000000, "Member 'Mackerel_anim_bp_C_AnimGraph::Param_AnimGraph' has a wrong offset!");
+static_assert(offsetof(Mackerel_anim_bp_C_AnimGraph, AnimGraph_0) == 0x000000, "Member 'Mackerel_anim_bp_C_AnimGraph::AnimGraph_0' has a wrong offset!");
 
 }
 

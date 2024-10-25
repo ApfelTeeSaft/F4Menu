@@ -74,11 +74,11 @@ public:
 	void BndEvt__ActionButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature();
 	void SetupInputBinding();
 	void ChangeInputBinding(const struct FInputChord& InInputChord);
-	void SetHoverEffect(bool Param_IsHovered);
+	void SetHoverEffect(bool IsHovered_0);
 	struct FEventReply OnPreviewKeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent);
 	void SetupDisplayNameText();
 	void SetGlobalSettings();
-	void IsKeyAlreadyBound(const struct FInputChord& InInputChord, bool bIsGamepad, bool* bIsAlreadyInUse, struct FInputActionKeyMapping* Param_OldActionMapping, struct FInputAxisKeyMapping* Param_OldAxisMapping);
+	void IsKeyAlreadyBound(const struct FInputChord& InInputChord, bool bIsGamepad, bool* bIsAlreadyInUse, struct FInputActionKeyMapping* OldActionMapping_0, struct FInputAxisKeyMapping* OldAxisMapping_0);
 	void SetCurrentActionMapping();
 	void SetCurrentAxisMapping();
 	void ShowRebindDialog();

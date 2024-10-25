@@ -43,7 +43,7 @@ public:
 public:
 	bool AttemptPinDataRestoration();
 	void AttemptPinDataRestorationAsync();
-	class UMagicLeapARPinSaveGame* GetPinData(TSubclassOf<class UMagicLeapARPinSaveGame> Param_PinDataClass);
+	class UMagicLeapARPinSaveGame* GetPinData(TSubclassOf<class UMagicLeapARPinSaveGame> PinDataClass_0);
 	void MagicLeapARPinDataLoadAttemptCompleted__DelegateSignature(bool bDataRestored);
 	void PersistentEntityPinLost__DelegateSignature();
 	void PersistentEntityPinned__DelegateSignature(bool bRestoredOrSynced);

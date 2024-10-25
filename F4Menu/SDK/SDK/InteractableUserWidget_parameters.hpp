@@ -67,11 +67,11 @@ static_assert(offsetof(InteractableUserWidget_C_ExecuteUbergraph_InteractableUse
 struct InteractableUserWidget_C_OnChangeInputDevice final
 {
 public:
-	bool                                          Param_bIsGamepadBeingUsed;                         // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bIsGamepadBeingUsed_0;                             // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 static_assert(alignof(InteractableUserWidget_C_OnChangeInputDevice) == 0x000001, "Wrong alignment on InteractableUserWidget_C_OnChangeInputDevice");
 static_assert(sizeof(InteractableUserWidget_C_OnChangeInputDevice) == 0x000001, "Wrong size on InteractableUserWidget_C_OnChangeInputDevice");
-static_assert(offsetof(InteractableUserWidget_C_OnChangeInputDevice, Param_bIsGamepadBeingUsed) == 0x000000, "Member 'InteractableUserWidget_C_OnChangeInputDevice::Param_bIsGamepadBeingUsed' has a wrong offset!");
+static_assert(offsetof(InteractableUserWidget_C_OnChangeInputDevice, bIsGamepadBeingUsed_0) == 0x000000, "Member 'InteractableUserWidget_C_OnChangeInputDevice::bIsGamepadBeingUsed_0' has a wrong offset!");
 
 // Function InteractableUserWidget.InteractableUserWidget_C.OnRemovedFromFocusPath
 // 0x0008 (0x0008 - 0x0000)
@@ -240,7 +240,7 @@ static_assert(offsetof(InteractableUserWidget_C_UnhoverAllAndHoverSelf, CallFunc
 struct InteractableUserWidget_C_SetAllNavigation final
 {
 public:
-	bool                                          Param_bAllowNavigation;                            // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bAllowNavigation_0;                                // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 	bool                                          bIgnoreParentMenu;                                 // 0x0001(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 	uint8                                         Pad_2[0x2];                                        // 0x0002(0x0002)(Fixing Size After Last Property [ Dumper-7 ])
 	int32                                         ___int_Array_Index_Variable;                       // 0x0004(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
@@ -253,7 +253,7 @@ public:
 };
 static_assert(alignof(InteractableUserWidget_C_SetAllNavigation) == 0x000008, "Wrong alignment on InteractableUserWidget_C_SetAllNavigation");
 static_assert(sizeof(InteractableUserWidget_C_SetAllNavigation) == 0x000020, "Wrong size on InteractableUserWidget_C_SetAllNavigation");
-static_assert(offsetof(InteractableUserWidget_C_SetAllNavigation, Param_bAllowNavigation) == 0x000000, "Member 'InteractableUserWidget_C_SetAllNavigation::Param_bAllowNavigation' has a wrong offset!");
+static_assert(offsetof(InteractableUserWidget_C_SetAllNavigation, bAllowNavigation_0) == 0x000000, "Member 'InteractableUserWidget_C_SetAllNavigation::bAllowNavigation_0' has a wrong offset!");
 static_assert(offsetof(InteractableUserWidget_C_SetAllNavigation, bIgnoreParentMenu) == 0x000001, "Member 'InteractableUserWidget_C_SetAllNavigation::bIgnoreParentMenu' has a wrong offset!");
 static_assert(offsetof(InteractableUserWidget_C_SetAllNavigation, ___int_Array_Index_Variable) == 0x000004, "Member 'InteractableUserWidget_C_SetAllNavigation::___int_Array_Index_Variable' has a wrong offset!");
 static_assert(offsetof(InteractableUserWidget_C_SetAllNavigation, CallFunc_Array_Get_Item) == 0x000008, "Member 'InteractableUserWidget_C_SetAllNavigation::CallFunc_Array_Get_Item' has a wrong offset!");
@@ -355,7 +355,7 @@ struct InteractableUserWidget_C_PlayHoverSound final
 {
 public:
 	bool                                          bIsHovered;                                        // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
-	bool                                          Param_PlaySound;                                   // 0x0001(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          PlaySound_0;                                       // 0x0001(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 	uint8                                         Pad_2[0x6];                                        // 0x0002(0x0006)(Fixing Size After Last Property [ Dumper-7 ])
 	class USoundCue*                              CallFunc_GetGlobalSounds_SelectSound;              // 0x0008(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	class USoundCue*                              CallFunc_GetGlobalSounds_BackSound;                // 0x0010(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
@@ -370,7 +370,7 @@ public:
 static_assert(alignof(InteractableUserWidget_C_PlayHoverSound) == 0x000008, "Wrong alignment on InteractableUserWidget_C_PlayHoverSound");
 static_assert(sizeof(InteractableUserWidget_C_PlayHoverSound) == 0x000048, "Wrong size on InteractableUserWidget_C_PlayHoverSound");
 static_assert(offsetof(InteractableUserWidget_C_PlayHoverSound, bIsHovered) == 0x000000, "Member 'InteractableUserWidget_C_PlayHoverSound::bIsHovered' has a wrong offset!");
-static_assert(offsetof(InteractableUserWidget_C_PlayHoverSound, Param_PlaySound) == 0x000001, "Member 'InteractableUserWidget_C_PlayHoverSound::Param_PlaySound' has a wrong offset!");
+static_assert(offsetof(InteractableUserWidget_C_PlayHoverSound, PlaySound_0) == 0x000001, "Member 'InteractableUserWidget_C_PlayHoverSound::PlaySound_0' has a wrong offset!");
 static_assert(offsetof(InteractableUserWidget_C_PlayHoverSound, CallFunc_GetGlobalSounds_SelectSound) == 0x000008, "Member 'InteractableUserWidget_C_PlayHoverSound::CallFunc_GetGlobalSounds_SelectSound' has a wrong offset!");
 static_assert(offsetof(InteractableUserWidget_C_PlayHoverSound, CallFunc_GetGlobalSounds_BackSound) == 0x000010, "Member 'InteractableUserWidget_C_PlayHoverSound::CallFunc_GetGlobalSounds_BackSound' has a wrong offset!");
 static_assert(offsetof(InteractableUserWidget_C_PlayHoverSound, CallFunc_GetGlobalSounds_HoverSound) == 0x000018, "Member 'InteractableUserWidget_C_PlayHoverSound::CallFunc_GetGlobalSounds_HoverSound' has a wrong offset!");
@@ -486,11 +486,11 @@ static_assert(offsetof(InteractableUserWidget_C_SetSelfAsLastSelectedWidget, Cal
 struct InteractableUserWidget_C_EnableWidget final
 {
 public:
-	bool                                          Param_bIsWidgetEnabled;                            // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bIsWidgetEnabled_0;                                // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 static_assert(alignof(InteractableUserWidget_C_EnableWidget) == 0x000001, "Wrong alignment on InteractableUserWidget_C_EnableWidget");
 static_assert(sizeof(InteractableUserWidget_C_EnableWidget) == 0x000001, "Wrong size on InteractableUserWidget_C_EnableWidget");
-static_assert(offsetof(InteractableUserWidget_C_EnableWidget, Param_bIsWidgetEnabled) == 0x000000, "Member 'InteractableUserWidget_C_EnableWidget::Param_bIsWidgetEnabled' has a wrong offset!");
+static_assert(offsetof(InteractableUserWidget_C_EnableWidget, bIsWidgetEnabled_0) == 0x000000, "Member 'InteractableUserWidget_C_EnableWidget::bIsWidgetEnabled_0' has a wrong offset!");
 
 }
 

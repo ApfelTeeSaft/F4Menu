@@ -20,10 +20,10 @@ namespace SDK
 // Function EpicLeaderboard.EpicLeaderboardObject.CleanupName
 // (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
-// class FString                           Param_Name                                             (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// class FString                           Name_0                                                 (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // class FString                           ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
-class FString UEpicLeaderboardObject::CleanupName(const class FString& Param_Name)
+class FString UEpicLeaderboardObject::CleanupName(const class FString& Name_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -32,7 +32,7 @@ class FString UEpicLeaderboardObject::CleanupName(const class FString& Param_Nam
 
 	Params::EpicLeaderboardObject_CleanupName Parms{};
 
-	Parms.Param_Name = std::move(Param_Name);
+	Parms.Name_0 = std::move(Name_0);
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;

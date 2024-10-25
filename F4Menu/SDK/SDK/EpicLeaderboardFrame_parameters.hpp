@@ -45,7 +45,7 @@ public:
 	TArray<struct FEpicLeaderboardEntry>          Leaderboard_Entries;                               // 0x0000(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
 	struct FEpicLeaderboardEntry                  SpotlightEntry;                                    // 0x0010(0x0098)(BlueprintVisible, BlueprintReadOnly, Parm)
 	class FString                                 HighlightUser;                                     // 0x00A8(0x0010)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, HasGetValueTypeHash)
-	class UClass*                                 Param_EntryClass;                                  // 0x00B8(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UClass*                                 EntryClass_0;                                      // 0x00B8(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	class UPanelSlot*                             CallFunc_AddChild_ReturnValue;                     // 0x00C0(0x0008)(ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	class UChallenge_EpicLeaderboardEntry_C*      CallFunc_Create_ReturnValue;                       // 0x00C8(0x0008)(ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	TScriptInterface<class IEpicLeaderboardEntryInterface_C> K2Node_DynamicCast_AsEpic_Leaderboard_Entry_Interface; // 0x00D0(0x0010)(ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper)
@@ -101,7 +101,7 @@ static_assert(sizeof(EpicLeaderboardFrame_C_UpdateScores) == 0x0002C8, "Wrong si
 static_assert(offsetof(EpicLeaderboardFrame_C_UpdateScores, Leaderboard_Entries) == 0x000000, "Member 'EpicLeaderboardFrame_C_UpdateScores::Leaderboard_Entries' has a wrong offset!");
 static_assert(offsetof(EpicLeaderboardFrame_C_UpdateScores, SpotlightEntry) == 0x000010, "Member 'EpicLeaderboardFrame_C_UpdateScores::SpotlightEntry' has a wrong offset!");
 static_assert(offsetof(EpicLeaderboardFrame_C_UpdateScores, HighlightUser) == 0x0000A8, "Member 'EpicLeaderboardFrame_C_UpdateScores::HighlightUser' has a wrong offset!");
-static_assert(offsetof(EpicLeaderboardFrame_C_UpdateScores, Param_EntryClass) == 0x0000B8, "Member 'EpicLeaderboardFrame_C_UpdateScores::Param_EntryClass' has a wrong offset!");
+static_assert(offsetof(EpicLeaderboardFrame_C_UpdateScores, EntryClass_0) == 0x0000B8, "Member 'EpicLeaderboardFrame_C_UpdateScores::EntryClass_0' has a wrong offset!");
 static_assert(offsetof(EpicLeaderboardFrame_C_UpdateScores, CallFunc_AddChild_ReturnValue) == 0x0000C0, "Member 'EpicLeaderboardFrame_C_UpdateScores::CallFunc_AddChild_ReturnValue' has a wrong offset!");
 static_assert(offsetof(EpicLeaderboardFrame_C_UpdateScores, CallFunc_Create_ReturnValue) == 0x0000C8, "Member 'EpicLeaderboardFrame_C_UpdateScores::CallFunc_Create_ReturnValue' has a wrong offset!");
 static_assert(offsetof(EpicLeaderboardFrame_C_UpdateScores, K2Node_DynamicCast_AsEpic_Leaderboard_Entry_Interface) == 0x0000D0, "Member 'EpicLeaderboardFrame_C_UpdateScores::K2Node_DynamicCast_AsEpic_Leaderboard_Entry_Interface' has a wrong offset!");

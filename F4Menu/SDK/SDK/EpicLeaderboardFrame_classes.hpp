@@ -40,7 +40,7 @@ public:
 public:
 	void ExecuteUbergraph_EpicLeaderboardFrame(int32 EntryPoint);
 	void Construct();
-	void UpdateScores(TArray<struct FEpicLeaderboardEntry>& Leaderboard_Entries, const struct FEpicLeaderboardEntry& SpotlightEntry, const class FString& HighlightUser, class UClass* Param_EntryClass);
+	void UpdateScores(TArray<struct FEpicLeaderboardEntry>& Leaderboard_Entries, const struct FEpicLeaderboardEntry& SpotlightEntry, const class FString& HighlightUser, class UClass* EntryClass_0);
 	void StartLoadingAnimation();
 	void StopLoadingAnimation();
 	class FText Score_ModeCheck();

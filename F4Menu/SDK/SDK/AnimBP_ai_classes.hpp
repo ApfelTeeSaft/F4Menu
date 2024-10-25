@@ -121,7 +121,7 @@ public:
 	void F_RotateToController();
 	void F_ComputeAlphaSeconds();
 	void F_IkFootTrace(float TraceDistance, class FName Socket, const struct FVector& PlayerPosition, float* Offset, bool* Hit_, float* Distance, struct FRotator* HitRot);
-	void AnimGraph(struct FPoseLink* Param_AnimGraph);
+	void AnimGraph(struct FPoseLink* AnimGraph_0);
 
 public:
 	static class UClass* StaticClass()

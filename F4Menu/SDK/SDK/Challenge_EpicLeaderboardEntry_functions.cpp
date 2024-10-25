@@ -54,10 +54,10 @@ void UChallenge_EpicLeaderboardEntry_C::Construct()
 // Function Challenge_EpicLeaderboardEntry.Challenge_EpicLeaderboardEntry_C.InitFields
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// bool                                    Param_Highlight                                        (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
-// struct FEpicLeaderboardEntry            Param_ScoreEntry                                       (BlueprintVisible, BlueprintReadOnly, Parm)
+// bool                                    Highlight_0                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// struct FEpicLeaderboardEntry            ScoreEntry_0                                           (BlueprintVisible, BlueprintReadOnly, Parm)
 
-void UChallenge_EpicLeaderboardEntry_C::InitFields(bool Param_Highlight, const struct FEpicLeaderboardEntry& Param_ScoreEntry)
+void UChallenge_EpicLeaderboardEntry_C::InitFields(bool Highlight_0, const struct FEpicLeaderboardEntry& ScoreEntry_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -66,8 +66,8 @@ void UChallenge_EpicLeaderboardEntry_C::InitFields(bool Param_Highlight, const s
 
 	Params::Challenge_EpicLeaderboardEntry_C_InitFields Parms{};
 
-	Parms.Param_Highlight = Param_Highlight;
-	Parms.Param_ScoreEntry = std::move(Param_ScoreEntry);
+	Parms.Highlight_0 = Highlight_0;
+	Parms.ScoreEntry_0 = std::move(ScoreEntry_0);
 
 	UObject::ProcessEvent(Func, &Parms);
 }

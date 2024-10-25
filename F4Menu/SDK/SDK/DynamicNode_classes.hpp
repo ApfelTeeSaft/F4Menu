@@ -164,7 +164,7 @@ public:
 	void OnRep_NextAnimationClient();
 	void RemoveParentAsset();
 	void SetNextAnimation(class UAnimationAsset* AnimSequence, bool CanChangeAnimInRuntimeOutOverride);
-	void SetNextIndex(int32 Param_Index, bool CanChangeAnimInRuntimeOutOverride);
+	void SetNextIndex(int32 Index_0, bool CanChangeAnimInRuntimeOutOverride);
 	void SetParentAsset(class UAnimChanceSet_DN* ParentChanceSet, bool UseParentDataOnlyOnce);
 
 public:
@@ -583,7 +583,7 @@ public:
 	void OnStartSwimming();
 	void OverrideFaceRotation(const struct FRotator& OverrideRotation, bool Enable);
 	void SERVER_ComputeLocallyVariables(const struct FLocallyRepData_DN_Int& RepData);
-	void SetAutoCrouching(bool Enabled, float CapsuleAddHeight, float AddRadius, float CapsuleZOffset, float CapsuleForwardOffset, const struct FRotator& CapsuleRotation, float InTimer, float OutTimer, bool Param_DrawDebug, float DrawDebugTimer, bool DrawDebugOnlySuccAttempts);
+	void SetAutoCrouching(bool Enabled, float CapsuleAddHeight, float AddRadius, float CapsuleZOffset, float CapsuleForwardOffset, const struct FRotator& CapsuleRotation, float InTimer, float OutTimer, bool DrawDebug_0, float DrawDebugTimer, bool DrawDebugOnlySuccAttempts);
 	void SetControllerRotationParams(bool UseControllerRotationPitch, bool UseControllerRotationYaw, bool UseControllerRotationRoll, float StartSoftFaceRotationTime, float FinSoftFaceRotationTime, float TransitionTimeBetweenStartAndFin);
 	void SetDampingMultiAllBodyBellow(float AngularDampingFactor, float LinearDampingFactor, class FName BoneName);
 	void SetEnableGravityAllBodyBellow(bool Enabled, class FName BoneName);
@@ -779,7 +779,7 @@ public:
 	void EndMoveEvent(bool IsReverse);
 	void HandMoveBackEvent(bool IsReverse, float CurTime, const struct FTransform& CurRelativeTransform);
 	void HandReachedTargetSocketEvent(int32 HandIdx, bool IsReverse);
-	void IntermediatePointsReachedEvent(bool IsReverse, int32 Param_Index);
+	void IntermediatePointsReachedEvent(bool IsReverse, int32 Index_0);
 	void InteruptCurrentMovement(EInterruptBehaviorFollowActor_DN Behavior);
 	bool IsDirectMode(EBranchesOutEnum* Branches, int32 FromIndex, int32 ToIndex);
 	bool IsInPosition(EBranchesOutEnum* Branches, EPropsActorPosition_DN NewPropsActorPosition, int32 IntermediatePositionIndex, float Tolerance);
@@ -791,7 +791,7 @@ public:
 	void SetActionMeshRelativeOffsetToActorOffset();
 	void SetDirectModePairsBothDirection(int32 FirstIndex, int32 SecondIndex);
 	void SetDirectModePairsSingleDirection(int32 FromIndex, int32 ToIndex);
-	void SetNextTargetLocation(int32 Param_Index);
+	void SetNextTargetLocation(int32 Index_0);
 	void SetPosition(EPropsActorPosition_DN NewPropsActorPosition, int32 IntermediatePositionIndex, bool MoveFromIntermediateToStartPosition);
 	void SetSpecificHandleComponent(class FName TargetSocketName, class FName HandComponentTagName);
 	void SetSpecificHandleComponentTargetIndex(const TArray<int32>& TargetIndexArray, class FName TargetSocketName, class FName HandComponentTagName);
@@ -995,7 +995,7 @@ public:
 	static bool HasDefferedTransitionAnimation_BL(class ACharacter* OwnCharacter, class FName BoneName);
 	static void IfWaterDepthMoreThan_BL(class ACharacter* OwnCharacter, float TestWaterDepth, EBranchesOutEnum* Branches);
 	static EAnimationReturnTypes_DN ImpactHandle_BL(class ACharacter* OwnCharacter, class UAnimationAsset* ImpactAnimation, class FName PlayTill_Notify, float TransitionTime, float ImpulseAmplitude, bool bOverrideImpactDirection, const struct FVector& OverrideImpactDirectionVector);
-	static void InsertDistanceIndexMap_DN(float Distance, int32 Param_Index, bool ClearMapBeforeInsert);
+	static void InsertDistanceIndexMap_DN(float Distance, int32 Index_0, bool ClearMapBeforeInsert);
 	static bool IsAimOffsetEnabled_BL(class ACharacter* OwnCharacter, class FName BoneName);
 	static bool IsAnimationSelectedInAnimationStack_BL(class ACharacter* OwnCharacter);
 	static bool IsAnimationStackActive_BL(class ACharacter* OwnCharacter);

@@ -31,7 +31,7 @@ public:
 	uint8                                         Pad_5D5[0x3];                                      // 0x05D5(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
 	class UTimelineComponent*                     Throw__;                                           // 0x05D8(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash)
 	float                                         ThrowValue;                                        // 0x05E0(0x0004)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          LookAT_;                                           // 0x05E4(0x0001)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor)
+	bool                                          LookAt_;                                           // 0x05E4(0x0001)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor)
 	uint8                                         Pad_5E5[0x3];                                      // 0x05E5(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
 	class ABP_ALTF4_Pawn_SoloPlay_C*              ALTF4_SP;                                          // 0x05E8(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FVector                                ShotOffset;                                        // 0x05F0(0x000C)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
@@ -40,7 +40,7 @@ public:
 public:
 	void ExecuteUbergraph_BarNPC_Pawn(int32 EntryPoint);
 	void DanceNotDead_();
-	void Func_DanceDead_();
+	void DanceDead__0();
 	void LookAtOff();
 	void LookAtActive();
 	void ReceiveBeginPlay();
@@ -66,7 +66,7 @@ static_assert(offsetof(ABarNPC_Pawn_C, Throw________0_D31149A240B2F20555735B92FD
 static_assert(offsetof(ABarNPC_Pawn_C, Throw____Direction_D31149A240B2F20555735B92FDAF2D99) == 0x0005D4, "Member 'ABarNPC_Pawn_C::Throw____Direction_D31149A240B2F20555735B92FDAF2D99' has a wrong offset!");
 static_assert(offsetof(ABarNPC_Pawn_C, Throw__) == 0x0005D8, "Member 'ABarNPC_Pawn_C::Throw__' has a wrong offset!");
 static_assert(offsetof(ABarNPC_Pawn_C, ThrowValue) == 0x0005E0, "Member 'ABarNPC_Pawn_C::ThrowValue' has a wrong offset!");
-static_assert(offsetof(ABarNPC_Pawn_C, LookAT_) == 0x0005E4, "Member 'ABarNPC_Pawn_C::LookAT_' has a wrong offset!");
+static_assert(offsetof(ABarNPC_Pawn_C, LookAt_) == 0x0005E4, "Member 'ABarNPC_Pawn_C::LookAt_' has a wrong offset!");
 static_assert(offsetof(ABarNPC_Pawn_C, ALTF4_SP) == 0x0005E8, "Member 'ABarNPC_Pawn_C::ALTF4_SP' has a wrong offset!");
 static_assert(offsetof(ABarNPC_Pawn_C, ShotOffset) == 0x0005F0, "Member 'ABarNPC_Pawn_C::ShotOffset' has a wrong offset!");
 static_assert(offsetof(ABarNPC_Pawn_C, DanceDead_) == 0x0005FC, "Member 'ABarNPC_Pawn_C::DanceDead_' has a wrong offset!");

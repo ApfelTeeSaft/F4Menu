@@ -19,12 +19,12 @@ namespace SDK::Params
 struct EpicLeaderboardObject_CleanupName final
 {
 public:
-	class FString                                 Param_Name;                                        // 0x0000(0x0010)(Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class FString                                 Name_0;                                            // 0x0000(0x0010)(Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class FString                                 ReturnValue;                                       // 0x0010(0x0010)(Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 static_assert(alignof(EpicLeaderboardObject_CleanupName) == 0x000008, "Wrong alignment on EpicLeaderboardObject_CleanupName");
 static_assert(sizeof(EpicLeaderboardObject_CleanupName) == 0x000020, "Wrong size on EpicLeaderboardObject_CleanupName");
-static_assert(offsetof(EpicLeaderboardObject_CleanupName, Param_Name) == 0x000000, "Member 'EpicLeaderboardObject_CleanupName::Param_Name' has a wrong offset!");
+static_assert(offsetof(EpicLeaderboardObject_CleanupName, Name_0) == 0x000000, "Member 'EpicLeaderboardObject_CleanupName::Name_0' has a wrong offset!");
 static_assert(offsetof(EpicLeaderboardObject_CleanupName, ReturnValue) == 0x000010, "Member 'EpicLeaderboardObject_CleanupName::ReturnValue' has a wrong offset!");
 
 // Function EpicLeaderboard.EpicLeaderboardObject.GetEpicLeaderboard

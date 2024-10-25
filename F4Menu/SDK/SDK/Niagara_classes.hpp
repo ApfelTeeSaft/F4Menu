@@ -335,7 +335,7 @@ public:
 	struct FNiagaraUserRedirectionParameterStore  OverrideParameters;                                // 0x0450(0x00C8)(NativeAccessSpecifierPrivate)
 	uint8                                         bForceSolo : 1;                                    // 0x0518(0x0001)(BitIndex: 0x00, PropSize: 0x0001 (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate))
 	uint8                                         bEnableGpuComputeDebug : 1;                        // 0x0518(0x0001)(BitIndex: 0x01, PropSize: 0x0001 (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate))
-	uint8                                         BitPad_18_2 : 6;                                   // 0x0018(0x0001)(Fixing Bit-Field Size For New Byte [ Dumper-7 ])
+	uint8                                         BitPad_518_2 : 6;                                  // 0x0518(0x0001)(Fixing Bit-Field Size For New Byte [ Dumper-7 ])
 	uint8                                         Pad_519[0x2B];                                     // 0x0519(0x002B)(Fixing Size After Last Property [ Dumper-7 ])
 	uint8                                         bAutoDestroy : 1;                                  // 0x0544(0x0001)(BitIndex: 0x00, PropSize: 0x0001 (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate))
 	uint8                                         bRenderingEnabled : 1;                             // 0x0544(0x0001)(BitIndex: 0x01, PropSize: 0x0001 (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate))
@@ -357,7 +357,7 @@ public:
 public:
 	void AdvanceSimulation(int32 TickCount, float TickDeltaSeconds);
 	void AdvanceSimulationByTime(float SimulateTime, float TickDeltaSeconds);
-	class UNiagaraDataInterface* GetDataInterface(const class FString& Param_Name);
+	class UNiagaraDataInterface* GetDataInterface(const class FString& Name_0);
 	TArray<struct FVector> GetNiagaraParticlePositions_DebugOnly(const class FString& InEmitterName);
 	TArray<float> GetNiagaraParticleValues_DebugOnly(const class FString& InEmitterName, const class FString& InValueName);
 	TArray<struct FVector> GetNiagaraParticleValueVec3_DebugOnly(const class FString& InEmitterName, const class FString& InValueName);

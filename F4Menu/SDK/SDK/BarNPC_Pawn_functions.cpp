@@ -54,7 +54,7 @@ void ABarNPC_Pawn_C::DanceNotDead_()
 // Function BarNPC_Pawn.BarNPC_Pawn_C.DanceDead!
 // (BlueprintCallable, BlueprintEvent)
 
-void ABarNPC_Pawn_C::Func_DanceDead_()
+void ABarNPC_Pawn_C::DanceDead__0()
 {
 	static class UFunction* Func = nullptr;
 

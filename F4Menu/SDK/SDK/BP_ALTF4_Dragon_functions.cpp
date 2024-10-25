@@ -110,7 +110,7 @@ void ABP_ALTF4_Dragon_C::AttackLoop()
 // Function BP_ALTF4_Dragon.BP_ALTF4_Dragon_C.Attack!
 // (BlueprintCallable, BlueprintEvent)
 
-void ABP_ALTF4_Dragon_C::Func_Attack_()
+void ABP_ALTF4_Dragon_C::Attack__0()
 {
 	static class UFunction* Func = nullptr;
 
@@ -124,7 +124,7 @@ void ABP_ALTF4_Dragon_C::Func_Attack_()
 // Function BP_ALTF4_Dragon.BP_ALTF4_Dragon_C.WakeUP!
 // (BlueprintCallable, BlueprintEvent)
 
-void ABP_ALTF4_Dragon_C::Func_WakeUP_()
+void ABP_ALTF4_Dragon_C::WakeUP__0()
 {
 	static class UFunction* Func = nullptr;
 
@@ -169,29 +169,29 @@ void ABP_ALTF4_Dragon_C::ReceiveBeginPlay()
 }
 
 
-// Function BP_ALTF4_Dragon.BP_ALTF4_Dragon_C.Up__UpdateFunc
+// Function BP_ALTF4_Dragon.BP_ALTF4_Dragon_C.UP__UpdateFunc
 // (BlueprintEvent)
 
-void ABP_ALTF4_Dragon_C::Up__UpdateFunc()
+void ABP_ALTF4_Dragon_C::UP__UpdateFunc()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_ALTF4_Dragon_C", "Up__UpdateFunc");
+		Func = Class->GetFunction("BP_ALTF4_Dragon_C", "UP__UpdateFunc");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function BP_ALTF4_Dragon.BP_ALTF4_Dragon_C.Up__FinishedFunc
+// Function BP_ALTF4_Dragon.BP_ALTF4_Dragon_C.UP__FinishedFunc
 // (BlueprintEvent)
 
-void ABP_ALTF4_Dragon_C::Up__FinishedFunc()
+void ABP_ALTF4_Dragon_C::UP__FinishedFunc()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_ALTF4_Dragon_C", "Up__FinishedFunc");
+		Func = Class->GetFunction("BP_ALTF4_Dragon_C", "UP__FinishedFunc");
 
 	UObject::ProcessEvent(Func, nullptr);
 }

@@ -57,9 +57,9 @@ void UEpicLeaderboardFrame_C::Construct()
 // TArray<struct FEpicLeaderboardEntry>    Leaderboard_Entries                                    (BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
 // struct FEpicLeaderboardEntry            SpotlightEntry                                         (BlueprintVisible, BlueprintReadOnly, Parm)
 // class FString                           HighlightUser                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, HasGetValueTypeHash)
-// class UClass*                           Param_EntryClass                                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class UClass*                           EntryClass_0                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UEpicLeaderboardFrame_C::UpdateScores(TArray<struct FEpicLeaderboardEntry>& Leaderboard_Entries, const struct FEpicLeaderboardEntry& SpotlightEntry, const class FString& HighlightUser, class UClass* Param_EntryClass)
+void UEpicLeaderboardFrame_C::UpdateScores(TArray<struct FEpicLeaderboardEntry>& Leaderboard_Entries, const struct FEpicLeaderboardEntry& SpotlightEntry, const class FString& HighlightUser, class UClass* EntryClass_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -71,7 +71,7 @@ void UEpicLeaderboardFrame_C::UpdateScores(TArray<struct FEpicLeaderboardEntry>&
 	Parms.Leaderboard_Entries = std::move(Leaderboard_Entries);
 	Parms.SpotlightEntry = std::move(SpotlightEntry);
 	Parms.HighlightUser = std::move(HighlightUser);
-	Parms.Param_EntryClass = Param_EntryClass;
+	Parms.EntryClass_0 = EntryClass_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 

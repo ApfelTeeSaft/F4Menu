@@ -122,11 +122,11 @@ void UDemoWidget_Item_Mainmenu_C::EpicLeaderboard_OnFailure(class UEpicLeaderboa
 // Function DemoWidget_Item_Mainmenu.DemoWidget_Item_Mainmenu_C.DoCustomNavigation
 // (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// EUINavigation                           Param_Navigation                                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// EUINavigation                           Navigation_0                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 // struct FKey                             Key                                                    (BlueprintVisible, BlueprintReadOnly, Parm, HasGetValueTypeHash)
 // class UWidget*                          ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-class UWidget* UDemoWidget_Item_Mainmenu_C::DoCustomNavigation(EUINavigation Param_Navigation, const struct FKey& Key)
+class UWidget* UDemoWidget_Item_Mainmenu_C::DoCustomNavigation(EUINavigation Navigation_0, const struct FKey& Key)
 {
 	static class UFunction* Func = nullptr;
 
@@ -135,7 +135,7 @@ class UWidget* UDemoWidget_Item_Mainmenu_C::DoCustomNavigation(EUINavigation Par
 
 	Params::DemoWidget_Item_Mainmenu_C_DoCustomNavigation Parms{};
 
-	Parms.Param_Navigation = Param_Navigation;
+	Parms.Navigation_0 = Navigation_0;
 	Parms.Key = std::move(Key);
 
 	UObject::ProcessEvent(Func, &Parms);

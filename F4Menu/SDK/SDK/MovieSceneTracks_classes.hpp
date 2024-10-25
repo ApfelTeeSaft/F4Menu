@@ -1839,7 +1839,7 @@ static_assert(sizeof(UMovieSceneQuaternionInterpolationRotationSystem) == 0x0000
 class alignas(0x10) UMovieSceneSkeletalAnimationSection final : public UMovieSceneSection
 {
 public:
-	struct FMovieSceneSkeletalAnimationParams     Params;                                            // 0x00E8(0x00D8)(Edit, BlueprintVisible, NativeAccessSpecifierPublic)
+	struct FMovieSceneSkeletalAnimationParams     Params_0;                                          // 0x00E8(0x00D8)(Edit, BlueprintVisible, NativeAccessSpecifierPublic)
 	class UAnimSequence*                          AnimSequence;                                      // 0x01C0(0x0008)(ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	class UAnimSequenceBase*                      Animation;                                         // 0x01C8(0x0008)(ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	float                                         StartOffset;                                       // 0x01D0(0x0004)(ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -1874,7 +1874,7 @@ public:
 };
 static_assert(alignof(UMovieSceneSkeletalAnimationSection) == 0x000010, "Wrong alignment on UMovieSceneSkeletalAnimationSection");
 static_assert(sizeof(UMovieSceneSkeletalAnimationSection) == 0x000270, "Wrong size on UMovieSceneSkeletalAnimationSection");
-static_assert(offsetof(UMovieSceneSkeletalAnimationSection, Params) == 0x0000E8, "Member 'UMovieSceneSkeletalAnimationSection::Params' has a wrong offset!");
+static_assert(offsetof(UMovieSceneSkeletalAnimationSection, Params_0) == 0x0000E8, "Member 'UMovieSceneSkeletalAnimationSection::Params_0' has a wrong offset!");
 static_assert(offsetof(UMovieSceneSkeletalAnimationSection, AnimSequence) == 0x0001C0, "Member 'UMovieSceneSkeletalAnimationSection::AnimSequence' has a wrong offset!");
 static_assert(offsetof(UMovieSceneSkeletalAnimationSection, Animation) == 0x0001C8, "Member 'UMovieSceneSkeletalAnimationSection::Animation' has a wrong offset!");
 static_assert(offsetof(UMovieSceneSkeletalAnimationSection, StartOffset) == 0x0001D0, "Member 'UMovieSceneSkeletalAnimationSection::StartOffset' has a wrong offset!");

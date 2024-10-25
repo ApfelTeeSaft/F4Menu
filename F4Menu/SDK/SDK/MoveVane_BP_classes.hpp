@@ -67,8 +67,8 @@ public:
 	void OnFailure_52BA323245D072682FA5B9B94338B3DE();
 	void Move__UpdateFunc();
 	void Move__FinishedFunc();
-	void Up__UpdateFunc();
-	void Up__FinishedFunc();
+	void UP__UpdateFunc();
+	void UP__FinishedFunc();
 	void RotaSpeed__UpdateFunc();
 	void RotaSpeed__FinishedFunc();
 	void UserConstructionScript();

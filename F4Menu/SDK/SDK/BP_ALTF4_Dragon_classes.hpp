@@ -34,7 +34,7 @@ public:
 	class UTimelineComponent*                     Up;                                                // 0x05E8(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash)
 	class ABP_ALTF4_Pawn_SoloPlay_C*              ALTF4_SP;                                          // 0x05F0(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	float                                         Attak;                                             // 0x05F8(0x0004)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          LookAT_;                                           // 0x05FC(0x0001)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor)
+	bool                                          LookAt_;                                           // 0x05FC(0x0001)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor)
 	bool                                          WakeUP_;                                           // 0x05FD(0x0001)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor)
 	uint8                                         Pad_5FE[0x2];                                      // 0x05FE(0x0002)(Fixing Size After Last Property [ Dumper-7 ])
 	struct FVector                                DragonLocation;                                    // 0x0600(0x000C)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
@@ -49,12 +49,12 @@ public:
 	void DragonReset();
 	void AttackStop();
 	void AttackLoop();
-	void Func_Attack_();
-	void Func_WakeUP_();
+	void Attack__0();
+	void WakeUP__0();
 	void ReceiveTick(float DeltaSeconds);
 	void ReceiveBeginPlay();
-	void Up__UpdateFunc();
-	void Up__FinishedFunc();
+	void UP__UpdateFunc();
+	void UP__FinishedFunc();
 	void UserConstructionScript();
 
 public:
@@ -78,7 +78,7 @@ static_assert(offsetof(ABP_ALTF4_Dragon_C, Up__Direction_DB0252244CC331A1A109AA9
 static_assert(offsetof(ABP_ALTF4_Dragon_C, Up) == 0x0005E8, "Member 'ABP_ALTF4_Dragon_C::Up' has a wrong offset!");
 static_assert(offsetof(ABP_ALTF4_Dragon_C, ALTF4_SP) == 0x0005F0, "Member 'ABP_ALTF4_Dragon_C::ALTF4_SP' has a wrong offset!");
 static_assert(offsetof(ABP_ALTF4_Dragon_C, Attak) == 0x0005F8, "Member 'ABP_ALTF4_Dragon_C::Attak' has a wrong offset!");
-static_assert(offsetof(ABP_ALTF4_Dragon_C, LookAT_) == 0x0005FC, "Member 'ABP_ALTF4_Dragon_C::LookAT_' has a wrong offset!");
+static_assert(offsetof(ABP_ALTF4_Dragon_C, LookAt_) == 0x0005FC, "Member 'ABP_ALTF4_Dragon_C::LookAt_' has a wrong offset!");
 static_assert(offsetof(ABP_ALTF4_Dragon_C, WakeUP_) == 0x0005FD, "Member 'ABP_ALTF4_Dragon_C::WakeUP_' has a wrong offset!");
 static_assert(offsetof(ABP_ALTF4_Dragon_C, DragonLocation) == 0x000600, "Member 'ABP_ALTF4_Dragon_C::DragonLocation' has a wrong offset!");
 static_assert(offsetof(ABP_ALTF4_Dragon_C, Stack_Priority) == 0x00060C, "Member 'ABP_ALTF4_Dragon_C::Stack_Priority' has a wrong offset!");

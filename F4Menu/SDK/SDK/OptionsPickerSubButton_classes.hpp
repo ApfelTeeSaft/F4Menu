@@ -30,7 +30,7 @@ public:
 	float                                         Width;                                             // 0x0618(0x0004)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	float                                         Height;                                            // 0x061C(0x0004)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	FMulticastInlineDelegateProperty_             OnClickSubButton;                                  // 0x0620(0x0010)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
-	int32                                         Index_OptionsPickerSubButton_C;                    // 0x0630(0x0004)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         Index_0;                                           // 0x0630(0x0004)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FLinearColor                           SubButtonMainColor;                                // 0x0634(0x0010)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FLinearColor                           SubButtonHighlightColor;                           // 0x0644(0x0010)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FLinearColor                           SubButtonExtraHightlightColor;                     // 0x0654(0x0010)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
@@ -68,7 +68,7 @@ static_assert(offsetof(UOptionsPickerSubButton_C, SubButton) == 0x000610, "Membe
 static_assert(offsetof(UOptionsPickerSubButton_C, Width) == 0x000618, "Member 'UOptionsPickerSubButton_C::Width' has a wrong offset!");
 static_assert(offsetof(UOptionsPickerSubButton_C, Height) == 0x00061C, "Member 'UOptionsPickerSubButton_C::Height' has a wrong offset!");
 static_assert(offsetof(UOptionsPickerSubButton_C, OnClickSubButton) == 0x000620, "Member 'UOptionsPickerSubButton_C::OnClickSubButton' has a wrong offset!");
-static_assert(offsetof(UOptionsPickerSubButton_C, Index_OptionsPickerSubButton_C) == 0x000630, "Member 'UOptionsPickerSubButton_C::Index_OptionsPickerSubButton_C' has a wrong offset!");
+static_assert(offsetof(UOptionsPickerSubButton_C, Index_0) == 0x000630, "Member 'UOptionsPickerSubButton_C::Index_0' has a wrong offset!");
 static_assert(offsetof(UOptionsPickerSubButton_C, SubButtonMainColor) == 0x000634, "Member 'UOptionsPickerSubButton_C::SubButtonMainColor' has a wrong offset!");
 static_assert(offsetof(UOptionsPickerSubButton_C, SubButtonHighlightColor) == 0x000644, "Member 'UOptionsPickerSubButton_C::SubButtonHighlightColor' has a wrong offset!");
 static_assert(offsetof(UOptionsPickerSubButton_C, SubButtonExtraHightlightColor) == 0x000654, "Member 'UOptionsPickerSubButton_C::SubButtonExtraHightlightColor' has a wrong offset!");

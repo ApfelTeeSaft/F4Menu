@@ -39,7 +39,7 @@ public:
 public:
 	void ExecuteUbergraph_AnimBP_BarNpc(int32 EntryPoint);
 	void BlueprintUpdateAnimation(float DeltaTimeX);
-	void AnimGraph(struct FPoseLink* Param_AnimGraph);
+	void AnimGraph(struct FPoseLink* AnimGraph_0);
 
 public:
 	static class UClass* StaticClass()

@@ -186,7 +186,7 @@ public:
 	void SetResetTrackedObjects(bool bNewValue);
 	void SetSceneReconstructionMethod(EARSceneReconstruction InSceneReconstructionMethod);
 	void SetSessionTrackingFeatureToEnable(EARSessionTrackingFeature InSessionTrackingFeature);
-	void SetWorldMapData(const TArray<uint8>& Param_WorldMapData);
+	void SetWorldMapData(const TArray<uint8>& WorldMapData_0);
 
 	const TArray<class UARCandidateImage*> GetCandidateImageList() const;
 	const TArray<class UARCandidateObject*> GetCandidateObjectList() const;
@@ -517,7 +517,7 @@ public:
 	class UMRMeshComponent* GetMRMesh();
 	void OnRep_Payload();
 	void ReceiveRemove();
-	void SetNativeID(const struct FGuid& Param_NativeID);
+	void SetNativeID(const struct FGuid& NativeID_0);
 	void UpdateVisualization();
 
 public:

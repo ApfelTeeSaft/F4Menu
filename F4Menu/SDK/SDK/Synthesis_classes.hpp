@@ -209,7 +209,7 @@ public:
 	void SetModulationSettings(const struct FSourceEffectBitCrusherSettings& ModulationSettings);
 	void SetSampleRate(float SampleRate);
 	void SetSampleRateModulator(const class USoundModulatorBase* Modulator);
-	void SetSettings(const struct FSourceEffectBitCrusherBaseSettings& Param_Settings);
+	void SetSettings(const struct FSourceEffectBitCrusherBaseSettings& Settings_0);
 
 public:
 	static class UClass* StaticClass()
@@ -243,7 +243,7 @@ public:
 	void SetFrequency(float Frequency);
 	void SetFrequencyModulator(const class USoundModulatorBase* Modulator);
 	void SetModulationSettings(const struct FSourceEffectChorusSettings& ModulationSettings);
-	void SetSettings(const struct FSourceEffectChorusBaseSettings& Param_Settings);
+	void SetSettings(const struct FSourceEffectChorusBaseSettings& Settings_0);
 	void SetSpread(float Spread);
 	void SetSpreadModulator(const class USoundModulatorBase* Modulator);
 	void SetWet(float WetAmount);
@@ -928,7 +928,7 @@ public:
 	void NoteOff(const float InMidiNote);
 	void NoteOn(const float InMidiNote, const float InVelocity);
 	void RefreshAllWaveTables();
-	void RefreshWaveTable(int32 Param_Index);
+	void RefreshWaveTable(int32 Index_0);
 	void SetAmpEnvelopeAttackTime(const float InAttackTimeMsec);
 	void SetAmpEnvelopeBiasDepth(const float InDepth);
 	void SetAmpEnvelopeBiasInvert(const bool bInBiasInvert);

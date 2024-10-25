@@ -86,13 +86,13 @@ static_assert(offsetof(PFPathFollowerComponent_ComputeLookAtRotation, ReturnValu
 struct PFPathFollowerComponent_EventPointExistByName final
 {
 public:
-	class FName                                   Param_Name;                                        // 0x0000(0x0008)(ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class FName                                   Name_0;                                            // 0x0000(0x0008)(ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                          ReturnValue;                                       // 0x0008(0x0001)(Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	uint8                                         Pad_9[0x3];                                        // 0x0009(0x0003)(Fixing Struct Size After Last Property [ Dumper-7 ])
 };
 static_assert(alignof(PFPathFollowerComponent_EventPointExistByName) == 0x000004, "Wrong alignment on PFPathFollowerComponent_EventPointExistByName");
 static_assert(sizeof(PFPathFollowerComponent_EventPointExistByName) == 0x00000C, "Wrong size on PFPathFollowerComponent_EventPointExistByName");
-static_assert(offsetof(PFPathFollowerComponent_EventPointExistByName, Param_Name) == 0x000000, "Member 'PFPathFollowerComponent_EventPointExistByName::Param_Name' has a wrong offset!");
+static_assert(offsetof(PFPathFollowerComponent_EventPointExistByName, Name_0) == 0x000000, "Member 'PFPathFollowerComponent_EventPointExistByName::Name_0' has a wrong offset!");
 static_assert(offsetof(PFPathFollowerComponent_EventPointExistByName, ReturnValue) == 0x000008, "Member 'PFPathFollowerComponent_EventPointExistByName::ReturnValue' has a wrong offset!");
 
 // Function PathFollow.PFPathFollowerComponent.FollowPath
@@ -111,12 +111,12 @@ static_assert(offsetof(PFPathFollowerComponent_FollowPath, FollowStep) == 0x0000
 struct PFPathFollowerComponent_GetEventPointByName final
 {
 public:
-	class FName                                   Param_Name;                                        // 0x0000(0x0008)(ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class FName                                   Name_0;                                            // 0x0000(0x0008)(ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FEventPoint                            ReturnValue;                                       // 0x0008(0x0028)(Parm, OutParm, ReturnParm, NoDestructor, NativeAccessSpecifierPublic)
 };
 static_assert(alignof(PFPathFollowerComponent_GetEventPointByName) == 0x000008, "Wrong alignment on PFPathFollowerComponent_GetEventPointByName");
 static_assert(sizeof(PFPathFollowerComponent_GetEventPointByName) == 0x000030, "Wrong size on PFPathFollowerComponent_GetEventPointByName");
-static_assert(offsetof(PFPathFollowerComponent_GetEventPointByName, Param_Name) == 0x000000, "Member 'PFPathFollowerComponent_GetEventPointByName::Param_Name' has a wrong offset!");
+static_assert(offsetof(PFPathFollowerComponent_GetEventPointByName, Name_0) == 0x000000, "Member 'PFPathFollowerComponent_GetEventPointByName::Name_0' has a wrong offset!");
 static_assert(offsetof(PFPathFollowerComponent_GetEventPointByName, ReturnValue) == 0x000008, "Member 'PFPathFollowerComponent_GetEventPointByName::ReturnValue' has a wrong offset!");
 
 // Function PathFollow.PFPathFollowerComponent.GetEventPointDelegateAll
@@ -135,13 +135,13 @@ static_assert(offsetof(PFPathFollowerComponent_GetEventPointDelegateAll, ReturnV
 struct PFPathFollowerComponent_GetEventPointDelegateByIndex final
 {
 public:
-	int32                                         Param_Index;                                       // 0x0000(0x0004)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int32                                         Index_0;                                           // 0x0000(0x0004)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	uint8                                         Pad_4[0x4];                                        // 0x0004(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
 	class UEventPointDelegateHolder*              ReturnValue;                                       // 0x0008(0x0008)(Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 static_assert(alignof(PFPathFollowerComponent_GetEventPointDelegateByIndex) == 0x000008, "Wrong alignment on PFPathFollowerComponent_GetEventPointDelegateByIndex");
 static_assert(sizeof(PFPathFollowerComponent_GetEventPointDelegateByIndex) == 0x000010, "Wrong size on PFPathFollowerComponent_GetEventPointDelegateByIndex");
-static_assert(offsetof(PFPathFollowerComponent_GetEventPointDelegateByIndex, Param_Index) == 0x000000, "Member 'PFPathFollowerComponent_GetEventPointDelegateByIndex::Param_Index' has a wrong offset!");
+static_assert(offsetof(PFPathFollowerComponent_GetEventPointDelegateByIndex, Index_0) == 0x000000, "Member 'PFPathFollowerComponent_GetEventPointDelegateByIndex::Index_0' has a wrong offset!");
 static_assert(offsetof(PFPathFollowerComponent_GetEventPointDelegateByIndex, ReturnValue) == 0x000008, "Member 'PFPathFollowerComponent_GetEventPointDelegateByIndex::ReturnValue' has a wrong offset!");
 
 // Function PathFollow.PFPathFollowerComponent.GetEventPointDelegateByName
@@ -149,12 +149,12 @@ static_assert(offsetof(PFPathFollowerComponent_GetEventPointDelegateByIndex, Ret
 struct PFPathFollowerComponent_GetEventPointDelegateByName final
 {
 public:
-	class FName                                   Param_Name;                                        // 0x0000(0x0008)(ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class FName                                   Name_0;                                            // 0x0000(0x0008)(ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class UEventPointDelegateHolder*              ReturnValue;                                       // 0x0008(0x0008)(Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 static_assert(alignof(PFPathFollowerComponent_GetEventPointDelegateByName) == 0x000008, "Wrong alignment on PFPathFollowerComponent_GetEventPointDelegateByName");
 static_assert(sizeof(PFPathFollowerComponent_GetEventPointDelegateByName) == 0x000010, "Wrong size on PFPathFollowerComponent_GetEventPointDelegateByName");
-static_assert(offsetof(PFPathFollowerComponent_GetEventPointDelegateByName, Param_Name) == 0x000000, "Member 'PFPathFollowerComponent_GetEventPointDelegateByName::Param_Name' has a wrong offset!");
+static_assert(offsetof(PFPathFollowerComponent_GetEventPointDelegateByName, Name_0) == 0x000000, "Member 'PFPathFollowerComponent_GetEventPointDelegateByName::Name_0' has a wrong offset!");
 static_assert(offsetof(PFPathFollowerComponent_GetEventPointDelegateByName, ReturnValue) == 0x000008, "Member 'PFPathFollowerComponent_GetEventPointDelegateByName::ReturnValue' has a wrong offset!");
 
 // Function PathFollow.PFPathFollowerComponent.GetEventPoints
@@ -221,11 +221,11 @@ static_assert(offsetof(PFPathFollowerComponent_ModifyFinalRotation, ReturnValue)
 struct PFPathFollowerComponent_Reverse final
 {
 public:
-	bool                                          Param_Reverse;                                     // 0x0000(0x0001)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          Reverse_0;                                         // 0x0000(0x0001)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 static_assert(alignof(PFPathFollowerComponent_Reverse) == 0x000001, "Wrong alignment on PFPathFollowerComponent_Reverse");
 static_assert(sizeof(PFPathFollowerComponent_Reverse) == 0x000001, "Wrong size on PFPathFollowerComponent_Reverse");
-static_assert(offsetof(PFPathFollowerComponent_Reverse, Param_Reverse) == 0x000000, "Member 'PFPathFollowerComponent_Reverse::Param_Reverse' has a wrong offset!");
+static_assert(offsetof(PFPathFollowerComponent_Reverse, Reverse_0) == 0x000000, "Member 'PFPathFollowerComponent_Reverse::Reverse_0' has a wrong offset!");
 
 // Function PathFollow.PFPathFollowerComponent.SetCurrentDistance
 // 0x0004 (0x0004 - 0x0000)
@@ -243,11 +243,11 @@ static_assert(offsetof(PFPathFollowerComponent_SetCurrentDistance, NewDistance) 
 struct PFPathFollowerComponent_SetPathOwner final
 {
 public:
-	class AActor*                                 Param_PathOwner;                                   // 0x0000(0x0008)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                 PathOwner_0;                                       // 0x0000(0x0008)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 static_assert(alignof(PFPathFollowerComponent_SetPathOwner) == 0x000008, "Wrong alignment on PFPathFollowerComponent_SetPathOwner");
 static_assert(sizeof(PFPathFollowerComponent_SetPathOwner) == 0x000008, "Wrong size on PFPathFollowerComponent_SetPathOwner");
-static_assert(offsetof(PFPathFollowerComponent_SetPathOwner, Param_PathOwner) == 0x000000, "Member 'PFPathFollowerComponent_SetPathOwner::Param_PathOwner' has a wrong offset!");
+static_assert(offsetof(PFPathFollowerComponent_SetPathOwner, PathOwner_0) == 0x000000, "Member 'PFPathFollowerComponent_SetPathOwner::PathOwner_0' has a wrong offset!");
 
 // Function PathFollow.PFPathFollowerComponent.SetPathToFollow
 // 0x0008 (0x0008 - 0x0000)
@@ -265,11 +265,11 @@ static_assert(offsetof(PFPathFollowerComponent_SetPathToFollow, Spline) == 0x000
 struct PFPathFollowerComponent_Start final
 {
 public:
-	float                                         Param_StartDelay;                                  // 0x0000(0x0004)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                         StartDelay_0;                                      // 0x0000(0x0004)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 static_assert(alignof(PFPathFollowerComponent_Start) == 0x000004, "Wrong alignment on PFPathFollowerComponent_Start");
 static_assert(sizeof(PFPathFollowerComponent_Start) == 0x000004, "Wrong size on PFPathFollowerComponent_Start");
-static_assert(offsetof(PFPathFollowerComponent_Start, Param_StartDelay) == 0x000000, "Member 'PFPathFollowerComponent_Start::Param_StartDelay' has a wrong offset!");
+static_assert(offsetof(PFPathFollowerComponent_Start, StartDelay_0) == 0x000000, "Member 'PFPathFollowerComponent_Start::StartDelay_0' has a wrong offset!");
 
 // Function PathFollow.PFPathFollowerComponent.GetLocationAtDistance
 // 0x0014 (0x0014 - 0x0000)

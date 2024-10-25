@@ -876,11 +876,11 @@ static_assert(offsetof(BP_Pawn_C_All_CapsuleUpdateLocation, Location) == 0x00000
 struct BP_Pawn_C_All_MontageSet final
 {
 public:
-	class UAnimMontage*                           Param_MontageStanding;                             // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UAnimMontage*                           MontageStanding_0;                                 // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 static_assert(alignof(BP_Pawn_C_All_MontageSet) == 0x000008, "Wrong alignment on BP_Pawn_C_All_MontageSet");
 static_assert(sizeof(BP_Pawn_C_All_MontageSet) == 0x000008, "Wrong size on BP_Pawn_C_All_MontageSet");
-static_assert(offsetof(BP_Pawn_C_All_MontageSet, Param_MontageStanding) == 0x000000, "Member 'BP_Pawn_C_All_MontageSet::Param_MontageStanding' has a wrong offset!");
+static_assert(offsetof(BP_Pawn_C_All_MontageSet, MontageStanding_0) == 0x000000, "Member 'BP_Pawn_C_All_MontageSet::MontageStanding_0' has a wrong offset!");
 
 // Function BP_Pawn.BP_Pawn_C.All_StandingProcess
 // 0x0001 (0x0001 - 0x0000)
@@ -931,11 +931,11 @@ static_assert(offsetof(BP_Pawn_C_Server_RagdollSwitch, On_) == 0x000000, "Member
 struct BP_Pawn_C_Server_MontageSet final
 {
 public:
-	class UAnimMontage*                           Param_MontageStanding;                             // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UAnimMontage*                           MontageStanding_0;                                 // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 static_assert(alignof(BP_Pawn_C_Server_MontageSet) == 0x000008, "Wrong alignment on BP_Pawn_C_Server_MontageSet");
 static_assert(sizeof(BP_Pawn_C_Server_MontageSet) == 0x000008, "Wrong size on BP_Pawn_C_Server_MontageSet");
-static_assert(offsetof(BP_Pawn_C_Server_MontageSet, Param_MontageStanding) == 0x000000, "Member 'BP_Pawn_C_Server_MontageSet::Param_MontageStanding' has a wrong offset!");
+static_assert(offsetof(BP_Pawn_C_Server_MontageSet, MontageStanding_0) == 0x000000, "Member 'BP_Pawn_C_Server_MontageSet::MontageStanding_0' has a wrong offset!");
 
 // Function BP_Pawn.BP_Pawn_C.Server_IkSet
 // 0x0001 (0x0001 - 0x0000)

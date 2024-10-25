@@ -243,29 +243,29 @@ void AMoveVane_BP_C::Move__FinishedFunc()
 }
 
 
-// Function MoveVane_BP.MoveVane_BP_C.Up__UpdateFunc
+// Function MoveVane_BP.MoveVane_BP_C.UP__UpdateFunc
 // (BlueprintEvent)
 
-void AMoveVane_BP_C::Up__UpdateFunc()
+void AMoveVane_BP_C::UP__UpdateFunc()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("MoveVane_BP_C", "Up__UpdateFunc");
+		Func = Class->GetFunction("MoveVane_BP_C", "UP__UpdateFunc");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// Function MoveVane_BP.MoveVane_BP_C.Up__FinishedFunc
+// Function MoveVane_BP.MoveVane_BP_C.UP__FinishedFunc
 // (BlueprintEvent)
 
-void AMoveVane_BP_C::Up__FinishedFunc()
+void AMoveVane_BP_C::UP__FinishedFunc()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("MoveVane_BP_C", "Up__FinishedFunc");
+		Func = Class->GetFunction("MoveVane_BP_C", "UP__FinishedFunc");
 
 	UObject::ProcessEvent(Func, nullptr);
 }

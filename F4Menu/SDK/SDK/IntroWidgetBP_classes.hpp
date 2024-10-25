@@ -52,7 +52,7 @@ public:
 	void PlayIntroAnimation(class UWidgetAnimation* InAnimation, bool LoopAnimation);
 	void StopIntroAnimation(class UWidgetAnimation* InAnimation);
 	void Construct();
-	void OnNavigationEnter(class UInteractableMenuWidgetBP_C* NavigateFromMenu, bool Param_bIsGamepadBeingUsed);
+	void OnNavigationEnter(class UInteractableMenuWidgetBP_C* NavigateFromMenu, bool bIsGamepadBeingUsed_0);
 	void OnNavigationExit(class UInteractableMenuWidgetBP_C* NavigateToMenu, class UInteractableMenuWidgetBP_C* NavigateFromMenu);
 
 public:

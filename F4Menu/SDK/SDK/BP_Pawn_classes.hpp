@@ -136,12 +136,12 @@ public:
 	void Server_CapsuleUpdate(const struct FVector& Location);
 	void All_CapsuleUpdateLocation(const struct FVector& Location);
 	void ToRagdoll();
-	void All_MontageSet(class UAnimMontage* Param_MontageStanding);
+	void All_MontageSet(class UAnimMontage* MontageStanding_0);
 	void All_StandingProcess(bool On_);
 	void Server_StandingProcess(bool On_);
 	void All_RagdollSwitch(bool On_);
 	void Server_RagdollSwitch(bool On_);
-	void Server_MontageSet(class UAnimMontage* Param_MontageStanding);
+	void Server_MontageSet(class UAnimMontage* MontageStanding_0);
 	void Server_IkSet(bool Can_);
 	void WallJumpProcessStart();
 	void SetRotationRateTo_Current();

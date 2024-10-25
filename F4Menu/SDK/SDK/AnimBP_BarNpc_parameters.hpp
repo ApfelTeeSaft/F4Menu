@@ -53,11 +53,11 @@ static_assert(offsetof(AnimBP_BarNpc_C_BlueprintUpdateAnimation, DeltaTimeX) == 
 struct AnimBP_BarNpc_C_AnimGraph final
 {
 public:
-	struct FPoseLink                              Param_AnimGraph;                                   // 0x0000(0x0010)(Parm, OutParm, NoDestructor)
+	struct FPoseLink                              AnimGraph_0;                                       // 0x0000(0x0010)(Parm, OutParm, NoDestructor)
 };
 static_assert(alignof(AnimBP_BarNpc_C_AnimGraph) == 0x000008, "Wrong alignment on AnimBP_BarNpc_C_AnimGraph");
 static_assert(sizeof(AnimBP_BarNpc_C_AnimGraph) == 0x000010, "Wrong size on AnimBP_BarNpc_C_AnimGraph");
-static_assert(offsetof(AnimBP_BarNpc_C_AnimGraph, Param_AnimGraph) == 0x000000, "Member 'AnimBP_BarNpc_C_AnimGraph::Param_AnimGraph' has a wrong offset!");
+static_assert(offsetof(AnimBP_BarNpc_C_AnimGraph, AnimGraph_0) == 0x000000, "Member 'AnimBP_BarNpc_C_AnimGraph::AnimGraph_0' has a wrong offset!");
 
 }
 

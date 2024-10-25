@@ -248,9 +248,9 @@ void UOptionsActionBinder_C::ChangeInputBinding(const struct FInputChord& InInpu
 // Function OptionsActionBinder.OptionsActionBinder_C.SetHoverEffect
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// bool                                    Param_IsHovered                                        (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    IsHovered_0                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UOptionsActionBinder_C::SetHoverEffect(bool Param_IsHovered)
+void UOptionsActionBinder_C::SetHoverEffect(bool IsHovered_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -259,7 +259,7 @@ void UOptionsActionBinder_C::SetHoverEffect(bool Param_IsHovered)
 
 	Params::OptionsActionBinder_C_SetHoverEffect Parms{};
 
-	Parms.Param_IsHovered = Param_IsHovered;
+	Parms.IsHovered_0 = IsHovered_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -324,10 +324,10 @@ void UOptionsActionBinder_C::SetGlobalSettings()
 // struct FInputChord                      InInputChord                                           (BlueprintVisible, BlueprintReadOnly, Parm, HasGetValueTypeHash)
 // bool                                    bIsGamepad                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 // bool                                    bIsAlreadyInUse                                        (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
-// struct FInputActionKeyMapping           Param_OldActionMapping                                 (Parm, OutParm)
-// struct FInputAxisKeyMapping             Param_OldAxisMapping                                   (Parm, OutParm)
+// struct FInputActionKeyMapping           OldActionMapping_0                                     (Parm, OutParm)
+// struct FInputAxisKeyMapping             OldAxisMapping_0                                       (Parm, OutParm)
 
-void UOptionsActionBinder_C::IsKeyAlreadyBound(const struct FInputChord& InInputChord, bool bIsGamepad, bool* bIsAlreadyInUse, struct FInputActionKeyMapping* Param_OldActionMapping, struct FInputAxisKeyMapping* Param_OldAxisMapping)
+void UOptionsActionBinder_C::IsKeyAlreadyBound(const struct FInputChord& InInputChord, bool bIsGamepad, bool* bIsAlreadyInUse, struct FInputActionKeyMapping* OldActionMapping_0, struct FInputAxisKeyMapping* OldAxisMapping_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -344,11 +344,11 @@ void UOptionsActionBinder_C::IsKeyAlreadyBound(const struct FInputChord& InInput
 	if (bIsAlreadyInUse != nullptr)
 		*bIsAlreadyInUse = Parms.bIsAlreadyInUse;
 
-	if (Param_OldActionMapping != nullptr)
-		*Param_OldActionMapping = std::move(Parms.Param_OldActionMapping);
+	if (OldActionMapping_0 != nullptr)
+		*OldActionMapping_0 = std::move(Parms.OldActionMapping_0);
 
-	if (Param_OldAxisMapping != nullptr)
-		*Param_OldAxisMapping = std::move(Parms.Param_OldAxisMapping);
+	if (OldAxisMapping_0 != nullptr)
+		*OldAxisMapping_0 = std::move(Parms.OldAxisMapping_0);
 }
 
 

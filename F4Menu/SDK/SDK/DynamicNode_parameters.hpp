@@ -60,13 +60,13 @@ static_assert(offsetof(AnimChanceSet_DN_SetNextAnimation, CanChangeAnimInRuntime
 struct AnimChanceSet_DN_SetNextIndex final
 {
 public:
-	int32                                         Param_Index;                                       // 0x0000(0x0004)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int32                                         Index_0;                                           // 0x0000(0x0004)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                          CanChangeAnimInRuntimeOutOverride;                 // 0x0004(0x0001)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	uint8                                         Pad_5[0x3];                                        // 0x0005(0x0003)(Fixing Struct Size After Last Property [ Dumper-7 ])
 };
 static_assert(alignof(AnimChanceSet_DN_SetNextIndex) == 0x000004, "Wrong alignment on AnimChanceSet_DN_SetNextIndex");
 static_assert(sizeof(AnimChanceSet_DN_SetNextIndex) == 0x000008, "Wrong size on AnimChanceSet_DN_SetNextIndex");
-static_assert(offsetof(AnimChanceSet_DN_SetNextIndex, Param_Index) == 0x000000, "Member 'AnimChanceSet_DN_SetNextIndex::Param_Index' has a wrong offset!");
+static_assert(offsetof(AnimChanceSet_DN_SetNextIndex, Index_0) == 0x000000, "Member 'AnimChanceSet_DN_SetNextIndex::Index_0' has a wrong offset!");
 static_assert(offsetof(AnimChanceSet_DN_SetNextIndex, CanChangeAnimInRuntimeOutOverride) == 0x000004, "Member 'AnimChanceSet_DN_SetNextIndex::CanChangeAnimInRuntimeOutOverride' has a wrong offset!");
 
 // Function DynamicNode.AnimChanceSet_DN.SetParentAsset
@@ -1068,7 +1068,7 @@ public:
 	struct FRotator                               CapsuleRotation;                                   // 0x0014(0x000C)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 	float                                         InTimer;                                           // 0x0020(0x0004)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                         OutTimer;                                          // 0x0024(0x0004)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          Param_DrawDebug;                                   // 0x0028(0x0001)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          DrawDebug_0;                                       // 0x0028(0x0001)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	uint8                                         Pad_29[0x3];                                       // 0x0029(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
 	float                                         DrawDebugTimer;                                    // 0x002C(0x0004)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                          DrawDebugOnlySuccAttempts;                         // 0x0030(0x0001)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -1084,7 +1084,7 @@ static_assert(offsetof(DNCharacter_SetAutoCrouching, CapsuleForwardOffset) == 0x
 static_assert(offsetof(DNCharacter_SetAutoCrouching, CapsuleRotation) == 0x000014, "Member 'DNCharacter_SetAutoCrouching::CapsuleRotation' has a wrong offset!");
 static_assert(offsetof(DNCharacter_SetAutoCrouching, InTimer) == 0x000020, "Member 'DNCharacter_SetAutoCrouching::InTimer' has a wrong offset!");
 static_assert(offsetof(DNCharacter_SetAutoCrouching, OutTimer) == 0x000024, "Member 'DNCharacter_SetAutoCrouching::OutTimer' has a wrong offset!");
-static_assert(offsetof(DNCharacter_SetAutoCrouching, Param_DrawDebug) == 0x000028, "Member 'DNCharacter_SetAutoCrouching::Param_DrawDebug' has a wrong offset!");
+static_assert(offsetof(DNCharacter_SetAutoCrouching, DrawDebug_0) == 0x000028, "Member 'DNCharacter_SetAutoCrouching::DrawDebug_0' has a wrong offset!");
 static_assert(offsetof(DNCharacter_SetAutoCrouching, DrawDebugTimer) == 0x00002C, "Member 'DNCharacter_SetAutoCrouching::DrawDebugTimer' has a wrong offset!");
 static_assert(offsetof(DNCharacter_SetAutoCrouching, DrawDebugOnlySuccAttempts) == 0x000030, "Member 'DNCharacter_SetAutoCrouching::DrawDebugOnlySuccAttempts' has a wrong offset!");
 
@@ -1378,12 +1378,12 @@ struct ActionPropsActor_DN_IntermediatePointsReachedEvent final
 public:
 	bool                                          IsReverse;                                         // 0x0000(0x0001)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	uint8                                         Pad_1[0x3];                                        // 0x0001(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
-	int32                                         Param_Index;                                       // 0x0004(0x0004)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int32                                         Index_0;                                           // 0x0004(0x0004)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 static_assert(alignof(ActionPropsActor_DN_IntermediatePointsReachedEvent) == 0x000004, "Wrong alignment on ActionPropsActor_DN_IntermediatePointsReachedEvent");
 static_assert(sizeof(ActionPropsActor_DN_IntermediatePointsReachedEvent) == 0x000008, "Wrong size on ActionPropsActor_DN_IntermediatePointsReachedEvent");
 static_assert(offsetof(ActionPropsActor_DN_IntermediatePointsReachedEvent, IsReverse) == 0x000000, "Member 'ActionPropsActor_DN_IntermediatePointsReachedEvent::IsReverse' has a wrong offset!");
-static_assert(offsetof(ActionPropsActor_DN_IntermediatePointsReachedEvent, Param_Index) == 0x000004, "Member 'ActionPropsActor_DN_IntermediatePointsReachedEvent::Param_Index' has a wrong offset!");
+static_assert(offsetof(ActionPropsActor_DN_IntermediatePointsReachedEvent, Index_0) == 0x000004, "Member 'ActionPropsActor_DN_IntermediatePointsReachedEvent::Index_0' has a wrong offset!");
 
 // Function DynamicNode.ActionPropsActor_DN.InteruptCurrentMovement
 // 0x0001 (0x0001 - 0x0000)
@@ -1493,11 +1493,11 @@ static_assert(offsetof(ActionPropsActor_DN_SetDirectModePairsSingleDirection, To
 struct ActionPropsActor_DN_SetNextTargetLocation final
 {
 public:
-	int32                                         Param_Index;                                       // 0x0000(0x0004)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int32                                         Index_0;                                           // 0x0000(0x0004)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 static_assert(alignof(ActionPropsActor_DN_SetNextTargetLocation) == 0x000004, "Wrong alignment on ActionPropsActor_DN_SetNextTargetLocation");
 static_assert(sizeof(ActionPropsActor_DN_SetNextTargetLocation) == 0x000004, "Wrong size on ActionPropsActor_DN_SetNextTargetLocation");
-static_assert(offsetof(ActionPropsActor_DN_SetNextTargetLocation, Param_Index) == 0x000000, "Member 'ActionPropsActor_DN_SetNextTargetLocation::Param_Index' has a wrong offset!");
+static_assert(offsetof(ActionPropsActor_DN_SetNextTargetLocation, Index_0) == 0x000000, "Member 'ActionPropsActor_DN_SetNextTargetLocation::Index_0' has a wrong offset!");
 
 // Function DynamicNode.ActionPropsActor_DN.SetPosition
 // 0x000C (0x000C - 0x0000)
@@ -4719,14 +4719,14 @@ struct DynamicNodeBPLibrary_InsertDistanceIndexMap_DN final
 {
 public:
 	float                                         Distance;                                          // 0x0000(0x0004)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int32                                         Param_Index;                                       // 0x0004(0x0004)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int32                                         Index_0;                                           // 0x0004(0x0004)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                          ClearMapBeforeInsert;                              // 0x0008(0x0001)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	uint8                                         Pad_9[0x3];                                        // 0x0009(0x0003)(Fixing Struct Size After Last Property [ Dumper-7 ])
 };
 static_assert(alignof(DynamicNodeBPLibrary_InsertDistanceIndexMap_DN) == 0x000004, "Wrong alignment on DynamicNodeBPLibrary_InsertDistanceIndexMap_DN");
 static_assert(sizeof(DynamicNodeBPLibrary_InsertDistanceIndexMap_DN) == 0x00000C, "Wrong size on DynamicNodeBPLibrary_InsertDistanceIndexMap_DN");
 static_assert(offsetof(DynamicNodeBPLibrary_InsertDistanceIndexMap_DN, Distance) == 0x000000, "Member 'DynamicNodeBPLibrary_InsertDistanceIndexMap_DN::Distance' has a wrong offset!");
-static_assert(offsetof(DynamicNodeBPLibrary_InsertDistanceIndexMap_DN, Param_Index) == 0x000004, "Member 'DynamicNodeBPLibrary_InsertDistanceIndexMap_DN::Param_Index' has a wrong offset!");
+static_assert(offsetof(DynamicNodeBPLibrary_InsertDistanceIndexMap_DN, Index_0) == 0x000004, "Member 'DynamicNodeBPLibrary_InsertDistanceIndexMap_DN::Index_0' has a wrong offset!");
 static_assert(offsetof(DynamicNodeBPLibrary_InsertDistanceIndexMap_DN, ClearMapBeforeInsert) == 0x000008, "Member 'DynamicNodeBPLibrary_InsertDistanceIndexMap_DN::ClearMapBeforeInsert' has a wrong offset!");
 
 // Function DynamicNode.DynamicNodeBPLibrary.IsAimOffsetEnabled_BL

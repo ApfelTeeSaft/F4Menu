@@ -39,7 +39,7 @@ public:
 	void Construct();
 	void EpicLeaderboard_OnSuccess(class UEpicLeaderboardObject* Leaderboard);
 	void EpicLeaderboard_OnFailure(class UEpicLeaderboardObject* Leaderboard);
-	class UWidget* DoCustomNavigation(EUINavigation Param_Navigation, const struct FKey& Key);
+	class UWidget* DoCustomNavigation(EUINavigation Navigation_0, const struct FKey& Key);
 
 public:
 	static class UClass* StaticClass()

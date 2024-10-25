@@ -925,11 +925,11 @@ static_assert(offsetof(ARSessionConfig_SetSessionTrackingFeatureToEnable, InSess
 struct ARSessionConfig_SetWorldMapData final
 {
 public:
-	TArray<uint8>                                 Param_WorldMapData;                                // 0x0000(0x0010)(Parm, ZeroConstructor, NativeAccessSpecifierPublic)
+	TArray<uint8>                                 WorldMapData_0;                                    // 0x0000(0x0010)(Parm, ZeroConstructor, NativeAccessSpecifierPublic)
 };
 static_assert(alignof(ARSessionConfig_SetWorldMapData) == 0x000008, "Wrong alignment on ARSessionConfig_SetWorldMapData");
 static_assert(sizeof(ARSessionConfig_SetWorldMapData) == 0x000010, "Wrong size on ARSessionConfig_SetWorldMapData");
-static_assert(offsetof(ARSessionConfig_SetWorldMapData, Param_WorldMapData) == 0x000000, "Member 'ARSessionConfig_SetWorldMapData::Param_WorldMapData' has a wrong offset!");
+static_assert(offsetof(ARSessionConfig_SetWorldMapData, WorldMapData_0) == 0x000000, "Member 'ARSessionConfig_SetWorldMapData::WorldMapData_0' has a wrong offset!");
 
 // Function AugmentedReality.ARSessionConfig.GetCandidateImageList
 // 0x0010 (0x0010 - 0x0000)
@@ -1392,11 +1392,11 @@ static_assert(offsetof(ARComponent_GetMRMesh, ReturnValue) == 0x000000, "Member 
 struct ARComponent_SetNativeID final
 {
 public:
-	struct FGuid                                  Param_NativeID;                                    // 0x0000(0x0010)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FGuid                                  NativeID_0;                                        // 0x0000(0x0010)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 static_assert(alignof(ARComponent_SetNativeID) == 0x000004, "Wrong alignment on ARComponent_SetNativeID");
 static_assert(sizeof(ARComponent_SetNativeID) == 0x000010, "Wrong size on ARComponent_SetNativeID");
-static_assert(offsetof(ARComponent_SetNativeID, Param_NativeID) == 0x000000, "Member 'ARComponent_SetNativeID::Param_NativeID' has a wrong offset!");
+static_assert(offsetof(ARComponent_SetNativeID, NativeID_0) == 0x000000, "Member 'ARComponent_SetNativeID::NativeID_0' has a wrong offset!");
 
 // Function AugmentedReality.ARPlaneComponent.GetObjectClassificationDebugColors
 // 0x0050 (0x0050 - 0x0000)

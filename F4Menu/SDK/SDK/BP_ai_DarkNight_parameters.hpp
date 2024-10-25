@@ -851,11 +851,11 @@ static_assert(offsetof(BP_ai_DarkNight_C_Server_IkSet, Can_) == 0x000000, "Membe
 struct BP_ai_DarkNight_C_Server_MontageSet final
 {
 public:
-	class UAnimMontage*                           Param_MontageStanding;                             // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UAnimMontage*                           MontageStanding_0;                                 // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 static_assert(alignof(BP_ai_DarkNight_C_Server_MontageSet) == 0x000008, "Wrong alignment on BP_ai_DarkNight_C_Server_MontageSet");
 static_assert(sizeof(BP_ai_DarkNight_C_Server_MontageSet) == 0x000008, "Wrong size on BP_ai_DarkNight_C_Server_MontageSet");
-static_assert(offsetof(BP_ai_DarkNight_C_Server_MontageSet, Param_MontageStanding) == 0x000000, "Member 'BP_ai_DarkNight_C_Server_MontageSet::Param_MontageStanding' has a wrong offset!");
+static_assert(offsetof(BP_ai_DarkNight_C_Server_MontageSet, MontageStanding_0) == 0x000000, "Member 'BP_ai_DarkNight_C_Server_MontageSet::MontageStanding_0' has a wrong offset!");
 
 // Function BP_ai_DarkNight.BP_ai_DarkNight_C.Server_RagdollSwitch
 // 0x0001 (0x0001 - 0x0000)
@@ -906,11 +906,11 @@ static_assert(offsetof(BP_ai_DarkNight_C_All_StandingProcess, On_) == 0x000000, 
 struct BP_ai_DarkNight_C_All_MontageSet final
 {
 public:
-	class UAnimMontage*                           Param_MontageStanding;                             // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UAnimMontage*                           MontageStanding_0;                                 // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 static_assert(alignof(BP_ai_DarkNight_C_All_MontageSet) == 0x000008, "Wrong alignment on BP_ai_DarkNight_C_All_MontageSet");
 static_assert(sizeof(BP_ai_DarkNight_C_All_MontageSet) == 0x000008, "Wrong size on BP_ai_DarkNight_C_All_MontageSet");
-static_assert(offsetof(BP_ai_DarkNight_C_All_MontageSet, Param_MontageStanding) == 0x000000, "Member 'BP_ai_DarkNight_C_All_MontageSet::Param_MontageStanding' has a wrong offset!");
+static_assert(offsetof(BP_ai_DarkNight_C_All_MontageSet, MontageStanding_0) == 0x000000, "Member 'BP_ai_DarkNight_C_All_MontageSet::MontageStanding_0' has a wrong offset!");
 
 // Function BP_ai_DarkNight.BP_ai_DarkNight_C.All_CapsuleUpdateLocation
 // 0x000C (0x000C - 0x0000)

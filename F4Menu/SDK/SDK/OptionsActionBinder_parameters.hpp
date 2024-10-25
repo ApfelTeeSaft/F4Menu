@@ -97,13 +97,13 @@ static_assert(offsetof(OptionsActionBinder_C_ChangeInputBinding, CallFunc_IsKeyA
 struct OptionsActionBinder_C_SetHoverEffect final
 {
 public:
-	bool                                          Param_IsHovered;                                   // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          IsHovered_0;                                       // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 	uint8                                         Pad_1[0x7];                                        // 0x0001(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
 	class APlayerController*                      CallFunc_GetPlayerController_ReturnValue;          // 0x0008(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 static_assert(alignof(OptionsActionBinder_C_SetHoverEffect) == 0x000008, "Wrong alignment on OptionsActionBinder_C_SetHoverEffect");
 static_assert(sizeof(OptionsActionBinder_C_SetHoverEffect) == 0x000010, "Wrong size on OptionsActionBinder_C_SetHoverEffect");
-static_assert(offsetof(OptionsActionBinder_C_SetHoverEffect, Param_IsHovered) == 0x000000, "Member 'OptionsActionBinder_C_SetHoverEffect::Param_IsHovered' has a wrong offset!");
+static_assert(offsetof(OptionsActionBinder_C_SetHoverEffect, IsHovered_0) == 0x000000, "Member 'OptionsActionBinder_C_SetHoverEffect::IsHovered_0' has a wrong offset!");
 static_assert(offsetof(OptionsActionBinder_C_SetHoverEffect, CallFunc_GetPlayerController_ReturnValue) == 0x000008, "Member 'OptionsActionBinder_C_SetHoverEffect::CallFunc_GetPlayerController_ReturnValue' has a wrong offset!");
 
 // Function OptionsActionBinder.OptionsActionBinder_C.OnPreviewKeyDown
@@ -261,8 +261,8 @@ public:
 	bool                                          bIsGamepad;                                        // 0x0020(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 	bool                                          bIsAlreadyInUse;                                   // 0x0021(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
 	uint8                                         Pad_22[0x6];                                       // 0x0022(0x0006)(Fixing Size After Last Property [ Dumper-7 ])
-	struct FInputActionKeyMapping                 Param_OldActionMapping;                            // 0x0028(0x0028)(Parm, OutParm)
-	struct FInputAxisKeyMapping                   Param_OldAxisMapping;                              // 0x0050(0x0028)(Parm, OutParm)
+	struct FInputActionKeyMapping                 OldActionMapping_0;                                // 0x0028(0x0028)(Parm, OutParm)
+	struct FInputAxisKeyMapping                   OldAxisMapping_0;                                  // 0x0050(0x0028)(Parm, OutParm)
 	struct FInputChord                            InputChord;                                        // 0x0078(0x0020)(Edit, BlueprintVisible, HasGetValueTypeHash)
 	struct FInputAxisKeyMapping                   OldInputAxis;                                      // 0x0098(0x0028)(Edit, BlueprintVisible)
 	struct FInputActionKeyMapping                 OldInputAction;                                    // 0x00C0(0x0028)(Edit, BlueprintVisible)
@@ -317,8 +317,8 @@ static_assert(sizeof(OptionsActionBinder_C_IsKeyAlreadyBound) == 0x000248, "Wron
 static_assert(offsetof(OptionsActionBinder_C_IsKeyAlreadyBound, InInputChord) == 0x000000, "Member 'OptionsActionBinder_C_IsKeyAlreadyBound::InInputChord' has a wrong offset!");
 static_assert(offsetof(OptionsActionBinder_C_IsKeyAlreadyBound, bIsGamepad) == 0x000020, "Member 'OptionsActionBinder_C_IsKeyAlreadyBound::bIsGamepad' has a wrong offset!");
 static_assert(offsetof(OptionsActionBinder_C_IsKeyAlreadyBound, bIsAlreadyInUse) == 0x000021, "Member 'OptionsActionBinder_C_IsKeyAlreadyBound::bIsAlreadyInUse' has a wrong offset!");
-static_assert(offsetof(OptionsActionBinder_C_IsKeyAlreadyBound, Param_OldActionMapping) == 0x000028, "Member 'OptionsActionBinder_C_IsKeyAlreadyBound::Param_OldActionMapping' has a wrong offset!");
-static_assert(offsetof(OptionsActionBinder_C_IsKeyAlreadyBound, Param_OldAxisMapping) == 0x000050, "Member 'OptionsActionBinder_C_IsKeyAlreadyBound::Param_OldAxisMapping' has a wrong offset!");
+static_assert(offsetof(OptionsActionBinder_C_IsKeyAlreadyBound, OldActionMapping_0) == 0x000028, "Member 'OptionsActionBinder_C_IsKeyAlreadyBound::OldActionMapping_0' has a wrong offset!");
+static_assert(offsetof(OptionsActionBinder_C_IsKeyAlreadyBound, OldAxisMapping_0) == 0x000050, "Member 'OptionsActionBinder_C_IsKeyAlreadyBound::OldAxisMapping_0' has a wrong offset!");
 static_assert(offsetof(OptionsActionBinder_C_IsKeyAlreadyBound, InputChord) == 0x000078, "Member 'OptionsActionBinder_C_IsKeyAlreadyBound::InputChord' has a wrong offset!");
 static_assert(offsetof(OptionsActionBinder_C_IsKeyAlreadyBound, OldInputAxis) == 0x000098, "Member 'OptionsActionBinder_C_IsKeyAlreadyBound::OldInputAxis' has a wrong offset!");
 static_assert(offsetof(OptionsActionBinder_C_IsKeyAlreadyBound, OldInputAction) == 0x0000C0, "Member 'OptionsActionBinder_C_IsKeyAlreadyBound::OldInputAction' has a wrong offset!");

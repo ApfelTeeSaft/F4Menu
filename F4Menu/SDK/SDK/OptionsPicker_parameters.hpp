@@ -365,7 +365,7 @@ static_assert(offsetof(OptionsPicker_C_SetPickedOptionTextSettings, CallFunc_Get
 struct OptionsPicker_C_SetCurrentImage final
 {
 public:
-	int32                                         Param_Index;                                       // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         Index_0;                                           // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	int32                                         CallFunc_Array_Length_ReturnValue;                 // 0x0004(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	class UTexture2D*                             CallFunc_Array_Get_Item;                           // 0x0008(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                          CallFunc_NotEqual_IntInt_ReturnValue;              // 0x0010(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor)
@@ -380,7 +380,7 @@ public:
 };
 static_assert(alignof(OptionsPicker_C_SetCurrentImage) == 0x000008, "Wrong alignment on OptionsPicker_C_SetCurrentImage");
 static_assert(sizeof(OptionsPicker_C_SetCurrentImage) == 0x000030, "Wrong size on OptionsPicker_C_SetCurrentImage");
-static_assert(offsetof(OptionsPicker_C_SetCurrentImage, Param_Index) == 0x000000, "Member 'OptionsPicker_C_SetCurrentImage::Param_Index' has a wrong offset!");
+static_assert(offsetof(OptionsPicker_C_SetCurrentImage, Index_0) == 0x000000, "Member 'OptionsPicker_C_SetCurrentImage::Index_0' has a wrong offset!");
 static_assert(offsetof(OptionsPicker_C_SetCurrentImage, CallFunc_Array_Length_ReturnValue) == 0x000004, "Member 'OptionsPicker_C_SetCurrentImage::CallFunc_Array_Length_ReturnValue' has a wrong offset!");
 static_assert(offsetof(OptionsPicker_C_SetCurrentImage, CallFunc_Array_Get_Item) == 0x000008, "Member 'OptionsPicker_C_SetCurrentImage::CallFunc_Array_Get_Item' has a wrong offset!");
 static_assert(offsetof(OptionsPicker_C_SetCurrentImage, CallFunc_NotEqual_IntInt_ReturnValue) == 0x000010, "Member 'OptionsPicker_C_SetCurrentImage::CallFunc_NotEqual_IntInt_ReturnValue' has a wrong offset!");

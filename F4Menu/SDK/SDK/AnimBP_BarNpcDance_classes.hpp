@@ -30,7 +30,7 @@ public:
 
 public:
 	void ExecuteUbergraph_AnimBP_BarNpcDance(int32 EntryPoint);
-	void AnimGraph(struct FPoseLink* Param_AnimGraph);
+	void AnimGraph(struct FPoseLink* AnimGraph_0);
 
 public:
 	static class UClass* StaticClass()

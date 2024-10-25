@@ -110,14 +110,14 @@ static_assert(offsetof(Challenge_EpicLeaderboardEntry_C_ExecuteUbergraph_Challen
 struct Challenge_EpicLeaderboardEntry_C_InitFields final
 {
 public:
-	bool                                          Param_Highlight;                                   // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          Highlight_0;                                       // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 	uint8                                         Pad_1[0x7];                                        // 0x0001(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
-	struct FEpicLeaderboardEntry                  Param_ScoreEntry;                                  // 0x0008(0x0098)(BlueprintVisible, BlueprintReadOnly, Parm)
+	struct FEpicLeaderboardEntry                  ScoreEntry_0;                                      // 0x0008(0x0098)(BlueprintVisible, BlueprintReadOnly, Parm)
 };
 static_assert(alignof(Challenge_EpicLeaderboardEntry_C_InitFields) == 0x000008, "Wrong alignment on Challenge_EpicLeaderboardEntry_C_InitFields");
 static_assert(sizeof(Challenge_EpicLeaderboardEntry_C_InitFields) == 0x0000A0, "Wrong size on Challenge_EpicLeaderboardEntry_C_InitFields");
-static_assert(offsetof(Challenge_EpicLeaderboardEntry_C_InitFields, Param_Highlight) == 0x000000, "Member 'Challenge_EpicLeaderboardEntry_C_InitFields::Param_Highlight' has a wrong offset!");
-static_assert(offsetof(Challenge_EpicLeaderboardEntry_C_InitFields, Param_ScoreEntry) == 0x000008, "Member 'Challenge_EpicLeaderboardEntry_C_InitFields::Param_ScoreEntry' has a wrong offset!");
+static_assert(offsetof(Challenge_EpicLeaderboardEntry_C_InitFields, Highlight_0) == 0x000000, "Member 'Challenge_EpicLeaderboardEntry_C_InitFields::Highlight_0' has a wrong offset!");
+static_assert(offsetof(Challenge_EpicLeaderboardEntry_C_InitFields, ScoreEntry_0) == 0x000008, "Member 'Challenge_EpicLeaderboardEntry_C_InitFields::ScoreEntry_0' has a wrong offset!");
 
 }
 

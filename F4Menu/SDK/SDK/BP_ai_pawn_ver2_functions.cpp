@@ -222,9 +222,9 @@ void ABP_ai_pawn_ver2_C::Server_IkSet(bool Can_)
 // Function BP_ai_pawn_ver2.BP_ai_pawn_ver2_C.Server_MontageSet
 // (Net, NetServer, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// class UAnimMontage*                     Param_MontageStanding                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class UAnimMontage*                     MontageStanding_0                                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void ABP_ai_pawn_ver2_C::Server_MontageSet(class UAnimMontage* Param_MontageStanding)
+void ABP_ai_pawn_ver2_C::Server_MontageSet(class UAnimMontage* MontageStanding_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -233,7 +233,7 @@ void ABP_ai_pawn_ver2_C::Server_MontageSet(class UAnimMontage* Param_MontageStan
 
 	Params::BP_ai_pawn_ver2_C_Server_MontageSet Parms{};
 
-	Parms.Param_MontageStanding = Param_MontageStanding;
+	Parms.MontageStanding_0 = MontageStanding_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -322,9 +322,9 @@ void ABP_ai_pawn_ver2_C::All_StandingProcess(bool On_)
 // Function BP_ai_pawn_ver2.BP_ai_pawn_ver2_C.All_MontageSet
 // (Net, NetMulticast, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// class UAnimMontage*                     Param_MontageStanding                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class UAnimMontage*                     MontageStanding_0                                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void ABP_ai_pawn_ver2_C::All_MontageSet(class UAnimMontage* Param_MontageStanding)
+void ABP_ai_pawn_ver2_C::All_MontageSet(class UAnimMontage* MontageStanding_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -333,7 +333,7 @@ void ABP_ai_pawn_ver2_C::All_MontageSet(class UAnimMontage* Param_MontageStandin
 
 	Params::BP_ai_pawn_ver2_C_All_MontageSet Parms{};
 
-	Parms.Param_MontageStanding = Param_MontageStanding;
+	Parms.MontageStanding_0 = MontageStanding_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }

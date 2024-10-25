@@ -72,18 +72,18 @@ static_assert(offsetof(NavigationKeyButton_C_SetHoverEffect, CallFunc_GetPlayerC
 struct NavigationKeyButton_C_UpdateButtonIcon final
 {
 public:
-	bool                                          Param_bIsGamepadBeingUsed;                         // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bIsGamepadBeingUsed_0;                             // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 static_assert(alignof(NavigationKeyButton_C_UpdateButtonIcon) == 0x000001, "Wrong alignment on NavigationKeyButton_C_UpdateButtonIcon");
 static_assert(sizeof(NavigationKeyButton_C_UpdateButtonIcon) == 0x000001, "Wrong size on NavigationKeyButton_C_UpdateButtonIcon");
-static_assert(offsetof(NavigationKeyButton_C_UpdateButtonIcon, Param_bIsGamepadBeingUsed) == 0x000000, "Member 'NavigationKeyButton_C_UpdateButtonIcon::Param_bIsGamepadBeingUsed' has a wrong offset!");
+static_assert(offsetof(NavigationKeyButton_C_UpdateButtonIcon, bIsGamepadBeingUsed_0) == 0x000000, "Member 'NavigationKeyButton_C_UpdateButtonIcon::bIsGamepadBeingUsed_0' has a wrong offset!");
 
 // Function NavigationKeyButton.NavigationKeyButton_C.SetButtonActive
 // 0x0124 (0x0124 - 0x0000)
 struct NavigationKeyButton_C_SetButtonActive final
 {
 public:
-	bool                                          Param_bIsActive;                                   // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bIsActive_0;                                       // 0x0000(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 	uint8                                         Pad_1[0x3];                                        // 0x0001(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
 	struct FLinearColor                           CallFunc_GetGlobalColors_MainColor;                // 0x0004(0x0010)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FLinearColor                           CallFunc_GetGlobalColors_HighlightColor;           // 0x0014(0x0010)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
@@ -106,7 +106,7 @@ public:
 };
 static_assert(alignof(NavigationKeyButton_C_SetButtonActive) == 0x000004, "Wrong alignment on NavigationKeyButton_C_SetButtonActive");
 static_assert(sizeof(NavigationKeyButton_C_SetButtonActive) == 0x000124, "Wrong size on NavigationKeyButton_C_SetButtonActive");
-static_assert(offsetof(NavigationKeyButton_C_SetButtonActive, Param_bIsActive) == 0x000000, "Member 'NavigationKeyButton_C_SetButtonActive::Param_bIsActive' has a wrong offset!");
+static_assert(offsetof(NavigationKeyButton_C_SetButtonActive, bIsActive_0) == 0x000000, "Member 'NavigationKeyButton_C_SetButtonActive::bIsActive_0' has a wrong offset!");
 static_assert(offsetof(NavigationKeyButton_C_SetButtonActive, CallFunc_GetGlobalColors_MainColor) == 0x000004, "Member 'NavigationKeyButton_C_SetButtonActive::CallFunc_GetGlobalColors_MainColor' has a wrong offset!");
 static_assert(offsetof(NavigationKeyButton_C_SetButtonActive, CallFunc_GetGlobalColors_HighlightColor) == 0x000014, "Member 'NavigationKeyButton_C_SetButtonActive::CallFunc_GetGlobalColors_HighlightColor' has a wrong offset!");
 static_assert(offsetof(NavigationKeyButton_C_SetButtonActive, CallFunc_GetGlobalColors_HighlightExtraColor) == 0x000024, "Member 'NavigationKeyButton_C_SetButtonActive::CallFunc_GetGlobalColors_HighlightExtraColor' has a wrong offset!");
@@ -188,11 +188,11 @@ static_assert(offsetof(NavigationKeyButton_C_SetGlobalSettings, CallFunc_GetGlob
 struct NavigationKeyButton_C_GetButtonActive final
 {
 public:
-	bool                                          Param_bIsActive;                                   // 0x0000(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                          bIsActive_0;                                       // 0x0000(0x0001)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 static_assert(alignof(NavigationKeyButton_C_GetButtonActive) == 0x000001, "Wrong alignment on NavigationKeyButton_C_GetButtonActive");
 static_assert(sizeof(NavigationKeyButton_C_GetButtonActive) == 0x000001, "Wrong size on NavigationKeyButton_C_GetButtonActive");
-static_assert(offsetof(NavigationKeyButton_C_GetButtonActive, Param_bIsActive) == 0x000000, "Member 'NavigationKeyButton_C_GetButtonActive::Param_bIsActive' has a wrong offset!");
+static_assert(offsetof(NavigationKeyButton_C_GetButtonActive, bIsActive_0) == 0x000000, "Member 'NavigationKeyButton_C_GetButtonActive::bIsActive_0' has a wrong offset!");
 
 // Function NavigationKeyButton.NavigationKeyButton_C.PreConstruct
 // 0x0001 (0x0001 - 0x0000)

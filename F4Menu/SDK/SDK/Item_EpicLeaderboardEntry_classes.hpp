@@ -43,7 +43,7 @@ public:
 public:
 	void ExecuteUbergraph_Item_EpicLeaderboardEntry(int32 EntryPoint);
 	void Construct();
-	void InitFields(bool Param_Highlight, const struct FEpicLeaderboardEntry& Param_ScoreEntry);
+	void InitFields(bool Highlight_0, const struct FEpicLeaderboardEntry& ScoreEntry_0);
 
 public:
 	static class UClass* StaticClass()

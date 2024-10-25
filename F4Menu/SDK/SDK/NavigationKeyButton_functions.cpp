@@ -102,9 +102,9 @@ void UNavigationKeyButton_C::SetHoverEffect(bool bIsHovered)
 // Function NavigationKeyButton.NavigationKeyButton_C.UpdateButtonIcon
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// bool                                    Param_bIsGamepadBeingUsed                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bIsGamepadBeingUsed_0                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UNavigationKeyButton_C::UpdateButtonIcon(bool Param_bIsGamepadBeingUsed)
+void UNavigationKeyButton_C::UpdateButtonIcon(bool bIsGamepadBeingUsed_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -113,7 +113,7 @@ void UNavigationKeyButton_C::UpdateButtonIcon(bool Param_bIsGamepadBeingUsed)
 
 	Params::NavigationKeyButton_C_UpdateButtonIcon Parms{};
 
-	Parms.Param_bIsGamepadBeingUsed = Param_bIsGamepadBeingUsed;
+	Parms.bIsGamepadBeingUsed_0 = bIsGamepadBeingUsed_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -122,9 +122,9 @@ void UNavigationKeyButton_C::UpdateButtonIcon(bool Param_bIsGamepadBeingUsed)
 // Function NavigationKeyButton.NavigationKeyButton_C.SetButtonActive
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// bool                                    Param_bIsActive                                        (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bIsActive_0                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UNavigationKeyButton_C::SetButtonActive(bool Param_bIsActive)
+void UNavigationKeyButton_C::SetButtonActive(bool bIsActive_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -133,7 +133,7 @@ void UNavigationKeyButton_C::SetButtonActive(bool Param_bIsActive)
 
 	Params::NavigationKeyButton_C_SetButtonActive Parms{};
 
-	Parms.Param_bIsActive = Param_bIsActive;
+	Parms.bIsActive_0 = bIsActive_0;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -170,9 +170,9 @@ void UNavigationKeyButton_C::SetGlobalSettings()
 // Function NavigationKeyButton.NavigationKeyButton_C.GetButtonActive
 // (Public, HasOutParams, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
-// bool                                    Param_bIsActive                                        (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                                    bIsActive_0                                            (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UNavigationKeyButton_C::GetButtonActive(bool* Param_bIsActive)
+void UNavigationKeyButton_C::GetButtonActive(bool* bIsActive_0)
 {
 	static class UFunction* Func = nullptr;
 
@@ -183,8 +183,8 @@ void UNavigationKeyButton_C::GetButtonActive(bool* Param_bIsActive)
 
 	UObject::ProcessEvent(Func, &Parms);
 
-	if (Param_bIsActive != nullptr)
-		*Param_bIsActive = Parms.Param_bIsActive;
+	if (bIsActive_0 != nullptr)
+		*bIsActive_0 = Parms.bIsActive_0;
 }
 
 

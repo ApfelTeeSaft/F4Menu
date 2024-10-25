@@ -33,12 +33,12 @@ static_assert(offsetof(MagicLeapARPinComponent_AttemptPinDataRestoration, Return
 struct MagicLeapARPinComponent_GetPinData final
 {
 public:
-	TSubclassOf<class UMagicLeapARPinSaveGame>    Param_PinDataClass;                                // 0x0000(0x0008)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TSubclassOf<class UMagicLeapARPinSaveGame>    PinDataClass_0;                                    // 0x0000(0x0008)(Parm, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class UMagicLeapARPinSaveGame*                ReturnValue;                                       // 0x0008(0x0008)(Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 static_assert(alignof(MagicLeapARPinComponent_GetPinData) == 0x000008, "Wrong alignment on MagicLeapARPinComponent_GetPinData");
 static_assert(sizeof(MagicLeapARPinComponent_GetPinData) == 0x000010, "Wrong size on MagicLeapARPinComponent_GetPinData");
-static_assert(offsetof(MagicLeapARPinComponent_GetPinData, Param_PinDataClass) == 0x000000, "Member 'MagicLeapARPinComponent_GetPinData::Param_PinDataClass' has a wrong offset!");
+static_assert(offsetof(MagicLeapARPinComponent_GetPinData, PinDataClass_0) == 0x000000, "Member 'MagicLeapARPinComponent_GetPinData::PinDataClass_0' has a wrong offset!");
 static_assert(offsetof(MagicLeapARPinComponent_GetPinData, ReturnValue) == 0x000008, "Member 'MagicLeapARPinComponent_GetPinData::ReturnValue' has a wrong offset!");
 
 // DelegateFunction MagicLeapARPin.MagicLeapARPinComponent.MagicLeapARPinDataLoadAttemptCompleted__DelegateSignature

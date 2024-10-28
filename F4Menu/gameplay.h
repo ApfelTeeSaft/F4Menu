@@ -7,9 +7,10 @@ void hkProcessEvent(SDK::UObject* Object, SDK::UFunction* Function, void* Parame
 {
     string FunctionName = Function->GetName();
 
-    if (FunctionName == "Tick");
+    // mockup for now
+    if (FunctionName == "OnUnrealConsoleInput");
     {
-        std::cout << "Tick Logged!" << std::endl;
+        std::cout << "Unreal Console Event Logged" << std::endl;
     }
 
     return oProcessEvent(Object, Function, Parameters);

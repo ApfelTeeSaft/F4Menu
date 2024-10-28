@@ -5,6 +5,7 @@
 SDK::UEngine* Engine = nullptr;
 SDK::UWorld* World = nullptr;
 SDK::APlayerController* AF4PlayerController = nullptr;
+SDK::ACharacter* PlayerCharacter = nullptr;
 SDK::ULevel* Level = nullptr;
 SDK::TArray<SDK::AActor*>* Actors = nullptr;
 
@@ -32,6 +33,15 @@ void InitializeGlobals()
     {
         std::cerr << "Failed to retrieve PlayerController." << std::endl;
         return;
+    }
+
+    if (AF4PlayerController)
+    {
+        PlayerCharacter = AF4PlayerController->FOV(); // TODO: Add PlayerCharacter, i am too retarded to find it
+        if (!PlayerCharacter)
+        {
+            std::cerr << "Failed to retrieve PlayerCharacter." << std::endl;
+        }
     }
 
     Level = World->PersistentLevel;

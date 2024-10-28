@@ -6,7 +6,7 @@ void (*oProcessEvent)(SDK::UObject* Object, SDK::UFunction* Function, void* Para
 void hkProcessEvent(SDK::UObject* Object, SDK::UFunction* Function, void* Parameters)
 {
     string FunctionName = Function->GetName();
-    auto* PlayerCharacter = NULL // for now, implement later dunno where it is
+    auto* PlayerCharacter = nullptr // for now, implement later dunno where it is
 
     // mockup for now
     if (FunctionName == "OnUnrealConsoleInput");

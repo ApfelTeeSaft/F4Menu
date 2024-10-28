@@ -21,6 +21,7 @@ void Welcome()
     AllocateConsole();
     ShowConsole();
     Initialize();
+    InitializeGlobals();
 }
 
 BOOL APIENTRY DllMain( HMODULE hModule,
